@@ -3,7 +3,7 @@
 - **Học viên:** Lê Danh Giang
 - **Mã số sinh viên (MSSV):** 2A202603912
 - **Lớp:** L3B
-- **Repository nộp bài:** [giangj/K5-L3B-DAY07-2A2026039112-LeDanhGiang-RetrievalContext](https://github.com/giangj/K5-L3B-DAY07-2A2026039112-LeDanhGiang-RetrievalContext) (hoặc đổi thành 2A202603912 trên GitHub)
+- **Repository nộp bài:** [giangj/K5-L3B-DAY07-2A202603912-LeDanhGiang-RetrievalContext](https://github.com/giangj/K5-L3B-DAY07-2A202603912-LeDanhGiang-RetrievalContext) 
 
 ---
 
