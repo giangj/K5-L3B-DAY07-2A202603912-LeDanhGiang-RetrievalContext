@@ -1,0 +1,116 @@
+{
+  "Baseline (Dense, top_k=3, budget=800)": {
+    "cases": 18,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 18,
+      "N": 18
+    },
+    "grounded_answer": {
+      "0": 2,
+      "1": 3,
+      "2": 11,
+      "N": 16,
+      "mean": 1.5625
+    },
+    "citation_validity": {
+      "n": 15,
+      "N": 15
+    },
+    "answer_citation_coverage": {
+      "n": 15,
+      "N": 15
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 16
+    },
+    "config": "Baseline (Dense, top_k=3, budget=800)",
+    "split": "dev",
+    "top_k": 3,
+    "budget": 800,
+    "max_searches": 3,
+    "median_latency_ms": 5100.847250000015,
+    "mean_latency_ms": 6348.471405555529
+  },
+  "Improvement 1 (Dense, top_k=5, budget=1500)": {
+    "cases": 18,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 18,
+      "N": 18
+    },
+    "grounded_answer": {
+      "0": 1,
+      "1": 1,
+      "2": 14,
+      "N": 16,
+      "mean": 1.8125
+    },
+    "citation_validity": {
+      "n": 18,
+      "N": 18
+    },
+    "answer_citation_coverage": {
+      "n": 16,
+      "N": 16
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 0,
+      "N": 16
+    },
+    "config": "Improvement 1 (Dense, top_k=5, budget=1500)",
+    "split": "dev",
+    "top_k": 5,
+    "budget": 1500,
+    "max_searches": 3,
+    "median_latency_ms": 2201.1322500000006,
+    "mean_latency_ms": 3082.1749833333142
+  },
+  "Improvement 2 (Hybrid RRF, top_k=5, budget=1500)": {
+    "cases": 18,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 18,
+      "N": 18
+    },
+    "grounded_answer": {
+      "0": 2,
+      "1": 1,
+      "2": 13,
+      "N": 16,
+      "mean": 1.6875
+    },
+    "citation_validity": {
+      "n": 17,
+      "N": 17
+    },
+    "answer_citation_coverage": {
+      "n": 15,
+      "N": 15
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 16
+    },
+    "config": "Improvement 2 (Hybrid RRF, top_k=5, budget=1500)",
+    "split": "dev",
+    "top_k": 5,
+    "budget": 1500,
+    "max_searches": 3,
+    "median_latency_ms": 2128.9276499999232,
+    "mean_latency_ms": 2916.114599999926
+  }
+}

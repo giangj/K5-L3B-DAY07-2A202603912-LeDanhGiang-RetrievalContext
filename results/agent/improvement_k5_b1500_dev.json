@@ -1,0 +1,2497 @@
+{
+  "summary": {
+    "cases": 18,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 18,
+      "N": 18
+    },
+    "grounded_answer": {
+      "0": 2,
+      "1": 1,
+      "2": 13,
+      "N": 16,
+      "mean": 1.6875
+    },
+    "citation_validity": {
+      "n": 17,
+      "N": 17
+    },
+    "answer_citation_coverage": {
+      "n": 15,
+      "N": 15
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 16
+    },
+    "config": "Improvement 2 (Hybrid RRF, top_k=5, budget=1500)",
+    "split": "dev",
+    "top_k": 5,
+    "budget": 1500,
+    "max_searches": 3,
+    "median_latency_ms": 2128.9276499999232,
+    "mean_latency_ms": 2916.114599999926
+  },
+  "traces": [
+    {
+      "status": "answered",
+      "answer": "Theo Quy chế Đào tạo 2022, giờ tín chỉ là đại lượng đo thời lượng học tập của sinh viên, được phân thành ba loại theo các hình thức dạy học: một giờ tín chỉ lý thuyết bằng 01 tiết lý thuyết (sinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân) [quiche_daotao_2022_p3_para2]; một giờ tín chỉ thực hành bằng 2 - 3 tiết thực hành, thí nghiệm hoặc thảo luận, 3 - 6 tiết thực tập tại cơ sở, hoặc 3 - 4 tiết làm tiểu luận, bài tập lớn, đồ án, khóa luận tốt nghiệp [quiche_daotao_2022_p3_para2]; và một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc [quiche_daotao_2022_p3_para3].",
+      "citations": [
+        "quiche_daotao_2022_p3_para2",
+        "quiche_daotao_2022_p3_para3"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "định nghĩa một tín chỉ bao nhiêu giờ tín chỉ quy chế đào tạo 2022",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p3_para3",
+              "text": "một giờ tín chỉ bài tập bằng 2 tiết trên lớp; để tiếp thu được 1 giờ tín chỉ thực hành/bài tập\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; c) Một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc và được kiểm tra đánh giá. Điều 5. Học phần\n1. Học phần là một phần kiến thức của chương trình đào tạo; mỗi học phần có khối lượng kiến\nthức từ 2 đến 5 tín chỉ, được tổ chức giảng dạy trọn vẹn trong một học kỳ (trừ học phần thực\ntập thực tế);",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 3,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 3,
+                "chunk_id": "quiche_daotao_2022_p3_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p3_para2",
+              "text": "Giờ tín chỉ là đại lượng đo thời lượng học tập của sinh viên, được phân thành ba loại theo\ncác hình thức dạy học và được xác định như sau:\na) Một giờ tín chỉ lý thuyết bằng 01 tiết lý thuyết; để tiếp thu được 1 giờ tín chỉ lý thuyết\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; b) Một giờ tín chỉ thực hành bằng 2 - 3 tiết thực hành, thí nghiệm hoặc thảo luận; 3 - 6 tiết\nthực tập tại cơ sở; 3 - 4 tiết làm tiểu luận, bài tập lớn hoặc đồ án, khóa luận tốt nghiệp;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 3,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 3,
+                "chunk_id": "quiche_daotao_2022_p3_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03225806451612903
+            },
+            {
+              "id": "quiche_daotao_2022_p15_para0",
+              "text": "Năm đào tạo | Chương trình đào tạo chuẩn | Chương trình đào tạo chất lượng cao | Chương trình\nđào tạo tài năng\nNăm thứ nhất | Dưới 35 tín chỉ | Dưới 40 tín chỉ | Dưới 45 tín chỉ\nNăm thứ hai | Từ 35 - 70 tín chỉ | Từ 40 – 80 tín chỉ | Từ 45 – 90 tín chỉ\nNăm thứ ba | Từ 71 – 105 tín chỉ | Từ 81 – 115 tín chỉ | Từ 91 – 130 tín chỉ\nNăm thứ tư | Từ 106 – 140 tín chỉ | Từ 116 – 155 tín chỉ | Từ 131 –170 tín chỉ\nNăm thứ năm | Từ 141 – 175 tín chỉ | - | -\nNăm thứ sáu | Từ 176 – 225 tín chỉ | - | -\nĐiều",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 15,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 15,
+                "chunk_id": "quiche_daotao_2022_p15_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031024531024531024
+            },
+            {
+              "id": "quiche_daotao_2022_p20_para3",
+              "text": "Kết quả học tập của người học đã tích lũy từ một trình độ đào tạo khác, một hệ thống tính\ntín chỉ khác, một ngành đào tạo hoặc một chương trình đào tạo khác, một khóa học khác hoặc từ\nmột cơ sở đào tạo khác ở trong và ngoài nước được đơn vị đào tạo xem xét công nhận, chuyển đổi\nsang tín chỉ của những học phần trong chương trình đào tạo theo học. 2.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 20,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 20,
+                "chunk_id": "quiche_daotao_2022_p20_para3",
+                "chunk_index": 3
+              },
+              "score": 0.029877369007803793
+            },
+            {
+              "id": "quiche_daotao_2022_p3_para1",
+              "text": "b) Thực hành: sinh viên học tập qua thực hành, thực tập, làm thí nghiệm, làm bài tập, thảo\nluận, đọc và nghiên cứu tài liệu dưới sự hướng dẫn của giảng viên; c) Tự học: sinh viên tự học tập và nghiên cứu theo kế hoạch và nội dung do giảng viên giao và\nđược kiểm tra đánh giá. 2. Tín chỉ là đại lượng xác định khối lượng kiến thức, kỹ năng mà sinh viên tích lũy được từ\nhọc phần trong 15 giờ tín chỉ. 3.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 3,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 3,
+                "chunk_id": "quiche_daotao_2022_p3_para1",
+                "chunk_index": 1
+              },
+              "score": 0.02976190476190476
+            }
+          ],
+          "context": "[quiche_daotao_2022_p3_para3 | data/quiche_daotao_2022.pdf | page 3]\nmột giờ tín chỉ bài tập bằng 2 tiết trên lớp; để tiếp thu được 1 giờ tín chỉ thực hành/bài tập\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; c) Một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc và được kiểm tra đánh giá. Điều 5. Học phần\n1. Học phần là một phần kiến thức của chương trình đào tạo; mỗi học phần có khối lượng kiến\nthức từ 2 đến 5 tín chỉ, được tổ chức giảng dạy trọn vẹn trong một học kỳ (trừ học phần thực\ntập thực tế);\n\n[quiche_daotao_2022_p3_para2 | data/quiche_daotao_2022.pdf | page 3]\nGiờ tín chỉ là đại lượng đo thời lượng học tập của sinh viên, được phân thành ba loại theo\ncác hình thức dạy học và được xác định như sau:\na) Một giờ tín chỉ lý thuyết bằng 01 tiết lý thuyết; để tiếp thu được 1 giờ tín chỉ lý thuyết\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; b) Một giờ tín chỉ thực hành bằng 2 - 3 tiết thực hành, thí nghiệm hoặc thảo luận; 3 - 6 tiết\nthực tập tại cơ sở; 3 - 4 tiết làm tiểu luận, bài tập lớn hoặc đồ án, khóa luận tốt nghiệp;\n\n[quiche_daotao_2022_p20_para3 | data/quiche_daotao_2022.pdf | page 20]\nKết quả học tập của người học đã tích lũy từ một trình độ đào tạo khác, một hệ thống tính\ntín chỉ khác, một ngành đào tạo hoặc một chương trình đào tạo khác, một khóa học khác hoặc từ\nmột cơ sở đào tạo khác ở trong và ngoài nước được đơn vị đào tạo xem xét công nhận, chuyển đổi\nsang tín chỉ của những học phần trong chương trình đào tạo theo học. 2.",
+          "context_ids": [
+            "quiche_daotao_2022_p3_para3",
+            "quiche_daotao_2022_p3_para2",
+            "quiche_daotao_2022_p20_para3"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q01",
+      "question": "Một tín chỉ trong chương trình đào tạo đại học được xác định bằng bao nhiêu giờ tín chỉ?",
+      "latency_ms": 3115.4788999997436
+    },
+    {
+      "status": "answered",
+      "answer": "Theo quy định, một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc và được kiểm tra đánh giá [quiche_daotao_2022_p3_para3].",
+      "citations": [
+        "quiche_daotao_2022_p3_para3"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "quy đổi 1 tín chỉ sang giờ tự học",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p3_para3",
+              "text": "một giờ tín chỉ bài tập bằng 2 tiết trên lớp; để tiếp thu được 1 giờ tín chỉ thực hành/bài tập\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; c) Một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc và được kiểm tra đánh giá. Điều 5. Học phần\n1. Học phần là một phần kiến thức của chương trình đào tạo; mỗi học phần có khối lượng kiến\nthức từ 2 đến 5 tín chỉ, được tổ chức giảng dạy trọn vẹn trong một học kỳ (trừ học phần thực\ntập thực tế);",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 3,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 3,
+                "chunk_id": "quiche_daotao_2022_p3_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p3_para2",
+              "text": "Giờ tín chỉ là đại lượng đo thời lượng học tập của sinh viên, được phân thành ba loại theo\ncác hình thức dạy học và được xác định như sau:\na) Một giờ tín chỉ lý thuyết bằng 01 tiết lý thuyết; để tiếp thu được 1 giờ tín chỉ lý thuyết\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; b) Một giờ tín chỉ thực hành bằng 2 - 3 tiết thực hành, thí nghiệm hoặc thảo luận; 3 - 6 tiết\nthực tập tại cơ sở; 3 - 4 tiết làm tiểu luận, bài tập lớn hoặc đồ án, khóa luận tốt nghiệp;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 3,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 3,
+                "chunk_id": "quiche_daotao_2022_p3_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03225806451612903
+            },
+            {
+              "id": "quiche_daotao_2022_p3_para1",
+              "text": "b) Thực hành: sinh viên học tập qua thực hành, thực tập, làm thí nghiệm, làm bài tập, thảo\nluận, đọc và nghiên cứu tài liệu dưới sự hướng dẫn của giảng viên; c) Tự học: sinh viên tự học tập và nghiên cứu theo kế hoạch và nội dung do giảng viên giao và\nđược kiểm tra đánh giá. 2. Tín chỉ là đại lượng xác định khối lượng kiến thức, kỹ năng mà sinh viên tích lũy được từ\nhọc phần trong 15 giờ tín chỉ. 3.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 3,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 3,
+                "chunk_id": "quiche_daotao_2022_p3_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03125763125763126
+            },
+            {
+              "id": "quiche_daotao_2022_p20_para3",
+              "text": "Kết quả học tập của người học đã tích lũy từ một trình độ đào tạo khác, một hệ thống tính\ntín chỉ khác, một ngành đào tạo hoặc một chương trình đào tạo khác, một khóa học khác hoặc từ\nmột cơ sở đào tạo khác ở trong và ngoài nước được đơn vị đào tạo xem xét công nhận, chuyển đổi\nsang tín chỉ của những học phần trong chương trình đào tạo theo học. 2.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 20,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 20,
+                "chunk_id": "quiche_daotao_2022_p20_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03055037313432836
+            },
+            {
+              "id": "quiche_daotao_2022_p20_para2",
+              "text": "Điểm và số tín chỉ của các học phần được bảo lưu hoặc tương đương được công nhận và\nchuyển đổi để lập hồ sơ sinh viên trước khi bắt đầu thực hiện kế hoạch học tập theo chương\ntrình đào tạo mới. 1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 20,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 20,
+                "chunk_id": "quiche_daotao_2022_p20_para2",
+                "chunk_index": 2
+              },
+              "score": 0.02919863597612958
+            }
+          ],
+          "context": "[quiche_daotao_2022_p3_para3 | data/quiche_daotao_2022.pdf | page 3]\nmột giờ tín chỉ bài tập bằng 2 tiết trên lớp; để tiếp thu được 1 giờ tín chỉ thực hành/bài tập\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; c) Một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc và được kiểm tra đánh giá. Điều 5. Học phần\n1. Học phần là một phần kiến thức của chương trình đào tạo; mỗi học phần có khối lượng kiến\nthức từ 2 đến 5 tín chỉ, được tổ chức giảng dạy trọn vẹn trong một học kỳ (trừ học phần thực\ntập thực tế);\n\n[quiche_daotao_2022_p3_para2 | data/quiche_daotao_2022.pdf | page 3]\nGiờ tín chỉ là đại lượng đo thời lượng học tập của sinh viên, được phân thành ba loại theo\ncác hình thức dạy học và được xác định như sau:\na) Một giờ tín chỉ lý thuyết bằng 01 tiết lý thuyết; để tiếp thu được 1 giờ tín chỉ lý thuyết\nsinh viên phải dành ít nhất 2 tiết chuẩn bị cá nhân; b) Một giờ tín chỉ thực hành bằng 2 - 3 tiết thực hành, thí nghiệm hoặc thảo luận; 3 - 6 tiết\nthực tập tại cơ sở; 3 - 4 tiết làm tiểu luận, bài tập lớn hoặc đồ án, khóa luận tốt nghiệp;\n\n[quiche_daotao_2022_p20_para3 | data/quiche_daotao_2022.pdf | page 20]\nKết quả học tập của người học đã tích lũy từ một trình độ đào tạo khác, một hệ thống tính\ntín chỉ khác, một ngành đào tạo hoặc một chương trình đào tạo khác, một khóa học khác hoặc từ\nmột cơ sở đào tạo khác ở trong và ngoài nước được đơn vị đào tạo xem xét công nhận, chuyển đổi\nsang tín chỉ của những học phần trong chương trình đào tạo theo học. 2.",
+          "context_ids": [
+            "quiche_daotao_2022_p3_para3",
+            "quiche_daotao_2022_p3_para2",
+            "quiche_daotao_2022_p20_para3"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q02",
+      "question": "Một giờ tín chỉ tự học bắt buộc quy đổi bằng bao nhiêu tiết tự học bắt buộc?",
+      "latency_ms": 1890.6736000003548
+    },
+    {
+      "status": "answered",
+      "answer": "Chương trình đào tạo đại học chuẩn đối với kỹ sư được thiết kế tối thiểu 150 tín chỉ [quiche_daotao_2022_p12_para0].",
+      "citations": [
+        "quiche_daotao_2022_p12_para0"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "số tín chỉ tối thiểu chương trình đào tạo đại học kỹ sư",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p12_para0",
+              "text": "a) Hình thành mục tiêu, điều tra nhu cầu và xây dựng chuẩn đầu ra; b) Thiết kế chương trình đào tạo đáp ứng chuẩn đầu ra; c) Tổ chức đào tạo thí điểm, điều chỉnh và hoàn thiện chương trình đào tạo; d) Triển khai đào tạo chính thức. 2. Thiết kế chương trình đào tạo\na) Chương trình đào tạo chuẩn được thiết kế tối thiểu 120 tín chỉ đối với đào tạo cử nhân, 150\ntín chỉ đối với đào tạo kĩ sư, 155 tín chỉ đối với đào tạo dược sĩ và tối thiểu 205 tín chỉ\nđối với đào tạo bác sĩ;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 12,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 12,
+                "chunk_id": "quiche_daotao_2022_p12_para0",
+                "chunk_index": 0
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p12_para3",
+              "text": "d) Chương trình đào tạo ngành chính - ngành phụ\nNgoài nội dung chương trình đào tạo được thiết kế cho ngành thứ nhất với khối lượng kiến thức\ntối thiểu là 120 tín chỉ, có thể bổ sung các học phần của chương trình đào tạo ngành thứ hai\nhoặc các học phần bổ trợ kiến thức khác với khối lượng kiến thức ít nhất 15 tín chỉ, chủ yếu\nthuộc khối kiến thức ngành, để tạo thành chương trình đào tạo ngành chính - ngành phụ.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 12,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 12,
+                "chunk_id": "quiche_daotao_2022_p12_para3",
+                "chunk_index": 3
+              },
+              "score": 0.031746031746031744
+            },
+            {
+              "id": "quiche_daotao_2022_p17_para4",
+              "text": "Số tín chỉ đăng ký học trong mỗi học kỳ chính (không bao gồm các học phần giáo dục thể\nchất, giáo dục quốc phòng - an ninh, kỹ năng bổ trợ, cải thiện điểm, tự chọn tự do) đảm bảo\nđiều kiện khối lượng đăng ký tối thiểu không ít hơn 2/3 khối lượng trung bình một học kỳ theo\nkế hoạch học tập chuẩn; khối lượng tối đa không vượt quá 3/2 khối lượng trung bình một học kỳ\ntheo kế hoạch học tập chuẩn (không tính học kỳ cuối khóa). Trang 17",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 17,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 17,
+                "chunk_id": "quiche_daotao_2022_p17_para4",
+                "chunk_index": 4
+              },
+              "score": 0.03055037313432836
+            },
+            {
+              "id": "quiche_daotao_2022_p13_para0",
+              "text": "Chương trình đào tạo song ngành gồm hai phần: Chương trình đào tạo ngành thứ nhất có khối\nlượng kiến thức tối thiểu là 120 tín chỉ, ngành thứ hai có khối lượng kiến thức từ 30 tín chỉ\ntrở lên (những học phần giống nhau, tương đương giữa hai chương trình đào tạo chỉ được tính\nkhối lượng kiến thức một lần). Việc tổ chức và quản lý đào tạo được thực hiện liên thông giữa\ncác khoa/bộ môn trong cùng một đơn vị đào tạo, giữa các đơn vị đào tạo trong Đại học Quốc gia\nHà Nội;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 13,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 13,
+                "chunk_id": "quiche_daotao_2022_p13_para0",
+                "chunk_index": 0
+              },
+              "score": 0.0304147465437788
+            },
+            {
+              "id": "quiche_daotao_2022_p18_para0",
+              "text": "Trường hợp sinh viên có nguyện vọng đăng ký học ít hơn số tín chỉ tối thiểu trong một học kỳ\nphải được sự đồng ý của thủ trưởng đơn vị đào tạo. Đối với học kỳ phụ: Thủ trưởng đơn vị đào tạo quy định. 2. Đăng ký học phần\na) Việc tổ chức đăng ký học các học phần trong chương trình đào tạo do thủ trưởng đơn vị đào\ntạo quy định.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 18,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 18,
+                "chunk_id": "quiche_daotao_2022_p18_para0",
+                "chunk_index": 0
+              },
+              "score": 0.029709507042253523
+            }
+          ],
+          "context": "[quiche_daotao_2022_p12_para0 | data/quiche_daotao_2022.pdf | page 12]\na) Hình thành mục tiêu, điều tra nhu cầu và xây dựng chuẩn đầu ra; b) Thiết kế chương trình đào tạo đáp ứng chuẩn đầu ra; c) Tổ chức đào tạo thí điểm, điều chỉnh và hoàn thiện chương trình đào tạo; d) Triển khai đào tạo chính thức. 2. Thiết kế chương trình đào tạo\na) Chương trình đào tạo chuẩn được thiết kế tối thiểu 120 tín chỉ đối với đào tạo cử nhân, 150\ntín chỉ đối với đào tạo kĩ sư, 155 tín chỉ đối với đào tạo dược sĩ và tối thiểu 205 tín chỉ\nđối với đào tạo bác sĩ;\n\n[quiche_daotao_2022_p12_para3 | data/quiche_daotao_2022.pdf | page 12]\nd) Chương trình đào tạo ngành chính - ngành phụ\nNgoài nội dung chương trình đào tạo được thiết kế cho ngành thứ nhất với khối lượng kiến thức\ntối thiểu là 120 tín chỉ, có thể bổ sung các học phần của chương trình đào tạo ngành thứ hai\nhoặc các học phần bổ trợ kiến thức khác với khối lượng kiến thức ít nhất 15 tín chỉ, chủ yếu\nthuộc khối kiến thức ngành, để tạo thành chương trình đào tạo ngành chính - ngành phụ.\n\n[quiche_daotao_2022_p18_para0 | data/quiche_daotao_2022.pdf | page 18]\nTrường hợp sinh viên có nguyện vọng đăng ký học ít hơn số tín chỉ tối thiểu trong một học kỳ\nphải được sự đồng ý của thủ trưởng đơn vị đào tạo. Đối với học kỳ phụ: Thủ trưởng đơn vị đào tạo quy định. 2. Đăng ký học phần\na) Việc tổ chức đăng ký học các học phần trong chương trình đào tạo do thủ trưởng đơn vị đào\ntạo quy định.",
+          "context_ids": [
+            "quiche_daotao_2022_p12_para0",
+            "quiche_daotao_2022_p12_para3",
+            "quiche_daotao_2022_p18_para0"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q03",
+      "question": "Chương trình đào tạo đại học chuẩn đối với kỹ sư được thiết kế tối thiểu bao nhiêu tín chỉ?",
+      "latency_ms": 2356.1565999998493
+    },
+    {
+      "status": "answered",
+      "answer": "So với chương trình đào tạo chuẩn, chương trình đào tạo chất lượng cao được thiết kế nhiều hơn ít nhất là 15 tín chỉ [quiche_daotao_2022_p12_para1].",
+      "citations": [
+        "quiche_daotao_2022_p12_para1"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "số lượng tín chỉ chương trình chất lượng cao so với chương trình chuẩn",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p12_para1",
+              "text": "b) Chương trình đào tạo chất lượng cao được thiết kế nhiều hơn chương trình đào tạo chuẩn\ntương ứng ít nhất là 15 tín chỉ, trên cơ sở nâng cao, bổ sung một số học phần, có tham khảo\nchương trình đào tạo nước ngoài hoặc trên cơ sở chương trình đào tạo của một trường đại học\ntiên tiến có uy tín trên thế giới đã được điều chỉnh phù hợp với các quy định của Đại học Quốc\ngia Hà Nội;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 12,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 12,
+                "chunk_id": "quiche_daotao_2022_p12_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p12_para2",
+              "text": "c) Chương trình đào tạo tài năng được thiết kế nhiều hơn chương trình đào tạo chuẩn tương ứng\nít nhất là 30 tín chỉ, trên cơ sở nâng cao, bổ sung một số học phần với yêu cầu trình độ cao\nhơn và nội dung rộng hơn, sâu hơn, có tham khảo chương trình đào tạo nước ngoài có uy tín;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 12,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 12,
+                "chunk_id": "quiche_daotao_2022_p12_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03200204813108039
+            },
+            {
+              "id": "quiche_daotao_2022_p15_para0",
+              "text": "Năm đào tạo | Chương trình đào tạo chuẩn | Chương trình đào tạo chất lượng cao | Chương trình\nđào tạo tài năng\nNăm thứ nhất | Dưới 35 tín chỉ | Dưới 40 tín chỉ | Dưới 45 tín chỉ\nNăm thứ hai | Từ 35 - 70 tín chỉ | Từ 40 – 80 tín chỉ | Từ 45 – 90 tín chỉ\nNăm thứ ba | Từ 71 – 105 tín chỉ | Từ 81 – 115 tín chỉ | Từ 91 – 130 tín chỉ\nNăm thứ tư | Từ 106 – 140 tín chỉ | Từ 116 – 155 tín chỉ | Từ 131 –170 tín chỉ\nNăm thứ năm | Từ 141 – 175 tín chỉ | - | -\nNăm thứ sáu | Từ 176 – 225 tín chỉ | - | -\nĐiều",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 15,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 15,
+                "chunk_id": "quiche_daotao_2022_p15_para0",
+                "chunk_index": 0
+              },
+              "score": 0.03200204813108039
+            },
+            {
+              "id": "quiche_daotao_2022_p27_para1",
+              "text": "- Đối với học phần bổ sung, thủ trưởng đơn vị đào tạo xem xét cho phép thay thế bằng học phần\nkhác trong chương trình đào tạo chuẩn hoặc xác nhận là học phần tự chọn tự do. 4. Bổ sung sinh viên học chương trình đào tạo chuẩn chính quy vào học chương trình đào tạo tài\nnăng, chất lượng cao. a) Căn cứ chỉ tiêu đào tạo đã công bố, thủ trưởng đơn vị đào tạo tổ chức xét tuyển bổ sung\nsinh viên vào học chương trình đào này nếu có đủ các điều kiện sau:\n- Không là sinh viên năm thứ nhất hoặc năm cuối;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 27,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 27,
+                "chunk_id": "quiche_daotao_2022_p27_para1",
+                "chunk_index": 1
+              },
+              "score": 0.029273504273504274
+            },
+            {
+              "id": "quiche_daotao_2022_p27_para0",
+              "text": "- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5; - Bị kỷ luật trong thời gian học từ mức khiển trách trở lên. b) Khi chuyển sang học chương trình đào tạo chuẩn chính quy, các học phần nâng cao, bổ sung\nđược chuyển đổi như sau:\n- Đối với học phần nâng cao, điểm học phần được giữ nguyên, số tín chỉ được quy đổi theo\nchương trình đào tạo chuẩn;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 27,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 27,
+                "chunk_id": "quiche_daotao_2022_p27_para0",
+                "chunk_index": 0
+              },
+              "score": 0.02919863597612958
+            }
+          ],
+          "context": "[quiche_daotao_2022_p12_para1 | data/quiche_daotao_2022.pdf | page 12]\nb) Chương trình đào tạo chất lượng cao được thiết kế nhiều hơn chương trình đào tạo chuẩn\ntương ứng ít nhất là 15 tín chỉ, trên cơ sở nâng cao, bổ sung một số học phần, có tham khảo\nchương trình đào tạo nước ngoài hoặc trên cơ sở chương trình đào tạo của một trường đại học\ntiên tiến có uy tín trên thế giới đã được điều chỉnh phù hợp với các quy định của Đại học Quốc\ngia Hà Nội;\n\n[quiche_daotao_2022_p12_para2 | data/quiche_daotao_2022.pdf | page 12]\nc) Chương trình đào tạo tài năng được thiết kế nhiều hơn chương trình đào tạo chuẩn tương ứng\nít nhất là 30 tín chỉ, trên cơ sở nâng cao, bổ sung một số học phần với yêu cầu trình độ cao\nhơn và nội dung rộng hơn, sâu hơn, có tham khảo chương trình đào tạo nước ngoài có uy tín;\n\n[quiche_daotao_2022_p15_para0 | data/quiche_daotao_2022.pdf | page 15]\nNăm đào tạo | Chương trình đào tạo chuẩn | Chương trình đào tạo chất lượng cao | Chương trình\nđào tạo tài năng\nNăm thứ nhất | Dưới 35 tín chỉ | Dưới 40 tín chỉ | Dưới 45 tín chỉ\nNăm thứ hai | Từ 35 - 70 tín chỉ | Từ 40 – 80 tín chỉ | Từ 45 – 90 tín chỉ\nNăm thứ ba | Từ 71 – 105 tín chỉ | Từ 81 – 115 tín chỉ | Từ 91 – 130 tín chỉ\nNăm thứ tư | Từ 106 – 140 tín chỉ | Từ 116 – 155 tín chỉ | Từ 131 –170 tín chỉ\nNăm thứ năm | Từ 141 – 175 tín chỉ | - | -\nNăm thứ sáu | Từ 176 – 225 tín chỉ | - | -\nĐiều",
+          "context_ids": [
+            "quiche_daotao_2022_p12_para1",
+            "quiche_daotao_2022_p12_para2",
+            "quiche_daotao_2022_p15_para0"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q04",
+      "question": "So với chương trình đào tạo chuẩn, chương trình chất lượng cao yêu cầu số lượng tín chỉ nhiều hơn tối thiểu là bao nhiêu?",
+      "latency_ms": 88.7284999998883
+    },
+    {
+      "status": "answered",
+      "answer": "Theo kế hoạch đào tạo, mỗi học kỳ chính có 15 tuần học, từ 3 đến 4 tuần thi và 1 tuần dự phòng [quiche_daotao_2022_p14_para0].",
+      "citations": [
+        "quiche_daotao_2022_p14_para0"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "số tuần học và tuần thi mỗi học kỳ chính quy chế đào tạo 2022",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p14_para0",
+              "text": "Chương III\nTỔ CHỨC ĐÀO TẠO\nĐiều 16. Học kỳ\nMỗi năm học có hai học kỳ chính và một học kỳ phụ. Mỗi học kỳ chính có 15 tuần học, từ 3 đến 4\ntuần thi và 1 tuần dự phòng. Mỗi học kỳ phụ có ít nhất 5 tuần học và 1 tuần thi, được tổ chức trong thời gian giữa hai học\nkỳ chính. Điều 17. Khóa học\n1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 14,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 14,
+                "chunk_id": "quiche_daotao_2022_p14_para0",
+                "chunk_index": 0
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p39_para1",
+              "text": "Cuối mỗi học kỳ, đơn vị đào tạo tổ chức một kỳ thi chính và nếu có điều kiện tổ chức thêm một\nkỳ thi phụ. Đối với mỗi học phần, sinh viên chỉ được dự thi một lần trong cùng một kỳ thi. Kỳ\nthi phụ chỉ dành cho những sinh viên chưa dự kỳ thi chính vì lý do chính đáng và được thủ\ntrưởng đơn vị đào tạo cho phép. 3. Lịch thi của kỳ thi chính phải được thông báo trước ít nhất 1 tháng, lịch thi của kỳ thi\nphụ phải được thông báo trước ít nhất 1 tuần.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 39,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 39,
+                "chunk_id": "quiche_daotao_2022_p39_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03225806451612903
+            },
+            {
+              "id": "quiche_daotao_2022_p17_para1",
+              "text": "Lớp học phần sẽ không được tổ chức nếu số sinh viên đăng ký ít hơn số lượng sinh viên\ntối thiểu đã quy định, khi đó sinh viên phải đăng ký học phần khác nếu chưa đủ khối lượng học\ntập tối thiểu cho mỗi học kỳ; d) Thời khóa biểu của các lớp học phần bình thường được bố trí đều trong các tuần của học kỳ. Trong trường hợp cần thiết phải xếp lịch học tập trung thời gian, số giờ giảng đối với một học\nphần bất kỳ không vượt quá 15 giờ/tuần và 4 giờ/ngày. 3.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 17,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 17,
+                "chunk_id": "quiche_daotao_2022_p17_para1",
+                "chunk_index": 1
+              },
+              "score": 0.029957522915269395
+            },
+            {
+              "id": "quiche_ctsv_2014_p1_para1",
+              "text": "Căn cứ Quy chế tổ chức và hoạt động của Đại học Quốc gia và các cơ sở giáo dục đại học thành\nviên ban hành kèm theo Quyết định số 26/2014/QĐ-TTg ngày 26/3/2014 của Thủ tướng Chính phủ; Căn cứ Quy chế học sinh, sinh viên các trường đại học, cao đẳng và trung cấp chuyên nghiệp hệ\nchính quy ban hành kèm theo Quyết định số 42/2007/QĐ-BGDĐT ngày 13 tháng 8 năm 2007 của Bộ\ntrưởng Bộ Giáo dục và Đào tạo;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 1,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 1,
+                "chunk_id": "quiche_ctsv_2014_p1_para1",
+                "chunk_index": 1
+              },
+              "score": 0.027212143650499815
+            },
+            {
+              "id": "quiche_daotao_2022_p14_para1",
+              "text": "Thời gian của khóa học\na) Thời gian thiết kế của khóa học đào tạo chính quy là 8 học kỳ chính đối với đào tạo cử\nnhân, từ 9 đến 10 học kỳ chính đối với đào tạo kĩ sư, 10 học kỳ chính đối với đào tạo dược sĩ,\n12 học kỳ chính đối với đào tạo bác sĩ; b) Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học\ndài hơn tối thiểu 20% so với hình thức đào tạo chính quy của cùng chương trình đào tạo;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 14,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 14,
+                "chunk_id": "quiche_daotao_2022_p14_para1",
+                "chunk_index": 1
+              },
+              "score": 0.015873015873015872
+            }
+          ],
+          "context": "[quiche_daotao_2022_p14_para0 | data/quiche_daotao_2022.pdf | page 14]\nChương III\nTỔ CHỨC ĐÀO TẠO\nĐiều 16. Học kỳ\nMỗi năm học có hai học kỳ chính và một học kỳ phụ. Mỗi học kỳ chính có 15 tuần học, từ 3 đến 4\ntuần thi và 1 tuần dự phòng. Mỗi học kỳ phụ có ít nhất 5 tuần học và 1 tuần thi, được tổ chức trong thời gian giữa hai học\nkỳ chính. Điều 17. Khóa học\n1.\n\n[quiche_daotao_2022_p39_para1 | data/quiche_daotao_2022.pdf | page 39]\nCuối mỗi học kỳ, đơn vị đào tạo tổ chức một kỳ thi chính và nếu có điều kiện tổ chức thêm một\nkỳ thi phụ. Đối với mỗi học phần, sinh viên chỉ được dự thi một lần trong cùng một kỳ thi. Kỳ\nthi phụ chỉ dành cho những sinh viên chưa dự kỳ thi chính vì lý do chính đáng và được thủ\ntrưởng đơn vị đào tạo cho phép. 3. Lịch thi của kỳ thi chính phải được thông báo trước ít nhất 1 tháng, lịch thi của kỳ thi\nphụ phải được thông báo trước ít nhất 1 tuần.\n\n[quiche_daotao_2022_p17_para1 | data/quiche_daotao_2022.pdf | page 17]\nLớp học phần sẽ không được tổ chức nếu số sinh viên đăng ký ít hơn số lượng sinh viên\ntối thiểu đã quy định, khi đó sinh viên phải đăng ký học phần khác nếu chưa đủ khối lượng học\ntập tối thiểu cho mỗi học kỳ; d) Thời khóa biểu của các lớp học phần bình thường được bố trí đều trong các tuần của học kỳ. Trong trường hợp cần thiết phải xếp lịch học tập trung thời gian, số giờ giảng đối với một học\nphần bất kỳ không vượt quá 15 giờ/tuần và 4 giờ/ngày. 3.",
+          "context_ids": [
+            "quiche_daotao_2022_p14_para0",
+            "quiche_daotao_2022_p39_para1",
+            "quiche_daotao_2022_p17_para1"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q05",
+      "question": "Theo kế hoạch đào tạo, mỗi học kỳ chính gồm bao nhiêu tuần học và bao nhiêu tuần thi?",
+      "latency_ms": 3858.382200000051
+    },
+    {
+      "status": "answered",
+      "answer": "Thời hạn tối đa để sinh viên được rút bớt học phần đã đăng ký trong học kỳ chính mà vẫn được hoàn trả học phí là 2 tuần kể từ đầu học kỳ chính [quiche_daotao_2022_p21_para1].",
+      "citations": [
+        "quiche_daotao_2022_p21_para1"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "thời hạn rút học phần hoàn trả học phí quy chế đào tạo 2022",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p21_para1",
+              "text": "Việc rút bớt học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ chính, 1 tuần kể từ\nđầu học kỳ phụ và được trả lại học phí. Ngoài thời hạn trên, học phần vẫn được giữ nguyên\ntrong phiếu đăng ký học, nếu sinh viên không học sẽ phải nhận điểm F và không được trả lại học\nphí. 3. Điều kiện rút bớt các học phần đã đăng ký (sau khi có danh sách lớp chính thức):\na) Sinh viên phải tự viết đơn gửi Phòng Đào tạo; b) Được thủ trưởng đơn vị đào tạo chấp nhận;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 21,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 21,
+                "chunk_id": "quiche_daotao_2022_p21_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p21_para0",
+              "text": "Điều 23. Rút bớt học phần đã đăng ký\n1. Việc rút bớt học phần áp dụng cho các trường hợp:\na) Theo nhu cầu và khả năng lựa chọn của sinh viên; b) Sau khi đã đăng ký học phần, hạng học lực của sinh viên được xác định là phải rút bớt học\nphần trong giới hạn khối lượng quy định; c) Điểm trung bình chung học kỳ dưới 2,00 nhưng chưa thuộc diện bị buộc thôi học, sinh viên\nđược đăng ký học không quá 18 tín chỉ trong mỗi học kỳ chính. 2.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 21,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 21,
+                "chunk_id": "quiche_daotao_2022_p21_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031054405392392875
+            },
+            {
+              "id": "quiche_daotao_2022_p36_para4",
+              "text": "Được hưởng đầy đủ chế độ, chính sách hiện hành của Đảng, Nhà nước cũng như các quy chế, quy\nđịnh của Đại học Quốc gia Hà Nội và của đơn vị đào tạo. 2. Được phép thôi học vì lý do chủ quan của cá nhân, trong trường hợp này, sinh viên phải hoàn\ntrả cho đơn vị đào tạo toàn bộ kinh phí đào tạo từ ngân sách nhà nước trong thời gian theo học. Trang 36",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 36,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 36,
+                "chunk_id": "quiche_daotao_2022_p36_para4",
+                "chunk_index": 4
+              },
+              "score": 0.031054405392392875
+            },
+            {
+              "id": "quiche_daotao_2022_p36_para3",
+              "text": "- Hoàn thành chương trình đào tạo đúng thời hạn chuẩn (không tính thời gian kéo dài); - Tích cực tham gia nghiên cứu khoa học dưới sự hướng dẫn của giảng viên hướng dẫn, tham gia\ncác nhóm nghiên cứu; - Sinh viên không tiếp tục theo học chương trình đào tạo đã đăng ký học sẽ phải bồi hoàn kinh\nphí đào tạo đã được cấp. Điều 36. Quyền lợi của sinh viên\n1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 36,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 36,
+                "chunk_id": "quiche_daotao_2022_p36_para3",
+                "chunk_index": 3
+              },
+              "score": 0.030536130536130537
+            },
+            {
+              "id": "quiche_daotao_2022_p21_para2",
+              "text": "c) Không vi phạm quy định tại khoản 1, Điều 21 của Quy chế này. Sinh viên chỉ được phép không lên lớp đối với học phần xin rút bớt sau khi giảng viên phụ\ntrách học phần nhận được giấy báo của Phòng Đào tạo. Điều 24. Đối tượng được miễn, tạm hoãn học các học phần giáo dục quốc phòng - an ninh, giáo\ndục thể chất\n1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 21,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 21,
+                "chunk_id": "quiche_daotao_2022_p21_para2",
+                "chunk_index": 2
+              },
+              "score": 0.029709507042253523
+            }
+          ],
+          "context": "[quiche_daotao_2022_p21_para1 | data/quiche_daotao_2022.pdf | page 21]\nViệc rút bớt học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ chính, 1 tuần kể từ\nđầu học kỳ phụ và được trả lại học phí. Ngoài thời hạn trên, học phần vẫn được giữ nguyên\ntrong phiếu đăng ký học, nếu sinh viên không học sẽ phải nhận điểm F và không được trả lại học\nphí. 3. Điều kiện rút bớt các học phần đã đăng ký (sau khi có danh sách lớp chính thức):\na) Sinh viên phải tự viết đơn gửi Phòng Đào tạo; b) Được thủ trưởng đơn vị đào tạo chấp nhận;\n\n[quiche_daotao_2022_p21_para0 | data/quiche_daotao_2022.pdf | page 21]\nĐiều 23. Rút bớt học phần đã đăng ký\n1. Việc rút bớt học phần áp dụng cho các trường hợp:\na) Theo nhu cầu và khả năng lựa chọn của sinh viên; b) Sau khi đã đăng ký học phần, hạng học lực của sinh viên được xác định là phải rút bớt học\nphần trong giới hạn khối lượng quy định; c) Điểm trung bình chung học kỳ dưới 2,00 nhưng chưa thuộc diện bị buộc thôi học, sinh viên\nđược đăng ký học không quá 18 tín chỉ trong mỗi học kỳ chính. 2.\n\n[quiche_daotao_2022_p36_para4 | data/quiche_daotao_2022.pdf | page 36]\nĐược hưởng đầy đủ chế độ, chính sách hiện hành của Đảng, Nhà nước cũng như các quy chế, quy\nđịnh của Đại học Quốc gia Hà Nội và của đơn vị đào tạo. 2. Được phép thôi học vì lý do chủ quan của cá nhân, trong trường hợp này, sinh viên phải hoàn\ntrả cho đơn vị đào tạo toàn bộ kinh phí đào tạo từ ngân sách nhà nước trong thời gian theo học. Trang 36",
+          "context_ids": [
+            "quiche_daotao_2022_p21_para1",
+            "quiche_daotao_2022_p21_para0",
+            "quiche_daotao_2022_p36_para4"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q06",
+      "question": "Thời hạn tối đa để sinh viên được rút bớt học phần đã đăng ký trong học kỳ chính mà vẫn được hoàn trả học phí là bao lâu?",
+      "latency_ms": 5058.788900000309
+    },
+    {
+      "status": "answered",
+      "answer": "Sinh viên muốn đăng ký học cùng lúc chương trình đào tạo thứ hai cần phải đã học ít nhất hai học kỳ của chương trình đào tạo thứ nhất [quiche_daotao_2022_p23_para4].",
+      "citations": [
+        "quiche_daotao_2022_p23_para4"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "điều kiện đăng ký học chương trình đào tạo thứ hai quy chế đào tạo 2022",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p23_para4",
+              "text": "Sinh viên đang học tại các đơn vị đào tạo của Đại học Quốc gia Hà Nội theo hình thức đào\ntạo chính quy được đăng ký học thêm một chương trình đào tạo thứ hai nếu có đủ các điều kiện:\na) Ngành học chính của chương trình đào tạo thứ hai phải khác ngành học chính của chương trình\nđào tạo thứ nhất; b) Đã học ít nhất hai học kỳ của chương trình đào tạo thứ nhất;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 23,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 23,
+                "chunk_id": "quiche_daotao_2022_p23_para4",
+                "chunk_index": 4
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p24_para0",
+              "text": "d) Sinh viên có đơn xin học thêm chương trình đào tạo thứ hai và trả học phí theo quy định của\nđơn vị đào tạo. 2. Đơn vị tổ chức chương trình đào tạo thứ hai đề xuất, tổ chức thẩm định các học phần cần\ntích lũy để hoàn thành chương trình đào tạo thứ hai và công nhận những học phần tương đương\ncủa chương trình đào tạo thứ nhất (so với chương trình đào tạo thứ hai).",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 24,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 24,
+                "chunk_id": "quiche_daotao_2022_p24_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031754032258064516
+            },
+            {
+              "id": "quiche_daotao_2022_p23_para5",
+              "text": "c) Điểm trung bình chung tất cả các học phần tính từ đầu khóa học đến thời điểm đăng ký học\nchương trình đào tạo thứ hai đạt từ 2,5 trở lên và đáp ứng ngưỡng bảo đảm chất lượng đầu vào\ncủa chương trình thứ hai trong năm tuyển sinh hoặc điểm trung bình chung tất cả các học phần\ntính từ đầu khóa học đến thời điểm đăng ký học chương trình đào tạo thứ hai đạt từ 2,0 trở lên\nvà đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh; Trang 23",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 23,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 23,
+                "chunk_id": "quiche_daotao_2022_p23_para5",
+                "chunk_index": 5
+              },
+              "score": 0.03128054740957967
+            },
+            {
+              "id": "quiche_daotao_2022_p24_para5",
+              "text": "Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai nếu được công nhận tốt nghiệp chương\ntrình đào tạo thứ nhất, không vượt quá thời gian đào tạo tối đa và đã đăng kí muộn nhất 02 năm\ntrước thời điểm xét tốt nghiệp chương trình thứ hai. Trang 24",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 24,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 24,
+                "chunk_id": "quiche_daotao_2022_p24_para5",
+                "chunk_index": 5
+              },
+              "score": 0.03125763125763126
+            },
+            {
+              "id": "quiche_ctsv_2014_p4_para0",
+              "text": "d) Được chuyển trường, chuyển ngành học giữa các đơn vị đào tạo trong ĐHQGHN hoặc giữa ĐHQGHN\nvới các cơ sở đào tạo khác nếu đáp ứng đủ các điều kiện trong Quy chế đào tạo Đại học và Sau\nđại học của ĐHQGHN; e) Được đăng ký học chương trình đào tạo thứ hai và các chương trình khác nếu đáp ứng đầy đủ\ntiêu chuẩn theo quy định của từng chương trình;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 4,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 4,
+                "chunk_id": "quiche_ctsv_2014_p4_para0",
+                "chunk_index": 0
+              },
+              "score": 0.030798389007344232
+            }
+          ],
+          "context": "[quiche_daotao_2022_p23_para4 | data/quiche_daotao_2022.pdf | page 23]\nSinh viên đang học tại các đơn vị đào tạo của Đại học Quốc gia Hà Nội theo hình thức đào\ntạo chính quy được đăng ký học thêm một chương trình đào tạo thứ hai nếu có đủ các điều kiện:\na) Ngành học chính của chương trình đào tạo thứ hai phải khác ngành học chính của chương trình\nđào tạo thứ nhất; b) Đã học ít nhất hai học kỳ của chương trình đào tạo thứ nhất;\n\n[quiche_daotao_2022_p24_para0 | data/quiche_daotao_2022.pdf | page 24]\nd) Sinh viên có đơn xin học thêm chương trình đào tạo thứ hai và trả học phí theo quy định của\nđơn vị đào tạo. 2. Đơn vị tổ chức chương trình đào tạo thứ hai đề xuất, tổ chức thẩm định các học phần cần\ntích lũy để hoàn thành chương trình đào tạo thứ hai và công nhận những học phần tương đương\ncủa chương trình đào tạo thứ nhất (so với chương trình đào tạo thứ hai).\n\n[quiche_daotao_2022_p23_para5 | data/quiche_daotao_2022.pdf | page 23]\nc) Điểm trung bình chung tất cả các học phần tính từ đầu khóa học đến thời điểm đăng ký học\nchương trình đào tạo thứ hai đạt từ 2,5 trở lên và đáp ứng ngưỡng bảo đảm chất lượng đầu vào\ncủa chương trình thứ hai trong năm tuyển sinh hoặc điểm trung bình chung tất cả các học phần\ntính từ đầu khóa học đến thời điểm đăng ký học chương trình đào tạo thứ hai đạt từ 2,0 trở lên\nvà đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh; Trang 23",
+          "context_ids": [
+            "quiche_daotao_2022_p23_para4",
+            "quiche_daotao_2022_p24_para0",
+            "quiche_daotao_2022_p23_para5"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q07",
+      "question": "Sinh viên muốn đăng ký học cùng lúc chương trình đào tạo thứ hai cần hoàn thành tối thiểu bao nhiêu học kỳ của chương trình thứ nhất?",
+      "latency_ms": 3545.82419999997
+    },
+    {
+      "status": "answered",
+      "answer": "Sinh viên đạt giải nhất nghiên cứu khoa học cấp Đại học Quốc gia Hà Nội được cộng 0,20 điểm thưởng [quiche_daotao_2022_p31_para1] vào điểm trung bình chung học kỳ, điểm trung bình chung tích lũy để làm căn cứ xét học bổng, xét chuyển tiếp vào học ở bậc sau đại học và các quyền lợi khác (không dùng để xếp loại học lực hoặc xác định hạng tốt nghiệp) [quiche_daotao_2022_p31_para0]. Nếu công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện thì điểm thưởng được chia đều cho số sinh viên cùng tham gia [quiche_daotao_2022_p31_para1].",
+      "citations": [
+        "quiche_daotao_2022_p31_para0",
+        "quiche_daotao_2022_p31_para1"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "điểm thưởng nghiên cứu khoa học cấp ĐHQGHN quy chế công tác sinh viên",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p31_para1",
+              "text": "Mức điểm thưởng được quy định như sau:\na) Đạt giải thưởng cấp Đại học Quốc gia Hà Nội, cấp Bộ Giáo dục và Đào tạo:\nGiải nhất: 0,20 điểm\nGiải nhì: 0,15 điểm\nGiải ba: 0,10 điểm\nGiải khuyến khích: 0,07 điểm\nb) Đạt giải thưởng cấp đơn vị đào tạo:\nGiải nhất: 0,10 điểm\nGiải nhì: 0,07 điểm\nGiải ba: 0,05 điểm\nNếu công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện thì điểm thưởng được chia\nđều cho số sinh viên cùng tham gia.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 31,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 31,
+                "chunk_id": "quiche_daotao_2022_p31_para1",
+                "chunk_index": 1
+              },
+              "score": 0.032266458495966696
+            },
+            {
+              "id": "quiche_daotao_2022_p31_para2",
+              "text": "Đối với các sinh viên có công bố quốc tế, trong nước, bằng sở hữu trí tuệ được cộng không quá\n0,2 điểm, mức điểm cụ thể do thủ trưởng đơn vị đào tạo quy định bằng văn bản. 3. Nếu sinh viên đạt nhiều giải thưởng nghiên cứu khoa học ở các cấp thì chỉ cộng điểm thưởng\nmột lần ở mức giải cao nhất. 4. Công trình nghiên cứu khoa học được tính như một niên luận hoặc tiểu luận;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 31,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 31,
+                "chunk_id": "quiche_daotao_2022_p31_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03200204813108039
+            },
+            {
+              "id": "quiche_daotao_2022_p31_para0",
+              "text": "Điều 32. Điểm thưởng thành tích nghiên cứu khoa học của sinh viên\n1. Điểm thưởng cho những công trình nghiên cứu khoa học của sinh viên đạt giải được cộng vào\nđiểm trung bình chung học kỳ, điểm trung bình chung tích lũy để làm căn cứ xét học bổng, xét\nchuyển tiếp vào học ở bậc sau đại học và các quyền lợi khác, không dùng để xếp loại học lực\nhoặc xác định hạng tốt nghiệp. 2.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 31,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 31,
+                "chunk_id": "quiche_daotao_2022_p31_para0",
+                "chunk_index": 0
+              },
+              "score": 0.0315136476426799
+            },
+            {
+              "id": "quiche_ctsv_2014_p7_para0",
+              "text": "khai các hoạt động giao lưu quốc tế và trao đổi sinh viên với các tổ chức nước ngoài cấp\nĐHQGHN; phối hợp, hỗ trợ công tác liên hệ đưa sinh viên đi thực tập, học tập, nghiên cứu ở\nnước ngoài. 6. Ban Khoa học Công nghệ chịu trách nhiệm triển khai hoạt động nghiên cứu khoa học của sinh\nviên, làm đầu mối thẩm định, đánh giá các công trình nghiên cứu khoa học của sinh viên và đề\nnghị khen thưởng sinh viên có thành tích trong nghiên cứu khoa học nếu có. 7.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 7,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 7,
+                "chunk_id": "quiche_ctsv_2014_p7_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031099324975891997
+            },
+            {
+              "id": "quiche_daotao_2022_p30_para3",
+              "text": "đ) Thủ trưởng đơn vị đào tạo quy định cụ thể số lượng giờ chuẩn giảng viên hướng dẫn sinh viên\nnghiên cứu khoa học trên mỗi một công trình. 2. Đại học Quốc gia Hà Nội\nTổ chức xét, trao giải thưởng cho các công trình nghiên cứu khoa học xuất sắc của sinh viên\nĐại học Quốc gia Hà Nội. Trang 30",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 30,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 30,
+                "chunk_id": "quiche_daotao_2022_p30_para3",
+                "chunk_index": 3
+              },
+              "score": 0.030330882352941176
+            }
+          ],
+          "context": "[quiche_daotao_2022_p31_para1 | data/quiche_daotao_2022.pdf | page 31]\nMức điểm thưởng được quy định như sau:\na) Đạt giải thưởng cấp Đại học Quốc gia Hà Nội, cấp Bộ Giáo dục và Đào tạo:\nGiải nhất: 0,20 điểm\nGiải nhì: 0,15 điểm\nGiải ba: 0,10 điểm\nGiải khuyến khích: 0,07 điểm\nb) Đạt giải thưởng cấp đơn vị đào tạo:\nGiải nhất: 0,10 điểm\nGiải nhì: 0,07 điểm\nGiải ba: 0,05 điểm\nNếu công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện thì điểm thưởng được chia\nđều cho số sinh viên cùng tham gia.\n\n[quiche_daotao_2022_p31_para2 | data/quiche_daotao_2022.pdf | page 31]\nĐối với các sinh viên có công bố quốc tế, trong nước, bằng sở hữu trí tuệ được cộng không quá\n0,2 điểm, mức điểm cụ thể do thủ trưởng đơn vị đào tạo quy định bằng văn bản. 3. Nếu sinh viên đạt nhiều giải thưởng nghiên cứu khoa học ở các cấp thì chỉ cộng điểm thưởng\nmột lần ở mức giải cao nhất. 4. Công trình nghiên cứu khoa học được tính như một niên luận hoặc tiểu luận;\n\n[quiche_daotao_2022_p31_para0 | data/quiche_daotao_2022.pdf | page 31]\nĐiều 32. Điểm thưởng thành tích nghiên cứu khoa học của sinh viên\n1. Điểm thưởng cho những công trình nghiên cứu khoa học của sinh viên đạt giải được cộng vào\nđiểm trung bình chung học kỳ, điểm trung bình chung tích lũy để làm căn cứ xét học bổng, xét\nchuyển tiếp vào học ở bậc sau đại học và các quyền lợi khác, không dùng để xếp loại học lực\nhoặc xác định hạng tốt nghiệp. 2.",
+          "context_ids": [
+            "quiche_daotao_2022_p31_para1",
+            "quiche_daotao_2022_p31_para2",
+            "quiche_daotao_2022_p31_para0"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q08",
+      "question": "Sinh viên đạt giải nhất nghiên cứu khoa học cấp Đại học Quốc gia Hà Nội được cộng bao nhiêu điểm thưởng vào điểm trung bình chung?",
+      "latency_ms": 6669.36829999986
+    },
+    {
+      "status": "answered",
+      "answer": "Sinh viên bị kỷ luật khiển trách khi thi học phần nào sẽ bị trừ 25% số điểm đạt được của bài thi học phần đó [quiche_daotao_2022_p35_para2].",
+      "citations": [
+        "quiche_daotao_2022_p35_para2"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "kỷ luật khiển trách trong phòng thi trừ bao nhiêu phần trăm điểm bài thi",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p35_para2",
+              "text": "Sinh viên có trách nhiệm thực hiện đúng các quy định về kỷ luật phòng thi, nếu vi phạm sẽ\nbị kỷ luật ở các mức sau:\na) Khiển trách: Áp dụng đối với sinh viên phạm lỗi 1 lần nhìn bài của người khác, trao đổi\nbài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học phần nào sẽ bị trừ 25%\nsố điểm đạt được của bài thi học phần đó; b) Cảnh cáo: áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị khiển trách 1 lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 35,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 35,
+                "chunk_id": "quiche_daotao_2022_p35_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p35_para3",
+              "text": "- Trao đổi bài làm, giấy nháp với người khác; - Chép bài của người khác. Những bài thi đã có kết luận là giống nhau thì xử lý như nhau, trừ\ntrường hợp người bị xử lý có đủ bằng chứng chứng tỏ mình thực sự bị quay cóp thì thủ trưởng\nđơn vị đào tạo có thể xem xét giảm từ mức kỷ luật cảnh cáo xuống mức khiển trách. Sinh viên bị cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được\nTrang 35",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 35,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 35,
+                "chunk_id": "quiche_daotao_2022_p35_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03225806451612903
+            },
+            {
+              "id": "quiche_daotao_2022_p36_para0",
+              "text": "của bài thi học phần đó. c) Đình chỉ thi: Áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị cảnh cáo một lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định; - Sau khi bóc đề thi bị phát hiện mang theo những vật dụng không được phép; - Đưa đề thi ra ngoài hoặc nhận bài, tài liệu từ ngoài vào phòng thi. Sinh viên bị kỷ luật đình chỉ thi sẽ bị điểm không (0) bài thi học phần đó và phải ra khỏi\nphòng thi ngay sau khi có quyết định đình chỉ thi.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 36,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 36,
+                "chunk_id": "quiche_daotao_2022_p36_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031746031746031744
+            },
+            {
+              "id": "quiche_daotao_2022_p41_para4",
+              "text": "Kỷ luật đối với cán bộ coi thi, tổ chức thi, chấm thi\nNgười tham gia công tác coi thi, tổ chức thi, chấm thi vi phạm quy định (bị phát hiện trong\nhoặc sau khi thực hiện nhiệm vụ), tùy theo mức độ sẽ bị kiểm điểm và thi hành kỷ luật theo các\nhình thức sau:\n1. Khiển trách: áp dụng đối với những người vi phạm một trong các lỗi sau: đến chậm giờ quy\nđịnh, không ký vào giấy thi, giấy nháp của sinh viên, không tập trung khi coi thi, bỏ 1 buổi\ncoi thi không có lý do chính đáng. Trang 41",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 41,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 41,
+                "chunk_id": "quiche_daotao_2022_p41_para4",
+                "chunk_index": 4
+              },
+              "score": 0.03125
+            },
+            {
+              "id": "quiche_daotao_2022_p42_para1",
+              "text": "Hạ tầng công tác hoặc buộc thôi việc được áp dụng đối với những người vi phạm một trong các\nlỗi sau:\na) Làm lộ đề thi; b) Đưa đề thi ra ngoài, đưa bài giải từ ngoài vào phòng thi hoặc giúp sinh viên làm bài thi\ntrong lúc đang thi; c) Làm lộ phách bài thi; d) Gian lận trong khi chấm thi; cho điểm không đúng quy định, chủ định tăng hoặc hạ điểm của\nbài thi so với đáp án; đ) Sửa chữa, thêm bớt vào bài làm của sinh viên để tăng hay hạ điểm;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 42,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 42,
+                "chunk_id": "quiche_daotao_2022_p42_para1",
+                "chunk_index": 1
+              },
+              "score": 0.030303030303030304
+            }
+          ],
+          "context": "[quiche_daotao_2022_p35_para2 | data/quiche_daotao_2022.pdf | page 35]\nSinh viên có trách nhiệm thực hiện đúng các quy định về kỷ luật phòng thi, nếu vi phạm sẽ\nbị kỷ luật ở các mức sau:\na) Khiển trách: Áp dụng đối với sinh viên phạm lỗi 1 lần nhìn bài của người khác, trao đổi\nbài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học phần nào sẽ bị trừ 25%\nsố điểm đạt được của bài thi học phần đó; b) Cảnh cáo: áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị khiển trách 1 lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định;\n\n[quiche_daotao_2022_p35_para3 | data/quiche_daotao_2022.pdf | page 35]\n- Trao đổi bài làm, giấy nháp với người khác; - Chép bài của người khác. Những bài thi đã có kết luận là giống nhau thì xử lý như nhau, trừ\ntrường hợp người bị xử lý có đủ bằng chứng chứng tỏ mình thực sự bị quay cóp thì thủ trưởng\nđơn vị đào tạo có thể xem xét giảm từ mức kỷ luật cảnh cáo xuống mức khiển trách. Sinh viên bị cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được\nTrang 35",
+          "context_ids": [
+            "quiche_daotao_2022_p35_para2",
+            "quiche_daotao_2022_p35_para3"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q09",
+      "question": "Sinh viên bị kỷ luật khiển trách trong phòng thi sẽ bị trừ bao nhiêu phần trăm số điểm bài thi?",
+      "latency_ms": 3378.9084000000003
+    },
+    {
+      "status": "answered",
+      "answer": "Sinh viên bị kỷ luật ở mức cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được của bài thi học phần đó [quiche_daotao_2022_p35_para3].",
+      "citations": [
+        "quiche_daotao_2022_p35_para3"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "hình thức kỷ luật cảnh cáo trong phòng thi trừ bao nhiêu phần trăm điểm bài thi",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p35_para2",
+              "text": "Sinh viên có trách nhiệm thực hiện đúng các quy định về kỷ luật phòng thi, nếu vi phạm sẽ\nbị kỷ luật ở các mức sau:\na) Khiển trách: Áp dụng đối với sinh viên phạm lỗi 1 lần nhìn bài của người khác, trao đổi\nbài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học phần nào sẽ bị trừ 25%\nsố điểm đạt được của bài thi học phần đó; b) Cảnh cáo: áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị khiển trách 1 lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 35,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 35,
+                "chunk_id": "quiche_daotao_2022_p35_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p35_para3",
+              "text": "- Trao đổi bài làm, giấy nháp với người khác; - Chép bài của người khác. Những bài thi đã có kết luận là giống nhau thì xử lý như nhau, trừ\ntrường hợp người bị xử lý có đủ bằng chứng chứng tỏ mình thực sự bị quay cóp thì thủ trưởng\nđơn vị đào tạo có thể xem xét giảm từ mức kỷ luật cảnh cáo xuống mức khiển trách. Sinh viên bị cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được\nTrang 35",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 35,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 35,
+                "chunk_id": "quiche_daotao_2022_p35_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03225806451612903
+            },
+            {
+              "id": "quiche_daotao_2022_p36_para0",
+              "text": "của bài thi học phần đó. c) Đình chỉ thi: Áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị cảnh cáo một lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định; - Sau khi bóc đề thi bị phát hiện mang theo những vật dụng không được phép; - Đưa đề thi ra ngoài hoặc nhận bài, tài liệu từ ngoài vào phòng thi. Sinh viên bị kỷ luật đình chỉ thi sẽ bị điểm không (0) bài thi học phần đó và phải ra khỏi\nphòng thi ngay sau khi có quyết định đình chỉ thi.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 36,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 36,
+                "chunk_id": "quiche_daotao_2022_p36_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031746031746031744
+            },
+            {
+              "id": "quiche_daotao_2022_p42_para0",
+              "text": "2. Cảnh cáo: áp dụng đối với những người vi phạm một trong các lỗi:\na) Bỏ 2 buổi coi thi trở lên không có lý do chính đáng trong một năm học; b) Trong giờ coi thi bỏ đi làm việc khác; c) Để sinh viên quay cóp, mang và sử dụng tài liệu trái phép trong khi thi; d) Không lập biên bản những sinh viên đã bị phát hiện có vi phạm quy chế; đ) Làm mất bài thi; e) Chấm thi hay cộng điểm bài thi có sai sót nhiều. 3.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 42,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 42,
+                "chunk_id": "quiche_daotao_2022_p42_para0",
+                "chunk_index": 0
+              },
+              "score": 0.030776515151515152
+            },
+            {
+              "id": "quiche_daotao_2022_p41_para4",
+              "text": "Kỷ luật đối với cán bộ coi thi, tổ chức thi, chấm thi\nNgười tham gia công tác coi thi, tổ chức thi, chấm thi vi phạm quy định (bị phát hiện trong\nhoặc sau khi thực hiện nhiệm vụ), tùy theo mức độ sẽ bị kiểm điểm và thi hành kỷ luật theo các\nhình thức sau:\n1. Khiển trách: áp dụng đối với những người vi phạm một trong các lỗi sau: đến chậm giờ quy\nđịnh, không ký vào giấy thi, giấy nháp của sinh viên, không tập trung khi coi thi, bỏ 1 buổi\ncoi thi không có lý do chính đáng. Trang 41",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 41,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 41,
+                "chunk_id": "quiche_daotao_2022_p41_para4",
+                "chunk_index": 4
+              },
+              "score": 0.02967032967032967
+            }
+          ],
+          "context": "[quiche_daotao_2022_p35_para2 | data/quiche_daotao_2022.pdf | page 35]\nSinh viên có trách nhiệm thực hiện đúng các quy định về kỷ luật phòng thi, nếu vi phạm sẽ\nbị kỷ luật ở các mức sau:\na) Khiển trách: Áp dụng đối với sinh viên phạm lỗi 1 lần nhìn bài của người khác, trao đổi\nbài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học phần nào sẽ bị trừ 25%\nsố điểm đạt được của bài thi học phần đó; b) Cảnh cáo: áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị khiển trách 1 lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định;\n\n[quiche_daotao_2022_p35_para3 | data/quiche_daotao_2022.pdf | page 35]\n- Trao đổi bài làm, giấy nháp với người khác; - Chép bài của người khác. Những bài thi đã có kết luận là giống nhau thì xử lý như nhau, trừ\ntrường hợp người bị xử lý có đủ bằng chứng chứng tỏ mình thực sự bị quay cóp thì thủ trưởng\nđơn vị đào tạo có thể xem xét giảm từ mức kỷ luật cảnh cáo xuống mức khiển trách. Sinh viên bị cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được\nTrang 35",
+          "context_ids": [
+            "quiche_daotao_2022_p35_para2",
+            "quiche_daotao_2022_p35_para3"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q10",
+      "question": "Hình thức kỷ luật cảnh cáo trong phòng thi sẽ trừ bao nhiêu phần trăm điểm bài thi của sinh viên?",
+      "latency_ms": 83.29659999981232
+    },
+    {
+      "status": "abstain",
+      "answer": "Không đủ bằng chứng để trả lời.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "query": "quy đổi điểm chữ B+ thang điểm 4 quy chế đào tạo 2022",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p44_para4",
+              "text": "Để tính điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình\nchung tích lũy, mức điểm chữ của mỗi học phần được quy đổi thành điểm số như sau:\nTrang 44",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 44,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 44,
+                "chunk_id": "quiche_daotao_2022_p44_para4",
+                "chunk_index": 4
+              },
+              "score": 0.03128054740957967
+            },
+            {
+              "id": "quiche_daotao_2022_p42_para3",
+              "text": "Điểm học phần là tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã\ntính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân,\nsau đó được chuyển thành điểm chữ. a) Loại đạt có phân mức:\n9,0 – 10 tương ứng với A+\n8,5 – 8,9 tương ứng với A\nTrang 42",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 42,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 42,
+                "chunk_id": "quiche_daotao_2022_p42_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03125763125763126
+            },
+            {
+              "id": "quiche_daotao_2022_p43_para2",
+              "text": "Việc xếp loại các mức điểm A+, A, B+, B, C+, C, D+, D, F được áp dụng cho các trường hợp\nsau đây:\na) Những học phần mà sinh viên đã có đủ điểm đánh giá bộ phận; b) Chuyển đổi từ mức đánh giá I, sau khi đã có các kết quả điểm đánh giá bộ phận mà trước đó\nsinh viên được giảng viên cho phép nợ; c) Chuyển đổi từ mức đánh giá X sau khi nhận được kết quả thi kết thúc học phần. 4.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 43,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 43,
+                "chunk_id": "quiche_daotao_2022_p43_para2",
+                "chunk_index": 2
+              },
+              "score": 0.030330882352941176
+            },
+            {
+              "id": "quiche_daotao_2022_p40_para2",
+              "text": "- Điểm các học phần nâng cao, bổ sung được quy đổi để ghi vào phụ lục văn bằng và xếp loại học\ntập đối với những sinh viên chuyển sang học chương trình đào tạo chuẩn chính quy hoặc để làm\ncăn cứ xét học bổng, xét chuyển tiếp sinh đào tạo sau đại học và các quyền lợi khác theo công\nthức sau:\n+ Các điểm từ 4 đến 9 được tăng lên 1 điểm; + Các điểm 0, 1, 2, 3 và 10 giữ nguyên.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 40,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 40,
+                "chunk_id": "quiche_daotao_2022_p40_para2",
+                "chunk_index": 2
+              },
+              "score": 0.030309988518943745
+            },
+            {
+              "id": "quiche_daotao_2022_p27_para0",
+              "text": "- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5; - Bị kỷ luật trong thời gian học từ mức khiển trách trở lên. b) Khi chuyển sang học chương trình đào tạo chuẩn chính quy, các học phần nâng cao, bổ sung\nđược chuyển đổi như sau:\n- Đối với học phần nâng cao, điểm học phần được giữ nguyên, số tín chỉ được quy đổi theo\nchương trình đào tạo chuẩn;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 27,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 27,
+                "chunk_id": "quiche_daotao_2022_p27_para0",
+                "chunk_index": 0
+              },
+              "score": 0.029857397504456328
+            }
+          ],
+          "context": "[quiche_daotao_2022_p44_para4 | data/quiche_daotao_2022.pdf | page 44]\nĐể tính điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình\nchung tích lũy, mức điểm chữ của mỗi học phần được quy đổi thành điểm số như sau:\nTrang 44\n\n[quiche_daotao_2022_p42_para3 | data/quiche_daotao_2022.pdf | page 42]\nĐiểm học phần là tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã\ntính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân,\nsau đó được chuyển thành điểm chữ. a) Loại đạt có phân mức:\n9,0 – 10 tương ứng với A+\n8,5 – 8,9 tương ứng với A\nTrang 42\n\n[quiche_daotao_2022_p43_para2 | data/quiche_daotao_2022.pdf | page 43]\nViệc xếp loại các mức điểm A+, A, B+, B, C+, C, D+, D, F được áp dụng cho các trường hợp\nsau đây:\na) Những học phần mà sinh viên đã có đủ điểm đánh giá bộ phận; b) Chuyển đổi từ mức đánh giá I, sau khi đã có các kết quả điểm đánh giá bộ phận mà trước đó\nsinh viên được giảng viên cho phép nợ; c) Chuyển đổi từ mức đánh giá X sau khi nhận được kết quả thi kết thúc học phần. 4.",
+          "context_ids": [
+            "quiche_daotao_2022_p44_para4",
+            "quiche_daotao_2022_p42_para3",
+            "quiche_daotao_2022_p43_para2"
+          ]
+        },
+        {
+          "event": "search",
+          "query": "quy đổi điểm chữ B+ sang điểm số",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p44_para4",
+              "text": "Để tính điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình\nchung tích lũy, mức điểm chữ của mỗi học phần được quy đổi thành điểm số như sau:\nTrang 44",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 44,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 44,
+                "chunk_id": "quiche_daotao_2022_p44_para4",
+                "chunk_index": 4
+              },
+              "score": 0.0315136476426799
+            },
+            {
+              "id": "quiche_daotao_2022_p42_para3",
+              "text": "Điểm học phần là tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã\ntính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân,\nsau đó được chuyển thành điểm chữ. a) Loại đạt có phân mức:\n9,0 – 10 tương ứng với A+\n8,5 – 8,9 tương ứng với A\nTrang 42",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 42,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 42,
+                "chunk_id": "quiche_daotao_2022_p42_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03149801587301587
+            },
+            {
+              "id": "quiche_daotao_2022_p27_para0",
+              "text": "- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5; - Bị kỷ luật trong thời gian học từ mức khiển trách trở lên. b) Khi chuyển sang học chương trình đào tạo chuẩn chính quy, các học phần nâng cao, bổ sung\nđược chuyển đổi như sau:\n- Đối với học phần nâng cao, điểm học phần được giữ nguyên, số tín chỉ được quy đổi theo\nchương trình đào tạo chuẩn;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 27,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 27,
+                "chunk_id": "quiche_daotao_2022_p27_para0",
+                "chunk_index": 0
+              },
+              "score": 0.030798389007344232
+            },
+            {
+              "id": "quiche_daotao_2022_p27_para3",
+              "text": "- Tư cách đạo đức, ý thức tổ chức kỷ luật tốt. b) Đối với việc chuyển đổi điểm học phần trong chương trình đào tạo chuẩn sang điểm học phần\nnâng cao tương ứng, thủ trưởng đơn vị đào tạo xem xét công nhận tương đương hoặc yêu cầu học\nbổ sung kiến thức. Trang 27",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 27,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 27,
+                "chunk_id": "quiche_daotao_2022_p27_para3",
+                "chunk_index": 3
+              },
+              "score": 0.029877369007803793
+            },
+            {
+              "id": "quiche_daotao_2022_p40_para2",
+              "text": "- Điểm các học phần nâng cao, bổ sung được quy đổi để ghi vào phụ lục văn bằng và xếp loại học\ntập đối với những sinh viên chuyển sang học chương trình đào tạo chuẩn chính quy hoặc để làm\ncăn cứ xét học bổng, xét chuyển tiếp sinh đào tạo sau đại học và các quyền lợi khác theo công\nthức sau:\n+ Các điểm từ 4 đến 9 được tăng lên 1 điểm; + Các điểm 0, 1, 2, 3 và 10 giữ nguyên.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 40,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 40,
+                "chunk_id": "quiche_daotao_2022_p40_para2",
+                "chunk_index": 2
+              },
+              "score": 0.029857397504456328
+            }
+          ],
+          "context": "[quiche_daotao_2022_p44_para4 | data/quiche_daotao_2022.pdf | page 44]\nĐể tính điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình\nchung tích lũy, mức điểm chữ của mỗi học phần được quy đổi thành điểm số như sau:\nTrang 44\n\n[quiche_daotao_2022_p42_para3 | data/quiche_daotao_2022.pdf | page 42]\nĐiểm học phần là tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã\ntính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân,\nsau đó được chuyển thành điểm chữ. a) Loại đạt có phân mức:\n9,0 – 10 tương ứng với A+\n8,5 – 8,9 tương ứng với A\nTrang 42\n\n[quiche_daotao_2022_p43_para2 | data/quiche_daotao_2022.pdf | page 43]\nViệc xếp loại các mức điểm A+, A, B+, B, C+, C, D+, D, F được áp dụng cho các trường hợp\nsau đây:\na) Những học phần mà sinh viên đã có đủ điểm đánh giá bộ phận; b) Chuyển đổi từ mức đánh giá I, sau khi đã có các kết quả điểm đánh giá bộ phận mà trước đó\nsinh viên được giảng viên cho phép nợ; c) Chuyển đổi từ mức đánh giá X sau khi nhận được kết quả thi kết thúc học phần. 4.\n\n[quiche_daotao_2022_p27_para3 | data/quiche_daotao_2022.pdf | page 27]\n- Tư cách đạo đức, ý thức tổ chức kỷ luật tốt. b) Đối với việc chuyển đổi điểm học phần trong chương trình đào tạo chuẩn sang điểm học phần\nnâng cao tương ứng, thủ trưởng đơn vị đào tạo xem xét công nhận tương đương hoặc yêu cầu học\nbổ sung kiến thức. Trang 27",
+          "context_ids": [
+            "quiche_daotao_2022_p44_para4",
+            "quiche_daotao_2022_p42_para3",
+            "quiche_daotao_2022_p43_para2",
+            "quiche_daotao_2022_p27_para3"
+          ]
+        },
+        {
+          "event": "search",
+          "query": "bảng quy đổi điểm chữ sang điểm số thang điểm 4 quy chế đào tạo 2022",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p44_para4",
+              "text": "Để tính điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình\nchung tích lũy, mức điểm chữ của mỗi học phần được quy đổi thành điểm số như sau:\nTrang 44",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 44,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 44,
+                "chunk_id": "quiche_daotao_2022_p44_para4",
+                "chunk_index": 4
+              },
+              "score": 0.03252247488101534
+            },
+            {
+              "id": "quiche_daotao_2022_p42_para3",
+              "text": "Điểm học phần là tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã\ntính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân,\nsau đó được chuyển thành điểm chữ. a) Loại đạt có phân mức:\n9,0 – 10 tương ứng với A+\n8,5 – 8,9 tương ứng với A\nTrang 42",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 42,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 42,
+                "chunk_id": "quiche_daotao_2022_p42_para3",
+                "chunk_index": 3
+              },
+              "score": 0.031024531024531024
+            },
+            {
+              "id": "quiche_daotao_2022_p40_para2",
+              "text": "- Điểm các học phần nâng cao, bổ sung được quy đổi để ghi vào phụ lục văn bằng và xếp loại học\ntập đối với những sinh viên chuyển sang học chương trình đào tạo chuẩn chính quy hoặc để làm\ncăn cứ xét học bổng, xét chuyển tiếp sinh đào tạo sau đại học và các quyền lợi khác theo công\nthức sau:\n+ Các điểm từ 4 đến 9 được tăng lên 1 điểm; + Các điểm 0, 1, 2, 3 và 10 giữ nguyên.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 40,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 40,
+                "chunk_id": "quiche_daotao_2022_p40_para2",
+                "chunk_index": 2
+              },
+              "score": 0.031009615384615385
+            },
+            {
+              "id": "quiche_daotao_2022_p42_para2",
+              "text": "e) Sửa chữa làm sai lệch điểm trên bài thi, biên bản chấm thi hoặc sổ điểm; g) Đánh tráo bài thi hoặc điểm thi của sinh viên. Điều 41. Cách tính điểm đánh giá bộ phận, điểm học phần\n1. Điểm đánh giá bộ phận và điểm thi kết thúc học phần được chấm theo thang điểm 10 (từ 0 đến\n10), có lẻ đến một chữ số thập phân. 2.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 42,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 42,
+                "chunk_id": "quiche_daotao_2022_p42_para2",
+                "chunk_index": 2
+              },
+              "score": 0.029910714285714284
+            },
+            {
+              "id": "quiche_daotao_2022_p27_para0",
+              "text": "- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5; - Bị kỷ luật trong thời gian học từ mức khiển trách trở lên. b) Khi chuyển sang học chương trình đào tạo chuẩn chính quy, các học phần nâng cao, bổ sung\nđược chuyển đổi như sau:\n- Đối với học phần nâng cao, điểm học phần được giữ nguyên, số tín chỉ được quy đổi theo\nchương trình đào tạo chuẩn;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 27,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 27,
+                "chunk_id": "quiche_daotao_2022_p27_para0",
+                "chunk_index": 0
+              },
+              "score": 0.02976190476190476
+            }
+          ],
+          "context": "[quiche_daotao_2022_p44_para4 | data/quiche_daotao_2022.pdf | page 44]\nĐể tính điểm trung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình\nchung tích lũy, mức điểm chữ của mỗi học phần được quy đổi thành điểm số như sau:\nTrang 44\n\n[quiche_daotao_2022_p42_para3 | data/quiche_daotao_2022.pdf | page 42]\nĐiểm học phần là tổng của điểm đánh giá bộ phận và điểm thi kết thúc học phần sau khi đã\ntính trọng số được quy định trong đề cương học phần và được làm tròn đến một chữ số thập phân,\nsau đó được chuyển thành điểm chữ. a) Loại đạt có phân mức:\n9,0 – 10 tương ứng với A+\n8,5 – 8,9 tương ứng với A\nTrang 42\n\n[quiche_daotao_2022_p43_para2 | data/quiche_daotao_2022.pdf | page 43]\nViệc xếp loại các mức điểm A+, A, B+, B, C+, C, D+, D, F được áp dụng cho các trường hợp\nsau đây:\na) Những học phần mà sinh viên đã có đủ điểm đánh giá bộ phận; b) Chuyển đổi từ mức đánh giá I, sau khi đã có các kết quả điểm đánh giá bộ phận mà trước đó\nsinh viên được giảng viên cho phép nợ; c) Chuyển đổi từ mức đánh giá X sau khi nhận được kết quả thi kết thúc học phần. 4.\n\n[quiche_daotao_2022_p27_para3 | data/quiche_daotao_2022.pdf | page 27]\n- Tư cách đạo đức, ý thức tổ chức kỷ luật tốt. b) Đối với việc chuyển đổi điểm học phần trong chương trình đào tạo chuẩn sang điểm học phần\nnâng cao tương ứng, thủ trưởng đơn vị đào tạo xem xét công nhận tương đương hoặc yêu cầu học\nbổ sung kiến thức. Trang 27",
+          "context_ids": [
+            "quiche_daotao_2022_p44_para4",
+            "quiche_daotao_2022_p42_para3",
+            "quiche_daotao_2022_p43_para2",
+            "quiche_daotao_2022_p27_para3"
+          ]
+        },
+        {
+          "event": "search_limit"
+        }
+      ],
+      "query_id": "q11",
+      "question": "Mức điểm chữ B+ trong quy chế đào tạo được quy đổi tương ứng với bao nhiêu điểm trên thang điểm 4?",
+      "latency_ms": 9945.10339999988
+    },
+    {
+      "status": "answered",
+      "answer": "Sinh viên năm thứ nhất bị cảnh báo học vụ khi điểm trung bình chung tích lũy đạt dưới mức 1,20 [quiche_daotao_2022_p46_para1].",
+      "citations": [
+        "quiche_daotao_2022_p46_para1"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "cảnh báo học vụ sinh viên năm thứ nhất điểm trung bình chung tích lũy",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p46_para1",
+              "text": "Cảnh báo học vụ\nĐơn vị đào tạo thực hiện cảnh báo học vụ theo từng học kỳ cho sinh viên có kết quả học tập như\nsau:\na) Điểm trung bình chung tích luỹ đạt dưới 1,20 đối với sinh viên năm thứ nhất, dưới 1,40 đối\nvới sinh viên năm thứ hai, dưới 1,60 đối với sinh viên năm thứ ba hoặc dưới 1,80 đối với sinh\nviên các năm tiếp theo và cuối khoá; b) Điểm trung bình chung học kỳ đạt dưới 0,80 đối với học kỳ đầu của khóa học, dưới 1,00 đối\nvới các học kỳ tiếp theo;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 46,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 46,
+                "chunk_id": "quiche_daotao_2022_p46_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p45_para2",
+              "text": "ố học phần tính từ đầu khóa học tới thời điểm\nxem xét hoặc tổng số học phần đã tích lũy.\n\nKết quả đánh giá học phần giáo dục quốc phòng - an ninh, giáo dục thể chất không tính vào điểm\ntrung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình chung tích lũy. Điểm trung bình chung học kỳ được dùng để xét cảnh báo học vụ, buộc thôi học, nghỉ học tạm\nthời, xếp loại học lực, học bổng, khen thưởng sau mỗi học kỳ. Trang 45",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 45,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 45,
+                "chunk_id": "quiche_daotao_2022_p45_para2",
+                "chunk_index": 2
+              },
+              "score": 0.0315136476426799
+            },
+            {
+              "id": "quiche_daotao_2022_p46_para0",
+              "text": "Điểm trung bình chung các học phần được dùng để đăng ký học cùng lúc chương trình đào tạo thứ\nhai, chuyển đổi sinh viên giữa các chương trình đào tạo. Điểm trung bình chung tích lũy được dùng để cảnh báo học vụ, xét buộc thôi học, xếp hạng tốt\nnghiệp. Điều 44. Xử lý học vụ\nSau mỗi học kỳ chính, đơn vị đào tạo thực hiện xử lý học vụ. Kết quả học tập của học kỳ phụ\nđược tính vào kết quả học tập của học kỳ chính ngay trước học kỳ phụ. 1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 46,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 46,
+                "chunk_id": "quiche_daotao_2022_p46_para0",
+                "chunk_index": 0
+              },
+              "score": 0.03149801587301587
+            },
+            {
+              "id": "quiche_daotao_2022_p24_para4",
+              "text": "Trong quá\ntrình sinh viên học cùng lúc hai chương trình, nếu điểm trung bình chung tích luỹ của chương\ntrình đào tạo thứ nhất đạt dưới điểm trung bình hoặc thuộc diện cảnh báo kết quả học tập thì\nphải dừng học chương trình đào tạo thứ hai ở học kỳ tiếp theo; sinh viên sẽ bị loại khỏi danh\nsách học chương trình đào tạo thứ hai. 7.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 24,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 24,
+                "chunk_id": "quiche_daotao_2022_p24_para4",
+                "chunk_index": 4
+              },
+              "score": 0.03149801587301587
+            },
+            {
+              "id": "quiche_daotao_2022_p44_para3",
+              "text": "Điểm trung bình chung các học phần là điểm trung bình theo trọng số tín chỉ của các học\nphần mà sinh viên đăng ký học từ đầu khóa học cho tới thời điểm xem xét (bao gồm cả các học\nphần được đánh giá loại đạt và không đạt). 5. Điểm trung bình chung tích lũy là điểm trung bình theo trọng số tín chỉ của các học phần đã\nđược đánh giá loại đạt mà sinh viên đã tích lũy được, tính từ đầu khóa học cho tới thời điểm\nxem xét. Điều 43. Cách tính điểm trung bình chung\n1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 44,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 44,
+                "chunk_id": "quiche_daotao_2022_p44_para3",
+                "chunk_index": 3
+              },
+              "score": 0.02857142857142857
+            }
+          ],
+          "context": "[quiche_daotao_2022_p46_para1 | data/quiche_daotao_2022.pdf | page 46]\nCảnh báo học vụ\nĐơn vị đào tạo thực hiện cảnh báo học vụ theo từng học kỳ cho sinh viên có kết quả học tập như\nsau:\na) Điểm trung bình chung tích luỹ đạt dưới 1,20 đối với sinh viên năm thứ nhất, dưới 1,40 đối\nvới sinh viên năm thứ hai, dưới 1,60 đối với sinh viên năm thứ ba hoặc dưới 1,80 đối với sinh\nviên các năm tiếp theo và cuối khoá; b) Điểm trung bình chung học kỳ đạt dưới 0,80 đối với học kỳ đầu của khóa học, dưới 1,00 đối\nvới các học kỳ tiếp theo;\n\n[quiche_daotao_2022_p45_para2 | data/quiche_daotao_2022.pdf | page 45]\nố học phần tính từ đầu khóa học tới thời điểm\nxem xét hoặc tổng số học phần đã tích lũy.\n\nKết quả đánh giá học phần giáo dục quốc phòng - an ninh, giáo dục thể chất không tính vào điểm\ntrung bình chung học kỳ, điểm trung bình chung các học phần và điểm trung bình chung tích lũy. Điểm trung bình chung học kỳ được dùng để xét cảnh báo học vụ, buộc thôi học, nghỉ học tạm\nthời, xếp loại học lực, học bổng, khen thưởng sau mỗi học kỳ. Trang 45\n\n[quiche_daotao_2022_p24_para4 | data/quiche_daotao_2022.pdf | page 24]\nTrong quá\ntrình sinh viên học cùng lúc hai chương trình, nếu điểm trung bình chung tích luỹ của chương\ntrình đào tạo thứ nhất đạt dưới điểm trung bình hoặc thuộc diện cảnh báo kết quả học tập thì\nphải dừng học chương trình đào tạo thứ hai ở học kỳ tiếp theo; sinh viên sẽ bị loại khỏi danh\nsách học chương trình đào tạo thứ hai. 7.",
+          "context_ids": [
+            "quiche_daotao_2022_p46_para1",
+            "quiche_daotao_2022_p45_para2",
+            "quiche_daotao_2022_p24_para4"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q12",
+      "question": "Sinh viên năm thứ nhất bị cảnh báo học vụ khi điểm trung bình chung tích lũy đạt dưới mức bao nhiêu?",
+      "latency_ms": 1748.1377999997676
+    },
+    {
+      "status": "answered",
+      "answer": "Theo Quy chế đào tạo đại học năm 2022, sinh viên được xếp hạng tốt nghiệp loại Giỏi khi có điểm trung bình chung tích lũy toàn khóa học từ 3,20 đến 3,59 [quiche_daotao_2022_p49_para1].",
+      "citations": [
+        "quiche_daotao_2022_p49_para1"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "điểm trung bình chung tích lũy xếp hạng tốt nghiệp loại Giỏi quy chế đào tạo 2022",
+          "filter": {
+            "year": 2022,
+            "scope": "dao_tao_dai_hoc"
+          },
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p49_para1",
+              "text": "Hạng tốt nghiệp được xác định theo điểm trung bình chung tích lũy của toàn khóa học, cụ thể\nnhư sau:\na) Xuất sắc: Điểm trung bình chung tích lũy từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung tích lũy từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung tích lũy từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung tích lũy từ 2,00 đến 2,49. 6.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 49,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 49,
+                "chunk_id": "quiche_daotao_2022_p49_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_daotao_2022_p47_para2",
+              "text": "Sau mỗi học kỳ, căn cứ vào điểm trung bình chung học kỳ, học lực của sinh viên được xếp\nthành các loại sau:\na) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung học kỳ từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung học kỳ từ 2,00 đến 2,49\nđ) Yếu: Điểm trung bình chung học kỳ đạt dưới 2,0 nhưng chưa thuộc trường hợp bị buộc thôi học. Chương VIII\nCÔNG NHẬN TỐT NGHIỆP\nĐiều 46. Điều kiện tốt nghiệp\n1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 47,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 47,
+                "chunk_id": "quiche_daotao_2022_p47_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03200204813108039
+            },
+            {
+              "id": "quiche_daotao_2022_p44_para3",
+              "text": "Điểm trung bình chung các học phần là điểm trung bình theo trọng số tín chỉ của các học\nphần mà sinh viên đăng ký học từ đầu khóa học cho tới thời điểm xem xét (bao gồm cả các học\nphần được đánh giá loại đạt và không đạt). 5. Điểm trung bình chung tích lũy là điểm trung bình theo trọng số tín chỉ của các học phần đã\nđược đánh giá loại đạt mà sinh viên đã tích lũy được, tính từ đầu khóa học cho tới thời điểm\nxem xét. Điều 43. Cách tính điểm trung bình chung\n1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 44,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 44,
+                "chunk_id": "quiche_daotao_2022_p44_para3",
+                "chunk_index": 3
+              },
+              "score": 0.030798389007344232
+            },
+            {
+              "id": "quiche_daotao_2022_p46_para0",
+              "text": "Điểm trung bình chung các học phần được dùng để đăng ký học cùng lúc chương trình đào tạo thứ\nhai, chuyển đổi sinh viên giữa các chương trình đào tạo. Điểm trung bình chung tích lũy được dùng để cảnh báo học vụ, xét buộc thôi học, xếp hạng tốt\nnghiệp. Điều 44. Xử lý học vụ\nSau mỗi học kỳ chính, đơn vị đào tạo thực hiện xử lý học vụ. Kết quả học tập của học kỳ phụ\nđược tính vào kết quả học tập của học kỳ chính ngay trước học kỳ phụ. 1.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 46,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 46,
+                "chunk_id": "quiche_daotao_2022_p46_para0",
+                "chunk_index": 0
+              },
+              "score": 0.03076923076923077
+            },
+            {
+              "id": "quiche_daotao_2022_p4_para2",
+              "text": "Kết quả đánh giá các học phần điều kiện không tính vào điểm trung bình chung học\nkỳ, điểm trung bình chung các học phần và điểm trung bình chung tích lũy, nhưng là điều kiện\nđể xét tốt nghiệp; h) Học phần ngoại ngữ trong chương trình đào tạo là học phần sinh viên bắt buộc phải tích lũy\ntrong chương trình đào tạo. 3.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 4,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 4,
+                "chunk_id": "quiche_daotao_2022_p4_para2",
+                "chunk_index": 2
+              },
+              "score": 0.0293236301369863
+            }
+          ],
+          "context": "[quiche_daotao_2022_p49_para1 | data/quiche_daotao_2022.pdf | page 49]\nHạng tốt nghiệp được xác định theo điểm trung bình chung tích lũy của toàn khóa học, cụ thể\nnhư sau:\na) Xuất sắc: Điểm trung bình chung tích lũy từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung tích lũy từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung tích lũy từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung tích lũy từ 2,00 đến 2,49. 6.\n\n[quiche_daotao_2022_p47_para2 | data/quiche_daotao_2022.pdf | page 47]\nSau mỗi học kỳ, căn cứ vào điểm trung bình chung học kỳ, học lực của sinh viên được xếp\nthành các loại sau:\na) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung học kỳ từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung học kỳ từ 2,00 đến 2,49\nđ) Yếu: Điểm trung bình chung học kỳ đạt dưới 2,0 nhưng chưa thuộc trường hợp bị buộc thôi học. Chương VIII\nCÔNG NHẬN TỐT NGHIỆP\nĐiều 46. Điều kiện tốt nghiệp\n1.\n\n[quiche_daotao_2022_p46_para0 | data/quiche_daotao_2022.pdf | page 46]\nĐiểm trung bình chung các học phần được dùng để đăng ký học cùng lúc chương trình đào tạo thứ\nhai, chuyển đổi sinh viên giữa các chương trình đào tạo. Điểm trung bình chung tích lũy được dùng để cảnh báo học vụ, xét buộc thôi học, xếp hạng tốt\nnghiệp. Điều 44. Xử lý học vụ\nSau mỗi học kỳ chính, đơn vị đào tạo thực hiện xử lý học vụ. Kết quả học tập của học kỳ phụ\nđược tính vào kết quả học tập của học kỳ chính ngay trước học kỳ phụ. 1.",
+          "context_ids": [
+            "quiche_daotao_2022_p49_para1",
+            "quiche_daotao_2022_p47_para2",
+            "quiche_daotao_2022_p46_para0"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q13",
+      "question": "Theo quy chế đào tạo đại học năm 2022, sinh viên cần đạt điểm trung bình chung tích lũy toàn khóa tối thiểu bao nhiêu để được xếp hạng tốt nghiệp loại Giỏi?",
+      "latency_ms": 1456.5684999997757
+    },
+    {
+      "status": "answered",
+      "answer": "Theo khung điểm đánh giá kết quả rèn luyện, tiêu chí ý thức và kết quả học tập, nghiên cứu khoa học có khung điểm tối đa là 25 điểm [quiche_ctsv_2014_p13_para4].",
+      "citations": [
+        "quiche_ctsv_2014_p13_para4"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "khung điểm đánh giá kết quả rèn luyện sinh viên ý thức học tập nghiên cứu khoa học",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_ctsv_2014_p13_para4",
+              "text": "Khung điểm đánh giá\nNội dung đánh giá | Khung điểm\n1. Ý thức và kết quả học tập, nghiên cứu khoa học: 0 ÷ 25 điểm\n2. Ý thức và kết quả chấp hành nội quy, quy chế và các yêu cầu, quy định có liên quan của đơn\nvị và của ĐHQGHN: 0 ÷ 25 điểm\nTrang 13",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 13,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 13,
+                "chunk_id": "quiche_ctsv_2014_p13_para4",
+                "chunk_index": 4
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_ctsv_2014_p13_para2",
+              "text": "Đánh giá kết quả rèn luyện là đánh giá ý thức, thái độ, phẩm chất chính trị, đạo đức, lối\nsống của từng sinh viên trên các mặt:\na) Thực hiện nghĩa vụ đào tạo và nghiên cứu khoa học: Ý thức và kết quả học tập, nghiên cứu\nkhoa học; b) Thực hiện nghĩa vụ chính trị, đoàn thể, tác phong, lối sống: Ý thức chấp hành nội quy, quy\nchế của ĐHQGHN, các đơn vị; Ý thức tham gia các hoạt động chính trị - xã hội, văn hóa, văn\nnghệ, thể thao, phòng chống các tệ nạn xã hội;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 13,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 13,
+                "chunk_id": "quiche_ctsv_2014_p13_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03225806451612903
+            },
+            {
+              "id": "quiche_ctsv_2014_p13_para3",
+              "text": "Phẩm chất công dân, quan hệ với cộng đồng; Ý\nthức, kết quả tham gia công tác của trường, khoa, lớp, các đoàn thể, tổ chức khác trong nhà\ntrường. 2. Điểm rèn luyện được đánh giá bằng thang điểm 100. 3. Thủ trưởng các đơn vị căn cứ vào đặc điểm, điều kiện cụ thể của đơn vị mình xây dựng quy\ntrình đánh giá, quy định các tiêu chí và mức điểm chi tiết cho phù hợp với các nội dung đánh\ngiá và không vượt quá khung điểm quy định của Quy chế này. Điều 23.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 13,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 13,
+                "chunk_id": "quiche_ctsv_2014_p13_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03149801587301587
+            },
+            {
+              "id": "quiche_ctsv_2014_p14_para0",
+              "text": "3. Ý thức và kết quả tham gia các hoạt động chính trị - xã hội, văn hoá, văn nghệ, thể thao,\nphòng chống các tệ nạn xã hội: 0 ÷ 25 điểm\n4. Phẩm chất công dân và quan hệ với cộng đồng: 0 ÷ 15 điểm\n5. Ý thức và kết quả tham gia công tác lớp, đoàn thể, các tổ chức khác trong đơn vị, các thành\ntích đặc biệt trong học tập, nghiên cứu khoa học, rèn luyện của sinh viên góp phần vào hoạt\nđộng nâng cao, quảng bá hình ảnh của ĐHQGHN: 0 ÷ 10 điểm\nTổng cộng: 0 ÷ 100 điểm\nĐiều 24.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 14,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 14,
+                "chunk_id": "quiche_ctsv_2014_p14_para0",
+                "chunk_index": 0
+              },
+              "score": 0.03125763125763126
+            },
+            {
+              "id": "quiche_ctsv_2014_p21_para1",
+              "text": "Kết quả học tập, rèn luyện của sinh viên bao gồm điểm học tập, điểm kiểm tra/thi kết thúc\nmôn học, kết quả thi hoặc bảo vệ khoá luận tốt nghiệp, luận văn, luận án, điểm rèn luyện theo\nhọc kỳ, năm học, khoá học. 2. Số lượng và kết quả các hoạt động xã hội đã tham gia trong từng học kỳ, năm học. 3. Hình thức khen thưởng mà sinh viên đạt được trong học tập, nghiên cứu khoa học, tham gia\ncác phong trào và hoạt động đoàn thể. 4.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 21,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 21,
+                "chunk_id": "quiche_ctsv_2014_p21_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03055037313432836
+            }
+          ],
+          "context": "[quiche_ctsv_2014_p13_para4 | data/quiche_ctsv_2014.pdf | page 13]\nKhung điểm đánh giá\nNội dung đánh giá | Khung điểm\n1. Ý thức và kết quả học tập, nghiên cứu khoa học: 0 ÷ 25 điểm\n2. Ý thức và kết quả chấp hành nội quy, quy chế và các yêu cầu, quy định có liên quan của đơn\nvị và của ĐHQGHN: 0 ÷ 25 điểm\nTrang 13\n\n[quiche_ctsv_2014_p13_para2 | data/quiche_ctsv_2014.pdf | page 13]\nĐánh giá kết quả rèn luyện là đánh giá ý thức, thái độ, phẩm chất chính trị, đạo đức, lối\nsống của từng sinh viên trên các mặt:\na) Thực hiện nghĩa vụ đào tạo và nghiên cứu khoa học: Ý thức và kết quả học tập, nghiên cứu\nkhoa học; b) Thực hiện nghĩa vụ chính trị, đoàn thể, tác phong, lối sống: Ý thức chấp hành nội quy, quy\nchế của ĐHQGHN, các đơn vị; Ý thức tham gia các hoạt động chính trị - xã hội, văn hóa, văn\nnghệ, thể thao, phòng chống các tệ nạn xã hội;\n\n[quiche_ctsv_2014_p13_para3 | data/quiche_ctsv_2014.pdf | page 13]\nPhẩm chất công dân, quan hệ với cộng đồng; Ý\nthức, kết quả tham gia công tác của trường, khoa, lớp, các đoàn thể, tổ chức khác trong nhà\ntrường. 2. Điểm rèn luyện được đánh giá bằng thang điểm 100. 3. Thủ trưởng các đơn vị căn cứ vào đặc điểm, điều kiện cụ thể của đơn vị mình xây dựng quy\ntrình đánh giá, quy định các tiêu chí và mức điểm chi tiết cho phù hợp với các nội dung đánh\ngiá và không vượt quá khung điểm quy định của Quy chế này. Điều 23.",
+          "context_ids": [
+            "quiche_ctsv_2014_p13_para4",
+            "quiche_ctsv_2014_p13_para2",
+            "quiche_ctsv_2014_p13_para3"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q14",
+      "question": "Theo khung điểm đánh giá kết quả rèn luyện, tiêu chí ý thức và kết quả học tập, nghiên cứu khoa học có khung điểm tối đa là bao nhiêu?",
+      "latency_ms": 1489.7399999999834
+    },
+    {
+      "status": "answered",
+      "answer": "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện trong học kỳ không được vượt quá loại trung bình [quiche_ctsv_2014_p14_para2].",
+      "citations": [
+        "quiche_ctsv_2014_p14_para2"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "sinh viên bị kỷ luật cảnh cáo trở lên kết quả rèn luyện tối đa",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_ctsv_2014_p14_para2",
+              "text": "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện không được vượt quá loại\ntrung bình. 3. Sinh viên vi phạm kỷ luật ở học kỳ nào thì mức phạt được áp dụng ở học kỳ đó. Điều 25. Các bước đánh giá\nSau mỗi học kỳ, sinh viên tự đánh giá theo “Phiếu cho điểm đánh giá kết quả rèn luyện” và nộp\ncho lớp trưởng lớp khóa học. Giáo viên chủ nhiệm, cố vấn học tập chỉ đạo họp lớp khóa học, tiến hành bình xét và thông qua\nmức điểm của từng sinh viên trên cơ sở tự đánh giá của sinh viên.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 14,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 14,
+                "chunk_id": "quiche_ctsv_2014_p14_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03252247488101534
+            },
+            {
+              "id": "quiche_daotao_2022_p49_para3",
+              "text": "Những sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi, hạng tốt nghiệp\nsẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học hoặc khối lượng\ncủa các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương\ntrình. 8.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 49,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 49,
+                "chunk_id": "quiche_daotao_2022_p49_para3",
+                "chunk_index": 3
+              },
+              "score": 0.031746031746031744
+            },
+            {
+              "id": "quiche_ctsv_2014_p19_para0",
+              "text": "trường cần gửi thông báo cho địa phương và gia đình sinh viên biết để quản lý, giáo dục. d) Chấm dứt hiệu lực của quyết định kỷ luật\nSau 3 tháng đối với trường hợp bị khiển trách, 6 tháng đối với trường hợp bị cảnh cáo kể từ\nngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức\nphải xử lý kỷ luật thì hiệu lực của quyết định kỷ luật được chấm dứt.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 19,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 19,
+                "chunk_id": "quiche_ctsv_2014_p19_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031054405392392875
+            },
+            {
+              "id": "quiche_ctsv_2014_p16_para0",
+              "text": "3. Điểm rèn luyện toàn khóa của sinh viên được ghi vào bảng điểm học tập trong hồ sơ tốt\nnghiệp. 4. Sinh viên bị xếp loại rèn luyện kém trong cả năm học thì phải tạm ngừng học ở một năm học ở\nnăm học tiếp theo và nếu bị xếp loại rèn luyện kém cả năm lần thứ hai thì sẽ bị buộc thôi học. Điều 28. Quyền khiếu nại về đánh giá kết quả rèn luyện\nSau 7 ngày công bố kết quả đánh giá rèn luyện, sinh viên có quyền khiếu nại lên thủ trưởng đơn\nvị nếu thấy việc đánh giá kết quả rèn luyện chưa chính xác.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 16,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 16,
+                "chunk_id": "quiche_ctsv_2014_p16_para0",
+                "chunk_index": 0
+              },
+              "score": 0.031009615384615385
+            },
+            {
+              "id": "quiche_ctsv_2014_p17_para5",
+              "text": "b) Cảnh cáo: Áp dụng đối với sinh viên đã bị khiển trách mà tái phạm hoặc vi phạm ở mức độ nhẹ\nnhưng hành vi vi phạm có tính chất thường xuyên hoặc mới vi phạm lần đầu nhưng mức độ tương\nđối nghiêm trọng; c) Đình chỉ học tập 1 năm học: Áp dụng đối với những sinh viên đang trong thời gian bị cảnh\ncáo mà vẫn vi phạm kỷ luật hoặc vi phạm nghiêm trọng các hành vi cấm đối với sinh viên;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 17,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 17,
+                "chunk_id": "quiche_ctsv_2014_p17_para5",
+                "chunk_index": 5
+              },
+              "score": 0.030117753623188408
+            }
+          ],
+          "context": "[quiche_ctsv_2014_p14_para2 | data/quiche_ctsv_2014.pdf | page 14]\nSinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện không được vượt quá loại\ntrung bình. 3. Sinh viên vi phạm kỷ luật ở học kỳ nào thì mức phạt được áp dụng ở học kỳ đó. Điều 25. Các bước đánh giá\nSau mỗi học kỳ, sinh viên tự đánh giá theo “Phiếu cho điểm đánh giá kết quả rèn luyện” và nộp\ncho lớp trưởng lớp khóa học. Giáo viên chủ nhiệm, cố vấn học tập chỉ đạo họp lớp khóa học, tiến hành bình xét và thông qua\nmức điểm của từng sinh viên trên cơ sở tự đánh giá của sinh viên.\n\n[quiche_daotao_2022_p49_para3 | data/quiche_daotao_2022.pdf | page 49]\nNhững sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi, hạng tốt nghiệp\nsẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học hoặc khối lượng\ncủa các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương\ntrình. 8.\n\n[quiche_ctsv_2014_p19_para0 | data/quiche_ctsv_2014.pdf | page 19]\ntrường cần gửi thông báo cho địa phương và gia đình sinh viên biết để quản lý, giáo dục. d) Chấm dứt hiệu lực của quyết định kỷ luật\nSau 3 tháng đối với trường hợp bị khiển trách, 6 tháng đối với trường hợp bị cảnh cáo kể từ\nngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức\nphải xử lý kỷ luật thì hiệu lực của quyết định kỷ luật được chấm dứt.",
+          "context_ids": [
+            "quiche_ctsv_2014_p14_para2",
+            "quiche_daotao_2022_p49_para3",
+            "quiche_ctsv_2014_p19_para0"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q15",
+      "question": "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện trong học kỳ bị khống chế tối đa ở mức nào?",
+      "latency_ms": 2623.490899999979
+    },
+    {
+      "status": "answered",
+      "answer": "Theo quy định công tác sinh viên năm 2014, trong thời hạn 7 ngày kể từ khi công bố kết quả đánh giá rèn luyện, sinh viên có quyền khiếu nại lên thủ trưởng đơn vị nếu thấy việc đánh giá chưa chính xác [quiche_ctsv_2014_p16_para0].",
+      "citations": [
+        "quiche_ctsv_2014_p16_para0"
+      ],
+      "events": [
+        {
+          "event": "search",
+          "query": "thời hạn khiếu nại kết quả đánh giá rèn luyện sinh viên 2014",
+          "filter": {
+            "year": 2014,
+            "scope": "cong_tac_sinh_vien"
+          },
+          "results": [
+            {
+              "id": "quiche_ctsv_2014_p16_para0",
+              "text": "3. Điểm rèn luyện toàn khóa của sinh viên được ghi vào bảng điểm học tập trong hồ sơ tốt\nnghiệp. 4. Sinh viên bị xếp loại rèn luyện kém trong cả năm học thì phải tạm ngừng học ở một năm học ở\nnăm học tiếp theo và nếu bị xếp loại rèn luyện kém cả năm lần thứ hai thì sẽ bị buộc thôi học. Điều 28. Quyền khiếu nại về đánh giá kết quả rèn luyện\nSau 7 ngày công bố kết quả đánh giá rèn luyện, sinh viên có quyền khiếu nại lên thủ trưởng đơn\nvị nếu thấy việc đánh giá kết quả rèn luyện chưa chính xác.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 16,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 16,
+                "chunk_id": "quiche_ctsv_2014_p16_para0",
+                "chunk_index": 0
+              },
+              "score": 0.03278688524590164
+            },
+            {
+              "id": "quiche_ctsv_2014_p14_para2",
+              "text": "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện không được vượt quá loại\ntrung bình. 3. Sinh viên vi phạm kỷ luật ở học kỳ nào thì mức phạt được áp dụng ở học kỳ đó. Điều 25. Các bước đánh giá\nSau mỗi học kỳ, sinh viên tự đánh giá theo “Phiếu cho điểm đánh giá kết quả rèn luyện” và nộp\ncho lớp trưởng lớp khóa học. Giáo viên chủ nhiệm, cố vấn học tập chỉ đạo họp lớp khóa học, tiến hành bình xét và thông qua\nmức điểm của từng sinh viên trên cơ sở tự đánh giá của sinh viên.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 14,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 14,
+                "chunk_id": "quiche_ctsv_2014_p14_para2",
+                "chunk_index": 2
+              },
+              "score": 0.03200204813108039
+            },
+            {
+              "id": "quiche_ctsv_2014_p20_para1",
+              "text": "Quyền khiếu nại về khen thưởng và kỷ luật\nCá nhân và tập thể nếu thấy các hình thức khen thưởng hoặc kỷ luật chưa thỏa đáng có quyền\nkhiếu nại lên thủ trưởng đơn vị. Khi khiếu nại đã được thủ trưởng đơn vị xem xét và trả lời,\nnếu thấy vẫn chưa thỏa đáng thì có thể khiếu nại lên ĐHQGHN. Chương VIII\nQUẢN LÝ THÔNG TIN SINH VIÊN\nĐiều 33. Mục tiêu\n1. Phục vụ công tác sinh viên và hỗ trợ sinh viên một cách hiệu quả, đầy đủ, chính xác;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 20,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 20,
+                "chunk_id": "quiche_ctsv_2014_p20_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03128054740957967
+            },
+            {
+              "id": "quiche_ctsv_2014_p15_para2",
+              "text": "Kết quả rèn luyện được công bố công khai và thông báo cho sinh viên biết. Điều 26. Phương thức tính điểm rèn luyện\n1. Điểm rèn luyện của sinh viên trong một năm học là điểm rèn luyện trung bình chung của sinh\nviên tính theo các học kỳ trong năm học đó. Sinh viên nghỉ học tạm thời, khi nhà trường xem\nxét cho học tiếp thì thời gian nghỉ học không tính điểm rèn luyện. 2.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 15,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 15,
+                "chunk_id": "quiche_ctsv_2014_p15_para2",
+                "chunk_index": 2
+              },
+              "score": 0.031009615384615385
+            },
+            {
+              "id": "quiche_ctsv_2014_p13_para1",
+              "text": "Kết quả đánh giá, xếp loại công tác sinh viên là căn cứ để các đơn vị đào tạo đề nghị\nĐHQGHN hoặc cơ quan quản lý cấp trên khen thưởng về công tác sinh viên và được xem xét, sử\ndụng trong công tác kiểm định chất lượng giáo dục. Chương VI\nĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN\nĐiều 22. Nội dung đánh giá\n1.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 13,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 13,
+                "chunk_id": "quiche_ctsv_2014_p13_para1",
+                "chunk_index": 1
+              },
+              "score": 0.03055037313432836
+            }
+          ],
+          "context": "[quiche_ctsv_2014_p16_para0 | data/quiche_ctsv_2014.pdf | page 16]\n3. Điểm rèn luyện toàn khóa của sinh viên được ghi vào bảng điểm học tập trong hồ sơ tốt\nnghiệp. 4. Sinh viên bị xếp loại rèn luyện kém trong cả năm học thì phải tạm ngừng học ở một năm học ở\nnăm học tiếp theo và nếu bị xếp loại rèn luyện kém cả năm lần thứ hai thì sẽ bị buộc thôi học. Điều 28. Quyền khiếu nại về đánh giá kết quả rèn luyện\nSau 7 ngày công bố kết quả đánh giá rèn luyện, sinh viên có quyền khiếu nại lên thủ trưởng đơn\nvị nếu thấy việc đánh giá kết quả rèn luyện chưa chính xác.\n\n[quiche_ctsv_2014_p14_para2 | data/quiche_ctsv_2014.pdf | page 14]\nSinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện không được vượt quá loại\ntrung bình. 3. Sinh viên vi phạm kỷ luật ở học kỳ nào thì mức phạt được áp dụng ở học kỳ đó. Điều 25. Các bước đánh giá\nSau mỗi học kỳ, sinh viên tự đánh giá theo “Phiếu cho điểm đánh giá kết quả rèn luyện” và nộp\ncho lớp trưởng lớp khóa học. Giáo viên chủ nhiệm, cố vấn học tập chỉ đạo họp lớp khóa học, tiến hành bình xét và thông qua\nmức điểm của từng sinh viên trên cơ sở tự đánh giá của sinh viên.\n\n[quiche_ctsv_2014_p13_para1 | data/quiche_ctsv_2014.pdf | page 13]\nKết quả đánh giá, xếp loại công tác sinh viên là căn cứ để các đơn vị đào tạo đề nghị\nĐHQGHN hoặc cơ quan quản lý cấp trên khen thưởng về công tác sinh viên và được xem xét, sử\ndụng trong công tác kiểm định chất lượng giáo dục. Chương VI\nĐÁNH GIÁ KẾT QUẢ RÈN LUYỆN\nĐiều 22. Nội dung đánh giá\n1.",
+          "context_ids": [
+            "quiche_ctsv_2014_p16_para0",
+            "quiche_ctsv_2014_p14_para2",
+            "quiche_ctsv_2014_p13_para1"
+          ]
+        },
+        {
+          "event": "answer"
+        }
+      ],
+      "query_id": "q16",
+      "question": "Trong quy định công tác sinh viên năm 2014, thời hạn để sinh viên khiếu nại kết quả đánh giá rèn luyện lên thủ trưởng đơn vị là bao nhiêu ngày kể từ khi công bố?",
+      "latency_ms": 1890.4577999996945
+    },
+    {
+      "status": "abstain",
+      "answer": "Không đủ bằng chứng để trả lời.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "query": "mức học bổng khuyến khích học tập 2024-2025 ĐHQGHN",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p31_para1",
+              "text": "Mức điểm thưởng được quy định như sau:\na) Đạt giải thưởng cấp Đại học Quốc gia Hà Nội, cấp Bộ Giáo dục và Đào tạo:\nGiải nhất: 0,20 điểm\nGiải nhì: 0,15 điểm\nGiải ba: 0,10 điểm\nGiải khuyến khích: 0,07 điểm\nb) Đạt giải thưởng cấp đơn vị đào tạo:\nGiải nhất: 0,10 điểm\nGiải nhì: 0,07 điểm\nGiải ba: 0,05 điểm\nNếu công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện thì điểm thưởng được chia\nđều cho số sinh viên cùng tham gia.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 31,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 31,
+                "chunk_id": "quiche_daotao_2022_p31_para1",
+                "chunk_index": 1
+              },
+              "score": 0.030776515151515152
+            },
+            {
+              "id": "quiche_ctsv_2014_p16_para2",
+              "text": "Mức khen thưởng thường xuyên thực hiện theo quy định hiện hành của ĐHQGHN. Thủ trưởng các đơn\nvị quy định mức khen thưởng phù hợp với điều kiện, đặc thù của đơn vị và thông báo công khai\ncho sinh viên toàn đơn vị biết. a) Đối với cá nhân\nTặng danh hiệu “Sinh viên Xuất sắc” cho những cá nhân đạt kết quả học tập loại Xuất sắc và\nkhông có điểm từ F trở xuống; có điểm rèn luyện loại Xuất sắc.",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 16,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 16,
+                "chunk_id": "quiche_ctsv_2014_p16_para2",
+                "chunk_index": 2
+              },
+              "score": 0.029906956136464335
+            },
+            {
+              "id": "quiche_ctsv_2014_p8_para0",
+              "text": "Triển khai các hoạt động hợp tác quốc tế, giao lưu, trao đổi sinh viên với các tổ chức giáo\ndục, đào tạo nước ngoài; Rèn luyện, phát triển kỹ năng mềm cho sinh viên thông qua công tác đào tạo chuyên môn, nghiệp\nvụ, thực tập nghề nghiệp, các hoạt động xã hội; Phát triển, khai thác, xét duyệt và cấp học bổng ngoài ngân sách của các tổ chức, cá nhân\ntrong và ngoài nước do đơn vị quản lý; xét và đề nghị sinh viên đủ tiêu chuẩn nhận học bổng do\nĐHQGHN quản lý;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 8,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 8,
+                "chunk_id": "quiche_ctsv_2014_p8_para0",
+                "chunk_index": 0
+              },
+              "score": 0.029631255487269532
+            },
+            {
+              "id": "quiche_ctsv_2014_p5_para3",
+              "text": "c) Tôn trọng giảng viên, cán bộ, nhân viên trong và ngoài ĐHQGHN. Tích cực tham gia các phong\ntrào, các cuộc vận động về chính trị, tư tưởng, đạo đức của ngành giáo dục và của ĐHQGHN; d) Thực hiện nghĩa vụ quân sự theo quy định của pháp luật. 4. Tư vấn, hỗ trợ việc làm\na) Chấp hành nghĩa vụ làm việc có thời hạn theo cam kết đối với sinh viên được nhận học bổng,\nchi phí đào tạo do Nhà nước hoặc ĐHQGHN cấp;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 5,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 5,
+                "chunk_id": "quiche_ctsv_2014_p5_para3",
+                "chunk_index": 3
+              },
+              "score": 0.029571646010002173
+            },
+            {
+              "id": "quiche_daotao_2022_p37_para3",
+              "text": "b) Được ưu tiên cung cấp hoặc sử dụng các tài liệu học tập; được ưu tiên sử dụng các phương\ntiện, trang thiết bị kỹ thuật, thư viện và hệ thống internet phục vụ cho học tập và nghiên cứu\nkhoa học; c) Được ưu tiên xét cấp học bổng khuyến khích phát triển và học bổng của các tổ chức, cá nhân\ntrong, ngoài nước. Những sinh viên ở xa được ưu tiên bố trí chỗ ở trong ký túc xá;",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 37,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 37,
+                "chunk_id": "quiche_daotao_2022_p37_para3",
+                "chunk_index": 3
+              },
+              "score": 0.01639344262295082
+            }
+          ],
+          "context": "[quiche_daotao_2022_p31_para1 | data/quiche_daotao_2022.pdf | page 31]\nMức điểm thưởng được quy định như sau:\na) Đạt giải thưởng cấp Đại học Quốc gia Hà Nội, cấp Bộ Giáo dục và Đào tạo:\nGiải nhất: 0,20 điểm\nGiải nhì: 0,15 điểm\nGiải ba: 0,10 điểm\nGiải khuyến khích: 0,07 điểm\nb) Đạt giải thưởng cấp đơn vị đào tạo:\nGiải nhất: 0,10 điểm\nGiải nhì: 0,07 điểm\nGiải ba: 0,05 điểm\nNếu công trình nghiên cứu khoa học do nhiều sinh viên cùng thực hiện thì điểm thưởng được chia\nđều cho số sinh viên cùng tham gia.\n\n[quiche_ctsv_2014_p16_para2 | data/quiche_ctsv_2014.pdf | page 16]\nMức khen thưởng thường xuyên thực hiện theo quy định hiện hành của ĐHQGHN. Thủ trưởng các đơn\nvị quy định mức khen thưởng phù hợp với điều kiện, đặc thù của đơn vị và thông báo công khai\ncho sinh viên toàn đơn vị biết. a) Đối với cá nhân\nTặng danh hiệu “Sinh viên Xuất sắc” cho những cá nhân đạt kết quả học tập loại Xuất sắc và\nkhông có điểm từ F trở xuống; có điểm rèn luyện loại Xuất sắc.\n\n[quiche_ctsv_2014_p8_para0 | data/quiche_ctsv_2014.pdf | page 8]\nTriển khai các hoạt động hợp tác quốc tế, giao lưu, trao đổi sinh viên với các tổ chức giáo\ndục, đào tạo nước ngoài; Rèn luyện, phát triển kỹ năng mềm cho sinh viên thông qua công tác đào tạo chuyên môn, nghiệp\nvụ, thực tập nghề nghiệp, các hoạt động xã hội; Phát triển, khai thác, xét duyệt và cấp học bổng ngoài ngân sách của các tổ chức, cá nhân\ntrong và ngoài nước do đơn vị quản lý; xét và đề nghị sinh viên đủ tiêu chuẩn nhận học bổng do\nĐHQGHN quản lý;",
+          "context_ids": [
+            "quiche_daotao_2022_p31_para1",
+            "quiche_ctsv_2014_p16_para2",
+            "quiche_ctsv_2014_p8_para0"
+          ]
+        },
+        {
+          "event": "invalid_or_missing_citations"
+        }
+      ],
+      "query_id": "q_dev_unans_01",
+      "question": "Mức học bổng khuyến khích học tập bằng tiền mặt cụ thể của năm học 2024-2025 tại ĐHQGHN là bao nhiêu triệu đồng mỗi tháng?",
+      "latency_ms": 1901.6986999999972
+    },
+    {
+      "status": "abstain",
+      "answer": "Không đủ bằng chứng để trả lời.",
+      "citations": [],
+      "events": [
+        {
+          "event": "search",
+          "query": "miễn học phí sinh viên HSK 6 ĐHQGHN",
+          "filter": null,
+          "results": [
+            {
+              "id": "quiche_daotao_2022_p7_para1",
+              "text": "hà nước và của Đại học\nQuốc gia Hà Nội, báo cáo Giám đốc Đại học Quốc gia Hà Nội.\n\n- Thủ trưởng đơn vị đào tạo quy định cụ thể và công bố cho sinh viên biết cách thức thu, nộp\nvà xét miễn giảm học phí. - Các đơn vị đào tạo thực hiện chế độ miễn, giảm học phí cho sinh viên theo quy định của nhà\nnước và của Đại học Quốc gia Hà Nội. c) Các nguồn kinh phí hợp pháp khác\nCác nguồn kinh phí hợp pháp dành cho công tác đào tạo do thủ trưởng đơn vị đào tạo quy định. 2.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 7,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 7,
+                "chunk_id": "quiche_daotao_2022_p7_para1",
+                "chunk_index": 1
+              },
+              "score": 0.032266458495966696
+            },
+            {
+              "id": "quiche_ctsv_2014_p5_para3",
+              "text": "c) Tôn trọng giảng viên, cán bộ, nhân viên trong và ngoài ĐHQGHN. Tích cực tham gia các phong\ntrào, các cuộc vận động về chính trị, tư tưởng, đạo đức của ngành giáo dục và của ĐHQGHN; d) Thực hiện nghĩa vụ quân sự theo quy định của pháp luật. 4. Tư vấn, hỗ trợ việc làm\na) Chấp hành nghĩa vụ làm việc có thời hạn theo cam kết đối với sinh viên được nhận học bổng,\nchi phí đào tạo do Nhà nước hoặc ĐHQGHN cấp;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 5,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 5,
+                "chunk_id": "quiche_ctsv_2014_p5_para3",
+                "chunk_index": 3
+              },
+              "score": 0.03055037313432836
+            },
+            {
+              "id": "quiche_ctsv_2014_p5_para1",
+              "text": "b) Đeo thẻ sinh viên được cấp khi đến trường, liên hệ công việc với các đơn vị thành viên,\ntrực thuộc ĐHQGHN; c) Đóng học phí đầy đủ và đúng quy định, hoàn trả vốn vay quỹ tín dụng đào tạo đúng thời hạn; d) Khai báo và cập nhật đầy đủ thông tin cá nhân khi vào trường, trong quá trình học tập và\nsau khi tốt nghiệp theo quy định của ĐHQGHN. 2. Nghiên cứu khoa học\na) Tham gia các hoạt động nghiên cứu khoa học, các cuộc thi theo quy định của ĐHQGHN;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 5,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 5,
+                "chunk_id": "quiche_ctsv_2014_p5_para1",
+                "chunk_index": 1
+              },
+              "score": 0.0304147465437788
+            },
+            {
+              "id": "quiche_daotao_2022_p6_para3",
+              "text": "a) Kinh phí từ ngân sách nhà nước\nĐại học Quốc gia Hà Nội phân bổ kinh phí theo định mức và chỉ tiêu đào tạo hàng năm cho các\nngành học được cấp ngân sách nhà nước. b) Học phí\n- Sinh viên theo học bất kỳ ngành học nào đều phải trả học phí (trừ sinh viên thuộc đối tượng\nđược miễn giảm theo quy định hiện hành của nhà nước). - Sinh viên trả học phí theo kỳ hoặc số tín chỉ đăng ký học trong mỗi học kỳ tại đơn vị đào\ntạo quản lý ngành học mà sinh viên theo học.",
+              "source_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 6,
+              "metadata": {
+                "year": 2022,
+                "scope": "dao_tao_dai_hoc",
+                "institution": "DHQGHN",
+                "document_id": "quiche_daotao_2022",
+                "source": "data/quiche_daotao_2022.pdf",
+                "page": 6,
+                "chunk_id": "quiche_daotao_2022_p6_para3",
+                "chunk_index": 3
+              },
+              "score": 0.030017921146953404
+            },
+            {
+              "id": "quiche_ctsv_2014_p5_para0",
+              "text": "5. Cuộc sống\na) Được hưởng đầy đủ các chế độ, chính sách theo quy định hiện hành của Nhà nước và của ĐHQGHN; b) Được đăng ký ở ký túc xá (nếu đáp ứng các điều kiện và có nguyện vọng) hoặc hỗ trợ tìm kiếm\nchỗ ở, được chăm lo, bảo vệ sức khỏe theo chế độ hiện hành của Nhà nước và của ĐHQGHN. Điều 5. Nghĩa vụ của sinh viên\n1. Đào tạo\na) Thực hiện nghiêm túc, đầy đủ trách nhiệm, nghĩa vụ về học tập theo Quy chế đào tạo tại\nĐHQGHN;",
+              "source_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 5,
+              "metadata": {
+                "year": 2014,
+                "scope": "cong_tac_sinh_vien",
+                "institution": "DHQGHN",
+                "document_id": "quiche_ctsv_2014",
+                "source": "data/quiche_ctsv_2014.pdf",
+                "page": 5,
+                "chunk_id": "quiche_ctsv_2014_p5_para0",
+                "chunk_index": 0
+              },
+              "score": 0.01639344262295082
+            }
+          ],
+          "context": "[quiche_daotao_2022_p7_para1 | data/quiche_daotao_2022.pdf | page 7]\nhà nước và của Đại học\nQuốc gia Hà Nội, báo cáo Giám đốc Đại học Quốc gia Hà Nội.\n\n- Thủ trưởng đơn vị đào tạo quy định cụ thể và công bố cho sinh viên biết cách thức thu, nộp\nvà xét miễn giảm học phí. - Các đơn vị đào tạo thực hiện chế độ miễn, giảm học phí cho sinh viên theo quy định của nhà\nnước và của Đại học Quốc gia Hà Nội. c) Các nguồn kinh phí hợp pháp khác\nCác nguồn kinh phí hợp pháp dành cho công tác đào tạo do thủ trưởng đơn vị đào tạo quy định. 2.\n\n[quiche_ctsv_2014_p5_para3 | data/quiche_ctsv_2014.pdf | page 5]\nc) Tôn trọng giảng viên, cán bộ, nhân viên trong và ngoài ĐHQGHN. Tích cực tham gia các phong\ntrào, các cuộc vận động về chính trị, tư tưởng, đạo đức của ngành giáo dục và của ĐHQGHN; d) Thực hiện nghĩa vụ quân sự theo quy định của pháp luật. 4. Tư vấn, hỗ trợ việc làm\na) Chấp hành nghĩa vụ làm việc có thời hạn theo cam kết đối với sinh viên được nhận học bổng,\nchi phí đào tạo do Nhà nước hoặc ĐHQGHN cấp;",
+          "context_ids": [
+            "quiche_daotao_2022_p7_para1",
+            "quiche_ctsv_2014_p5_para3"
+          ]
+        },
+        {
+          "event": "invalid_or_missing_citations"
+        }
+      ],
+      "query_id": "q_dev_unans_02",
+      "question": "Sinh viên ĐHQGHN có chứng chỉ HSK 6 tiếng Trung thì được miễn nộp toàn bộ học phí toàn khóa đúng không?",
+      "latency_ms": 1389.2594999997527
+    }
+  ],
+  "reviews": [
+    {
+      "query_id": "q01",
+      "answer_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": "q02",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q03",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q04",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q05",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q06",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q07",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q08",
+      "answer_grade": 2,
+      "citation_support": [
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": "q09",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q10",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q11",
+      "answer_grade": 0,
+      "citation_support": []
+    },
+    {
+      "query_id": "q12",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q13",
+      "answer_grade": 1,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q14",
+      "answer_grade": 0,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q15",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q16",
+      "answer_grade": 2,
+      "citation_support": [
+        true
+      ]
+    },
+    {
+      "query_id": "q_dev_unans_01",
+      "abstention_correct": true,
+      "citation_support": []
+    },
+    {
+      "query_id": "q_dev_unans_02",
+      "abstention_correct": true,
+      "citation_support": []
+    }
+  ]
+}

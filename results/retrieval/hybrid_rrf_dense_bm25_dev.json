@@ -1,0 +1,298 @@
+{
+  "summary": {
+    "method": "Hybrid (RRF Dense+BM25)",
+    "split": "dev",
+    "total_queries": 16,
+    "hit_at_1": 12,
+    "hit_at_1_rate": 0.75,
+    "evidence_hit_at_3": 14,
+    "evidence_hit_at_3_rate": 0.875,
+    "context_evidence_rate": 0.75,
+    "context_evidence_count": 12,
+    "avg_context_chars": 512.5,
+    "median_latency_ms": 110.06309999993391,
+    "mean_latency_ms": 108.20656874994938,
+    "cost_usd": 0.0
+  },
+  "traces": [
+    {
+      "query_id": "q01",
+      "question": "Một tín chỉ trong chương trình đào tạo đại học được xác định bằng bao nhiêu giờ tín chỉ?",
+      "filter": null,
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "context_hit": false,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p3_para3",
+        "quiche_daotao_2022_p3_para2",
+        "quiche_daotao_2022_p15_para0"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p3_para3"
+      ],
+      "latency_ms": 129.13399999979447
+    },
+    {
+      "query_id": "q02",
+      "question": "Một giờ tín chỉ tự học bắt buộc quy đổi bằng bao nhiêu tiết tự học bắt buộc?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p3_para3",
+        "quiche_daotao_2022_p3_para2",
+        "quiche_daotao_2022_p4_para4"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p3_para3"
+      ],
+      "latency_ms": 100.04030000027342
+    },
+    {
+      "query_id": "q03",
+      "question": "Chương trình đào tạo đại học chuẩn đối với kỹ sư được thiết kế tối thiểu bao nhiêu tín chỉ?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p12_para0",
+        "quiche_daotao_2022_p12_para3",
+        "quiche_daotao_2022_p12_para2"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p12_para0"
+      ],
+      "latency_ms": 100.9460999998737
+    },
+    {
+      "query_id": "q04",
+      "question": "So với chương trình đào tạo chuẩn, chương trình chất lượng cao yêu cầu số lượng tín chỉ nhiều hơn tối thiểu là bao nhiêu?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p12_para1",
+        "quiche_daotao_2022_p12_para2",
+        "quiche_daotao_2022_p12_para0"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p12_para1"
+      ],
+      "latency_ms": 102.42689999995491
+    },
+    {
+      "query_id": "q05",
+      "question": "Theo kế hoạch đào tạo, mỗi học kỳ chính gồm bao nhiêu tuần học và bao nhiêu tuần thi?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p14_para0",
+        "quiche_daotao_2022_p39_para1",
+        "quiche_daotao_2022_p14_para1"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p14_para0"
+      ],
+      "latency_ms": 107.49440000017785
+    },
+    {
+      "query_id": "q06",
+      "question": "Thời hạn tối đa để sinh viên được rút bớt học phần đã đăng ký trong học kỳ chính mà vẫn được hoàn trả học phí là bao lâu?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p21_para1",
+        "quiche_daotao_2022_p21_para0",
+        "quiche_daotao_2022_p18_para4"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p21_para1"
+      ],
+      "latency_ms": 129.4132999996691
+    },
+    {
+      "query_id": "q07",
+      "question": "Sinh viên muốn đăng ký học cùng lúc chương trình đào tạo thứ hai cần hoàn thành tối thiểu bao nhiêu học kỳ của chương trình thứ nhất?",
+      "filter": null,
+      "hit_at_1": false,
+      "evidence_hit_at_3": true,
+      "context_hit": false,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p24_para2",
+        "quiche_daotao_2022_p23_para4",
+        "quiche_daotao_2022_p24_para0"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p24_para2"
+      ],
+      "latency_ms": 137.16100000010556
+    },
+    {
+      "query_id": "q08",
+      "question": "Sinh viên đạt giải nhất nghiên cứu khoa học cấp Đại học Quốc gia Hà Nội được cộng bao nhiêu điểm thưởng vào điểm trung bình chung?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p31_para1",
+        "quiche_daotao_2022_p31_para0",
+        "quiche_daotao_2022_p31_para2"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p31_para1"
+      ],
+      "latency_ms": 135.6866999999511
+    },
+    {
+      "query_id": "q09",
+      "question": "Sinh viên bị kỷ luật khiển trách trong phòng thi sẽ bị trừ bao nhiêu phần trăm số điểm bài thi?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p35_para2",
+        "quiche_daotao_2022_p35_para3",
+        "quiche_daotao_2022_p36_para0"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p35_para2"
+      ],
+      "latency_ms": 112.63179999968997
+    },
+    {
+      "query_id": "q10",
+      "question": "Hình thức kỷ luật cảnh cáo trong phòng thi sẽ trừ bao nhiêu phần trăm điểm bài thi của sinh viên?",
+      "filter": null,
+      "hit_at_1": false,
+      "evidence_hit_at_3": true,
+      "context_hit": false,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p35_para2",
+        "quiche_daotao_2022_p35_para3",
+        "quiche_daotao_2022_p36_para0"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p35_para2"
+      ],
+      "latency_ms": 123.45240000013291
+    },
+    {
+      "query_id": "q11",
+      "question": "Mức điểm chữ B+ trong quy chế đào tạo được quy đổi tương ứng với bao nhiêu điểm trên thang điểm 4?",
+      "filter": null,
+      "hit_at_1": false,
+      "evidence_hit_at_3": false,
+      "context_hit": false,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p42_para3",
+        "quiche_daotao_2022_p43_para0",
+        "quiche_daotao_2022_p44_para4"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p42_para3",
+        "quiche_daotao_2022_p43_para0"
+      ],
+      "latency_ms": 98.34349999982805
+    },
+    {
+      "query_id": "q12",
+      "question": "Sinh viên năm thứ nhất bị cảnh báo học vụ khi điểm trung bình chung tích lũy đạt dưới mức bao nhiêu?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p46_para1",
+        "quiche_daotao_2022_p24_para4",
+        "quiche_daotao_2022_p46_para0"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p46_para1"
+      ],
+      "latency_ms": 126.81579999980386
+    },
+    {
+      "query_id": "q13",
+      "question": "Theo quy chế đào tạo đại học năm 2022, sinh viên cần đạt điểm trung bình chung tích lũy toàn khóa tối thiểu bao nhiêu để được xếp hạng tốt nghiệp loại Giỏi?",
+      "filter": {
+        "year": 2022,
+        "scope": "dao_tao_dai_hoc"
+      },
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_daotao_2022_p49_para1",
+        "quiche_daotao_2022_p47_para2",
+        "quiche_daotao_2022_p44_para3"
+      ],
+      "context_ids": [
+        "quiche_daotao_2022_p49_para1"
+      ],
+      "latency_ms": 66.11919999977545
+    },
+    {
+      "query_id": "q14",
+      "question": "Theo khung điểm đánh giá kết quả rèn luyện, tiêu chí ý thức và kết quả học tập, nghiên cứu khoa học có khung điểm tối đa là bao nhiêu?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_ctsv_2014_p13_para4",
+        "quiche_ctsv_2014_p13_para2",
+        "quiche_ctsv_2014_p13_para3"
+      ],
+      "context_ids": [
+        "quiche_ctsv_2014_p13_para4"
+      ],
+      "latency_ms": 114.70589999998992
+    },
+    {
+      "query_id": "q15",
+      "question": "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện trong học kỳ bị khống chế tối đa ở mức nào?",
+      "filter": null,
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_ctsv_2014_p14_para2",
+        "quiche_daotao_2022_p49_para3",
+        "quiche_ctsv_2014_p16_para0"
+      ],
+      "context_ids": [
+        "quiche_ctsv_2014_p14_para2"
+      ],
+      "latency_ms": 105.15450000002602
+    },
+    {
+      "query_id": "q16",
+      "question": "Trong quy định công tác sinh viên năm 2014, thời hạn để sinh viên khiếu nại kết quả đánh giá rèn luyện lên thủ trưởng đơn vị là bao nhiêu ngày kể từ khi công bố?",
+      "filter": {
+        "year": 2014,
+        "scope": "cong_tac_sinh_vien"
+      },
+      "hit_at_1": true,
+      "evidence_hit_at_3": true,
+      "context_hit": true,
+      "retrieved_ids": [
+        "quiche_ctsv_2014_p16_para0",
+        "quiche_ctsv_2014_p20_para1",
+        "quiche_ctsv_2014_p15_para2"
+      ],
+      "context_ids": [
+        "quiche_ctsv_2014_p16_para0"
+      ],
+      "latency_ms": 41.77930000014385
+    }
+  ]
+}

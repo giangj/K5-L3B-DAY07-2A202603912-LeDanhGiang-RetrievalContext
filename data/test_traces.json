@@ -1,0 +1,944 @@
+[
+  {
+    "status": "answered",
+    "answer": "Đối với hình thức kỷ luật khiển trách, hiệu lực của quyết định kỷ luật sẽ chấm dứt sau 3 tháng kể từ ngày có quyết định kỷ luật nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức phải xử lý kỷ luật [quiche_ctsv_2014_p19_para0].",
+    "citations": [
+      "quiche_ctsv_2014_p19_para0"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "thời hạn hiệu lực quyết định kỷ luật khiển trách sinh viên",
+        "filter": null,
+        "results": [
+          {
+            "id": "quiche_ctsv_2014_p19_para0",
+            "text": "trường cần gửi thông báo cho địa phương và gia đình sinh viên biết để quản lý, giáo dục. d) Chấm dứt hiệu lực của quyết định kỷ luật\nSau 3 tháng đối với trường hợp bị khiển trách, 6 tháng đối với trường hợp bị cảnh cáo kể từ\nngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức\nphải xử lý kỷ luật thì hiệu lực của quyết định kỷ luật được chấm dứt.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 19,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 19,
+              "chunk_id": "quiche_ctsv_2014_p19_para0",
+              "chunk_index": 0
+            },
+            "score": 0.8062433083434337
+          },
+          {
+            "id": "quiche_ctsv_2014_p17_para5",
+            "text": "b) Cảnh cáo: Áp dụng đối với sinh viên đã bị khiển trách mà tái phạm hoặc vi phạm ở mức độ nhẹ\nnhưng hành vi vi phạm có tính chất thường xuyên hoặc mới vi phạm lần đầu nhưng mức độ tương\nđối nghiêm trọng; c) Đình chỉ học tập 1 năm học: Áp dụng đối với những sinh viên đang trong thời gian bị cảnh\ncáo mà vẫn vi phạm kỷ luật hoặc vi phạm nghiêm trọng các hành vi cấm đối với sinh viên;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 17,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 17,
+              "chunk_id": "quiche_ctsv_2014_p17_para5",
+              "chunk_index": 5
+            },
+            "score": 0.7521907431691706
+          },
+          {
+            "id": "quiche_ctsv_2014_p18_para5",
+            "text": "Hội đồng kiến nghị hình thức kỷ luật, trình thủ trưởng\nđơn vị ra quyết định kỷ luật. c) Thông báo kỷ luật\nHình thức kỷ luật của sinh viên được ghi vào Hồ sơ sinh viên. Đối với trường hợp sinh viên bị\nkỷ luật mức đình chỉ học tập có thời hạn hoặc buộc thôi học, nhà\nTrang 18",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 18,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 18,
+              "chunk_id": "quiche_ctsv_2014_p18_para5",
+              "chunk_index": 5
+            },
+            "score": 0.7365673430753517
+          },
+          {
+            "id": "quiche_daotao_2022_p35_para2",
+            "text": "Sinh viên có trách nhiệm thực hiện đúng các quy định về kỷ luật phòng thi, nếu vi phạm sẽ\nbị kỷ luật ở các mức sau:\na) Khiển trách: Áp dụng đối với sinh viên phạm lỗi 1 lần nhìn bài của người khác, trao đổi\nbài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học phần nào sẽ bị trừ 25%\nsố điểm đạt được của bài thi học phần đó; b) Cảnh cáo: áp dụng đối với sinh viên vi phạm một trong các lỗi:\n- Đã bị khiển trách 1 lần nhưng trong giờ thi học phần đó vẫn tiếp tục vi phạm quy định;",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 35,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 35,
+              "chunk_id": "quiche_daotao_2022_p35_para2",
+              "chunk_index": 2
+            },
+            "score": 0.7202474366868992
+          },
+          {
+            "id": "quiche_ctsv_2014_p17_para4",
+            "text": "Hội đồng thi đua, khen thưởng và kỷ luật sinh viên của đơn vị tổ chức xét trên cơ sở đề nghị\ncủa phòng/bộ phận Chính trị & Công tác sinh viên và đề nghị thủ trưởng đơn vị công nhận danh\nhiệu đối với cá nhân và tập thể. Điều 30. Kỷ luật\n1. Nội dung và hình thức kỷ luật: Những sinh viên có hành vi vi phạm thì tuỳ theo tính chất,\nmức độ, hậu quả và thái độ nhận khuyết điểm, phải chịu hình thức kỷ luật. a) Khiển trách: Áp dụng đối với sinh viên có hành vi vi phạm lần đầu nhưng ở mức độ nhẹ;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 17,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 17,
+              "chunk_id": "quiche_ctsv_2014_p17_para4",
+              "chunk_index": 4
+            },
+            "score": 0.7200335870284387
+          }
+        ],
+        "context": "[quiche_ctsv_2014_p19_para0 | data/quiche_ctsv_2014.pdf | page 19]\ntrường cần gửi thông báo cho địa phương và gia đình sinh viên biết để quản lý, giáo dục. d) Chấm dứt hiệu lực của quyết định kỷ luật\nSau 3 tháng đối với trường hợp bị khiển trách, 6 tháng đối với trường hợp bị cảnh cáo kể từ\nngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức\nphải xử lý kỷ luật thì hiệu lực của quyết định kỷ luật được chấm dứt.\n\n[quiche_ctsv_2014_p17_para5 | data/quiche_ctsv_2014.pdf | page 17]\nb) Cảnh cáo: Áp dụng đối với sinh viên đã bị khiển trách mà tái phạm hoặc vi phạm ở mức độ nhẹ\nnhưng hành vi vi phạm có tính chất thường xuyên hoặc mới vi phạm lần đầu nhưng mức độ tương\nđối nghiêm trọng; c) Đình chỉ học tập 1 năm học: Áp dụng đối với những sinh viên đang trong thời gian bị cảnh\ncáo mà vẫn vi phạm kỷ luật hoặc vi phạm nghiêm trọng các hành vi cấm đối với sinh viên;\n\n[quiche_ctsv_2014_p18_para5 | data/quiche_ctsv_2014.pdf | page 18]\nHội đồng kiến nghị hình thức kỷ luật, trình thủ trưởng\nđơn vị ra quyết định kỷ luật. c) Thông báo kỷ luật\nHình thức kỷ luật của sinh viên được ghi vào Hồ sơ sinh viên. Đối với trường hợp sinh viên bị\nkỷ luật mức đình chỉ học tập có thời hạn hoặc buộc thôi học, nhà\nTrang 18",
+        "context_ids": [
+          "quiche_ctsv_2014_p19_para0",
+          "quiche_ctsv_2014_p17_para5",
+          "quiche_ctsv_2014_p18_para5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q17",
+    "question": "Hiệu lực của quyết định kỷ luật khiển trách đối với sinh viên chấm dứt sau bao lâu nếu sinh viên không tái phạm?",
+    "latency_ms": 2151.639900000191
+  },
+  {
+    "status": "answered",
+    "answer": "Trong trường hợp bất khả kháng không thể nộp đầy đủ hồ sơ khi nhập trường, sinh viên được phép nộp bổ sung trong thời gian tối đa là 15 ngày kể từ ngày nhập học [quiche_ctsv_2014_p20_para4].",
+    "citations": [
+      "quiche_ctsv_2014_p20_para4"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "thời gian nộp bổ sung hồ sơ trường hợp bất khả kháng sinh viên",
+        "filter": null,
+        "results": [
+          {
+            "id": "quiche_ctsv_2014_p20_para4",
+            "text": "Nếu trường hợp bất khả kháng không thể nộp\nđầy đủ, sinh viên được phép nộp bổ sung nhưng không vượt quá 15 ngày kể từ ngày nhập học. Hồ sơ của sinh viên khi nhập trường gồm có:\n1. Lý lịch sinh viên. 2. Học bạ trung học phổ thông bản sao công chứng. 3. Giấy chứng nhận tốt nghiệp (tạm thời đối với những người trúng tuyển ngay trong năm tốt\nnghiệp) hoặc bằng tốt nghiệp trung học phổ thông bản sao công chứng (đối với những người đã\ntốt nghiệp các năm trước). 4.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 20,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 20,
+              "chunk_id": "quiche_ctsv_2014_p20_para4",
+              "chunk_index": 4
+            },
+            "score": 0.7485145854727845
+          },
+          {
+            "id": "quiche_ctsv_2014_p22_para1",
+            "text": "b) Kết thúc học kỳ đầu tiên, đơn vị đào tạo bổ sung đầy đủ những thông tin còn thiếu và thay\nđổi của sinh viên vào bộ hồ sơ đã nêu ở Điều 34 của Quy chế này và cập nhật bổ sung vào các\ntrường dữ liệu trên cổng thông tin đào tạo đại học hoặc sau đại học của ĐHQGHN. 2. Hồ sơ cuối khoá học của sinh viên theo quy định tại Điều 36 của Quy chế này được hoàn thiện\nchậm nhất 1 tuần trước khi tổ chức Lễ tốt nghiệp cho khoá sinh viên đó. Điều 39. Bổ sung hồ sơ\n1.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 22,
+              "chunk_id": "quiche_ctsv_2014_p22_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7160758358742095
+          },
+          {
+            "id": "quiche_daotao_2022_p22_para1",
+            "text": "- Sinh viên vì lý do sức khỏe phải dừng học trong thời gian dài để điều trị, phải có giấy xác\nnhận của bệnh viện nơi sinh viên điều trị; - Sinh viên bị thiên tai, hỏa hoạn. Các đối tượng trên nếu được thủ trưởng đơn vị đào tạo chấp thuận cho tạm hoãn học thì sau khi\nhết thời hạn tạm hoãn phải tiếp tục học những nội dung còn thiếu theo quy định. 2.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 22,
+              "chunk_id": "quiche_daotao_2022_p22_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7130221983811159
+          },
+          {
+            "id": "quiche_ctsv_2014_p22_para0",
+            "text": "a) Hồ sơ của sinh viên quy định tại Điều 34 và Điều 35 của Quy chế này được lập chậm nhất 02\ntuần cho mỗi sinh viên sau khi làm thủ tục nhập trường và phải được cập nhật lên cổng thông\ntin đào tạo đại học hoặc sau đại học của ĐHQGHN chậm nhất 01 tháng sau khi sinh viên nhập học;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 22,
+              "chunk_id": "quiche_ctsv_2014_p22_para0",
+              "chunk_index": 0
+            },
+            "score": 0.6974520766842374
+          },
+          {
+            "id": "quiche_daotao_2022_p49_para6",
+            "text": "Sinh viên chưa hoàn thành học phần giáo dục quốc phòng - an ninh, học phần giáo dục thể\nchất, kỹ năng bổ trợ hoặc chưa đạt chuẩn đầu ra về ngoại ngữ, công nghệ thông tin (nếu có)\nnhưng đã hết thời gian tối đa được phép học, trong thời hạn 3 năm tính từ ngày phải ngừng học,\nđược trở về đơn vị đào tạo hoàn thành các điều kiện còn thiếu và đề nghị xét công nhận tốt\nnghiệp. Trang 49",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 49,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 49,
+              "chunk_id": "quiche_daotao_2022_p49_para6",
+              "chunk_index": 6
+            },
+            "score": 0.6965583121131831
+          }
+        ],
+        "context": "[quiche_ctsv_2014_p20_para4 | data/quiche_ctsv_2014.pdf | page 20]\nNếu trường hợp bất khả kháng không thể nộp\nđầy đủ, sinh viên được phép nộp bổ sung nhưng không vượt quá 15 ngày kể từ ngày nhập học. Hồ sơ của sinh viên khi nhập trường gồm có:\n1. Lý lịch sinh viên. 2. Học bạ trung học phổ thông bản sao công chứng. 3. Giấy chứng nhận tốt nghiệp (tạm thời đối với những người trúng tuyển ngay trong năm tốt\nnghiệp) hoặc bằng tốt nghiệp trung học phổ thông bản sao công chứng (đối với những người đã\ntốt nghiệp các năm trước). 4.\n\n[quiche_ctsv_2014_p22_para1 | data/quiche_ctsv_2014.pdf | page 22]\nb) Kết thúc học kỳ đầu tiên, đơn vị đào tạo bổ sung đầy đủ những thông tin còn thiếu và thay\nđổi của sinh viên vào bộ hồ sơ đã nêu ở Điều 34 của Quy chế này và cập nhật bổ sung vào các\ntrường dữ liệu trên cổng thông tin đào tạo đại học hoặc sau đại học của ĐHQGHN. 2. Hồ sơ cuối khoá học của sinh viên theo quy định tại Điều 36 của Quy chế này được hoàn thiện\nchậm nhất 1 tuần trước khi tổ chức Lễ tốt nghiệp cho khoá sinh viên đó. Điều 39. Bổ sung hồ sơ\n1.\n\n[quiche_daotao_2022_p22_para1 | data/quiche_daotao_2022.pdf | page 22]\n- Sinh viên vì lý do sức khỏe phải dừng học trong thời gian dài để điều trị, phải có giấy xác\nnhận của bệnh viện nơi sinh viên điều trị; - Sinh viên bị thiên tai, hỏa hoạn. Các đối tượng trên nếu được thủ trưởng đơn vị đào tạo chấp thuận cho tạm hoãn học thì sau khi\nhết thời hạn tạm hoãn phải tiếp tục học những nội dung còn thiếu theo quy định. 2.",
+        "context_ids": [
+          "quiche_ctsv_2014_p20_para4",
+          "quiche_ctsv_2014_p22_para1",
+          "quiche_daotao_2022_p22_para1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q18",
+    "question": "Trong trường hợp bất khả kháng khi nhập trường, sinh viên được phép nộp bổ sung hồ sơ trong thời gian tối đa bao nhiêu ngày?",
+    "latency_ms": 2001.4094000002842
+  },
+  {
+    "status": "answered",
+    "answer": "Đối với sinh viên chương trình đào tạo chuẩn, chuẩn đầu ra về trình độ ngoại ngữ được quy định tương đương trình độ bậc 3 theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam [quiche_daotao_2022_p11_para1].",
+    "citations": [
+      "quiche_daotao_2022_p11_para1"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "chuẩn đầu ra ngoại ngữ sinh viên chương trình đào tạo chuẩn khung năng lực 6 bậc",
+        "filter": null,
+        "results": [
+          {
+            "id": "quiche_daotao_2022_p11_para1",
+            "text": "c) Mức tự chủ và trách nhiệm; d) Phẩm chất đạo đức. 3. Chuẩn đầu ra về trình độ ngoại ngữ quy định như sau:\na) Tương đương trình độ bậc 3 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) theo quy\nđịnh của Bộ Giáo dục và Đào tạo và của Đại học Quốc gia Hà Nội đối với các chương trình đào\ntạo chuẩn, ngành chính - ngành phụ, song ngành);",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 11,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 11,
+              "chunk_id": "quiche_daotao_2022_p11_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7932813913033692
+          },
+          {
+            "id": "quiche_daotao_2022_p11_para2",
+            "text": "b) Tương đương trình độ bậc 4 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) theo quy\nđịnh của Bộ Giáo dục và Đào tạo và của Đại học Quốc gia Hà Nội đối với chương trình đào tạo\ntài năng, chất lượng cao, chương trình đào tạo liên kết với cơ sở giáo dục nước ngoài do Đại\nhọc Quốc gia Hà Nội cấp bằng và các chương trình đào tạo liên kết với cơ sở giáo dục nước\nngoài do đối tác nước ngoài và Đại học Quốc gia Hà Nội cùng cấp bằng. 4.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 11,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 11,
+              "chunk_id": "quiche_daotao_2022_p11_para2",
+              "chunk_index": 2
+            },
+            "score": 0.7740308274797061
+          },
+          {
+            "id": "quiche_daotao_2022_p5_para1",
+            "text": "Điều 6. Chương trình đào tạo\n1. Chương trình đào tạo đại học thể hiện mục tiêu, phạm vi và cấu trúc nội dung đào tạo đại\nhọc; quy định chuẩn đầu ra về kiến thức, kỹ năng, mức tự chủ và trách nhiệm, phương pháp và\nhình thức đào tạo, cách thức đánh giá kết quả học tập, đáp ứng Quy định về chuẩn chương trình\nđào tạo hiện hành của Bộ Giáo dục và Đào tạo. Một ngành học có một hoặc nhiều chương trình đào tạo với chuẩn đầu ra tương ứng. 2. Các loại chương trình đào tạo\na) Chương trình đào tạo chuẩn;",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 5,
+              "chunk_id": "quiche_daotao_2022_p5_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7163941263218325
+          },
+          {
+            "id": "quiche_daotao_2022_p11_para0",
+            "text": "Ngoài ra, đối với các chương trình đào tạo tài năng, chất lượng cao, chuẩn đầu ra phải đáp ứng\nyêu cầu: Có kiến thức cơ bản vững vàng, có khả năng áp dụng kiến thức chuyên sâu và kiến thức\nthực tế trong lĩnh vực đào tạo để phân tích, đánh giá, sáng tạo trong nghiên cứu và giải quyết\ncác công việc phức tạp, có khả năng hội nhập quốc tế; có năng lực và trình độ chuyên môn cao\n(thể hiện qua kết quả học tập và nghiên cứu khoa học). 2. Chuẩn đầu ra bao gồm:\na) Chuẩn về kiến thức; b) Chuẩn về kỹ năng;",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 11,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 11,
+              "chunk_id": "quiche_daotao_2022_p11_para0",
+              "chunk_index": 0
+            },
+            "score": 0.70105429395554
+          },
+          {
+            "id": "quiche_daotao_2022_p11_para3",
+            "text": "Thủ trưởng đơn vị đào tạo chỉ đạo việc xây dựng chuẩn đầu ra, tổ chức hội thảo rộng rãi lấy\ný kiến đóng góp của các nhà quản lý, các nhà khoa học, giảng viên, cơ sở sử dụng người học sau\ntốt nghiệp, cựu sinh viên để hoàn thiện và công bố chuẩn đầu ra của từng chương trình đào tạo. Điều 14. Thiết kế chương trình đào tạo\n1. Nguyên tắc thiết kế chương trình đào tạo\nChương trình đào tạo được thiết kế hướng tới đạt chuẩn đầu ra và tiến hành theo quy trình 4\nbước:\nTrang 11",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 11,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 11,
+              "chunk_id": "quiche_daotao_2022_p11_para3",
+              "chunk_index": 3
+            },
+            "score": 0.6973023088510036
+          }
+        ],
+        "context": "[quiche_daotao_2022_p11_para1 | data/quiche_daotao_2022.pdf | page 11]\nc) Mức tự chủ và trách nhiệm; d) Phẩm chất đạo đức. 3. Chuẩn đầu ra về trình độ ngoại ngữ quy định như sau:\na) Tương đương trình độ bậc 3 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) theo quy\nđịnh của Bộ Giáo dục và Đào tạo và của Đại học Quốc gia Hà Nội đối với các chương trình đào\ntạo chuẩn, ngành chính - ngành phụ, song ngành);\n\n[quiche_daotao_2022_p11_para2 | data/quiche_daotao_2022.pdf | page 11]\nb) Tương đương trình độ bậc 4 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) theo quy\nđịnh của Bộ Giáo dục và Đào tạo và của Đại học Quốc gia Hà Nội đối với chương trình đào tạo\ntài năng, chất lượng cao, chương trình đào tạo liên kết với cơ sở giáo dục nước ngoài do Đại\nhọc Quốc gia Hà Nội cấp bằng và các chương trình đào tạo liên kết với cơ sở giáo dục nước\nngoài do đối tác nước ngoài và Đại học Quốc gia Hà Nội cùng cấp bằng. 4.\n\n[quiche_daotao_2022_p5_para1 | data/quiche_daotao_2022.pdf | page 5]\nĐiều 6. Chương trình đào tạo\n1. Chương trình đào tạo đại học thể hiện mục tiêu, phạm vi và cấu trúc nội dung đào tạo đại\nhọc; quy định chuẩn đầu ra về kiến thức, kỹ năng, mức tự chủ và trách nhiệm, phương pháp và\nhình thức đào tạo, cách thức đánh giá kết quả học tập, đáp ứng Quy định về chuẩn chương trình\nđào tạo hiện hành của Bộ Giáo dục và Đào tạo. Một ngành học có một hoặc nhiều chương trình đào tạo với chuẩn đầu ra tương ứng. 2. Các loại chương trình đào tạo\na) Chương trình đào tạo chuẩn;",
+        "context_ids": [
+          "quiche_daotao_2022_p11_para1",
+          "quiche_daotao_2022_p11_para2",
+          "quiche_daotao_2022_p5_para1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q19",
+    "question": "Chuẩn đầu ra về trình độ ngoại ngữ đối với sinh viên chương trình đào tạo chuẩn theo khung năng lực 6 bậc Việt Nam là bậc mấy?",
+    "latency_ms": 3812.331500000255
+  },
+  {
+    "status": "answered",
+    "answer": "Thời gian tối đa để sinh viên hoàn thành khóa học không vượt quá 2 lần thời gian theo kế hoạch học tập chuẩn toàn khóa đối với mỗi hình thức đào tạo [quiche_daotao_2022_p14_para2].",
+    "citations": [
+      "quiche_daotao_2022_p14_para2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "thời hạn tối đa hoàn thành khóa học chính quy gấp mấy lần kế hoạch học tập chuẩn",
+        "filter": null,
+        "results": [
+          {
+            "id": "quiche_daotao_2022_p14_para2",
+            "text": "c) Thời gian thiết kế của khóa học đào tạo văn bằng thứ hai do thủ trưởng đơn vị đào tạo quy\nđịnh cho từng sinh viên trên cơ sở khối lượng kiến thức đã được tích lũy và kết quả học tập\nđược bảo lưu, nhưng không vượt quá thời gian thiết kế của chương trình đào tạo chính quy tương\nứng; d) Thời gian tối đa để sinh viên hoàn thành khoá học không vượt quá 2 lần thời gian theo kế\nhoạch học tập chuẩn toàn khoá đối với mỗi hình thức đào tạo.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 14,
+              "chunk_id": "quiche_daotao_2022_p14_para2",
+              "chunk_index": 2
+            },
+            "score": 0.7862398612485506
+          },
+          {
+            "id": "quiche_daotao_2022_p14_para3",
+            "text": "Đối với sinh viên học liên thông\nđã được miễn trừ khối lượng tín chỉ tích lũy, thời gian tối đa để sinh viên hoàn thành khóa\nhọc được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khoá giảm tương ứng\nvới khối lượng được miễn trừ; đ) Thời gian khóa học đồng thời hai chương trình đào tạo không vượt quá thời gian đào tạo tối\nđa của chương trình đào tạo thứ nhất. 2.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 14,
+              "chunk_id": "quiche_daotao_2022_p14_para3",
+              "chunk_index": 3
+            },
+            "score": 0.7757213198673719
+          },
+          {
+            "id": "quiche_daotao_2022_p14_para1",
+            "text": "Thời gian của khóa học\na) Thời gian thiết kế của khóa học đào tạo chính quy là 8 học kỳ chính đối với đào tạo cử\nnhân, từ 9 đến 10 học kỳ chính đối với đào tạo kĩ sư, 10 học kỳ chính đối với đào tạo dược sĩ,\n12 học kỳ chính đối với đào tạo bác sĩ; b) Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học\ndài hơn tối thiểu 20% so với hình thức đào tạo chính quy của cùng chương trình đào tạo;",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 14,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 14,
+              "chunk_id": "quiche_daotao_2022_p14_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7596140682454137
+          },
+          {
+            "id": "quiche_daotao_2022_p24_para5",
+            "text": "Sinh viên chỉ được xét tốt nghiệp chương trình thứ hai nếu được công nhận tốt nghiệp chương\ntrình đào tạo thứ nhất, không vượt quá thời gian đào tạo tối đa và đã đăng kí muộn nhất 02 năm\ntrước thời điểm xét tốt nghiệp chương trình thứ hai. Trang 24",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 24,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 24,
+              "chunk_id": "quiche_daotao_2022_p24_para5",
+              "chunk_index": 5
+            },
+            "score": 0.7258618697908397
+          },
+          {
+            "id": "quiche_daotao_2022_p37_para2",
+            "text": "Các đối tượng ở điểm a, b,c khoản 3, Điều này thời gian nghỉ học tạm thời không tính vào thời\ngian tối đa được phép học. 4. Ngoài những quyền lợi chung đối với sinh viên chương trình đào tạo chuẩn, sinh viên thuộc\nchương trình đào tạo tài năng, chất lượng cao còn được hưởng các quyền lợi sau:\na) Được các nhà khoa học đầu ngành, các giáo sư, giảng viên có trình độ, kinh nghiệm và có uy\ntín trong nước, quốc tế trực tiếp giảng dạy, hướng dẫn nghiên cứu khoa học;",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 37,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 37,
+              "chunk_id": "quiche_daotao_2022_p37_para2",
+              "chunk_index": 2
+            },
+            "score": 0.7252918402371248
+          }
+        ],
+        "context": "[quiche_daotao_2022_p14_para2 | data/quiche_daotao_2022.pdf | page 14]\nc) Thời gian thiết kế của khóa học đào tạo văn bằng thứ hai do thủ trưởng đơn vị đào tạo quy\nđịnh cho từng sinh viên trên cơ sở khối lượng kiến thức đã được tích lũy và kết quả học tập\nđược bảo lưu, nhưng không vượt quá thời gian thiết kế của chương trình đào tạo chính quy tương\nứng; d) Thời gian tối đa để sinh viên hoàn thành khoá học không vượt quá 2 lần thời gian theo kế\nhoạch học tập chuẩn toàn khoá đối với mỗi hình thức đào tạo.\n\n[quiche_daotao_2022_p14_para3 | data/quiche_daotao_2022.pdf | page 14]\nĐối với sinh viên học liên thông\nđã được miễn trừ khối lượng tín chỉ tích lũy, thời gian tối đa để sinh viên hoàn thành khóa\nhọc được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khoá giảm tương ứng\nvới khối lượng được miễn trừ; đ) Thời gian khóa học đồng thời hai chương trình đào tạo không vượt quá thời gian đào tạo tối\nđa của chương trình đào tạo thứ nhất. 2.\n\n[quiche_daotao_2022_p14_para1 | data/quiche_daotao_2022.pdf | page 14]\nThời gian của khóa học\na) Thời gian thiết kế của khóa học đào tạo chính quy là 8 học kỳ chính đối với đào tạo cử\nnhân, từ 9 đến 10 học kỳ chính đối với đào tạo kĩ sư, 10 học kỳ chính đối với đào tạo dược sĩ,\n12 học kỳ chính đối với đào tạo bác sĩ; b) Thời gian theo kế hoạch học tập chuẩn toàn khoá đối với hình thức đào tạo vừa làm vừa học\ndài hơn tối thiểu 20% so với hình thức đào tạo chính quy của cùng chương trình đào tạo;",
+        "context_ids": [
+          "quiche_daotao_2022_p14_para2",
+          "quiche_daotao_2022_p14_para3",
+          "quiche_daotao_2022_p14_para1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q20",
+    "question": "Thời hạn tối đa cho phép để người học hoàn thành khóa học chính quy được quy định gấp mấy lần kế hoạch học tập chuẩn toàn khóa?",
+    "latency_ms": 2280.4747000000134
+  },
+  {
+    "status": "answered",
+    "answer": "Sinh viên có kết quả toàn khóa đạt hạng xuất sắc hoặc giỏi sẽ bị hạ một hạng tốt nghiệp nếu khối lượng của các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương trình [quiche_daotao_2022_p49_para3].",
+    "citations": [
+      "quiche_daotao_2022_p49_para3"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "hạ hạng tốt nghiệp sinh viên xuất sắc giỏi học lại bao nhiêu phần trăm tín chỉ",
+        "filter": null,
+        "results": [
+          {
+            "id": "quiche_daotao_2022_p49_para3",
+            "text": "Những sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi, hạng tốt nghiệp\nsẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học hoặc khối lượng\ncủa các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương\ntrình. 8.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 49,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 49,
+              "chunk_id": "quiche_daotao_2022_p49_para3",
+              "chunk_index": 3
+            },
+            "score": 0.8096331758829944
+          },
+          {
+            "id": "quiche_daotao_2022_p47_para2",
+            "text": "Sau mỗi học kỳ, căn cứ vào điểm trung bình chung học kỳ, học lực của sinh viên được xếp\nthành các loại sau:\na) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung học kỳ từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung học kỳ từ 2,00 đến 2,49\nđ) Yếu: Điểm trung bình chung học kỳ đạt dưới 2,0 nhưng chưa thuộc trường hợp bị buộc thôi học. Chương VIII\nCÔNG NHẬN TỐT NGHIỆP\nĐiều 46. Điều kiện tốt nghiệp\n1.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 47,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 47,
+              "chunk_id": "quiche_daotao_2022_p47_para2",
+              "chunk_index": 2
+            },
+            "score": 0.7366881965518096
+          },
+          {
+            "id": "quiche_daotao_2022_p49_para1",
+            "text": "Hạng tốt nghiệp được xác định theo điểm trung bình chung tích lũy của toàn khóa học, cụ thể\nnhư sau:\na) Xuất sắc: Điểm trung bình chung tích lũy từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung tích lũy từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung tích lũy từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung tích lũy từ 2,00 đến 2,49. 6.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 49,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 49,
+              "chunk_id": "quiche_daotao_2022_p49_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7307775729220789
+          },
+          {
+            "id": "quiche_daotao_2022_p21_para0",
+            "text": "Điều 23. Rút bớt học phần đã đăng ký\n1. Việc rút bớt học phần áp dụng cho các trường hợp:\na) Theo nhu cầu và khả năng lựa chọn của sinh viên; b) Sau khi đã đăng ký học phần, hạng học lực của sinh viên được xác định là phải rút bớt học\nphần trong giới hạn khối lượng quy định; c) Điểm trung bình chung học kỳ dưới 2,00 nhưng chưa thuộc diện bị buộc thôi học, sinh viên\nđược đăng ký học không quá 18 tín chỉ trong mỗi học kỳ chính. 2.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 21,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 21,
+              "chunk_id": "quiche_daotao_2022_p21_para0",
+              "chunk_index": 0
+            },
+            "score": 0.7284777607326794
+          },
+          {
+            "id": "quiche_daotao_2022_p27_para0",
+            "text": "- Có điểm trung bình chung các học phần tính đến thời điểm xét, đạt dưới 2,5; - Bị kỷ luật trong thời gian học từ mức khiển trách trở lên. b) Khi chuyển sang học chương trình đào tạo chuẩn chính quy, các học phần nâng cao, bổ sung\nđược chuyển đổi như sau:\n- Đối với học phần nâng cao, điểm học phần được giữ nguyên, số tín chỉ được quy đổi theo\nchương trình đào tạo chuẩn;",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 27,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 27,
+              "chunk_id": "quiche_daotao_2022_p27_para0",
+              "chunk_index": 0
+            },
+            "score": 0.7255103819316648
+          }
+        ],
+        "context": "[quiche_daotao_2022_p49_para3 | data/quiche_daotao_2022.pdf | page 49]\nNhững sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi, hạng tốt nghiệp\nsẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học hoặc khối lượng\ncủa các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương\ntrình. 8.\n\n[quiche_daotao_2022_p47_para2 | data/quiche_daotao_2022.pdf | page 47]\nSau mỗi học kỳ, căn cứ vào điểm trung bình chung học kỳ, học lực của sinh viên được xếp\nthành các loại sau:\na) Xuất sắc: Điểm trung bình chung học kỳ từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung học kỳ từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung học kỳ từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung học kỳ từ 2,00 đến 2,49\nđ) Yếu: Điểm trung bình chung học kỳ đạt dưới 2,0 nhưng chưa thuộc trường hợp bị buộc thôi học. Chương VIII\nCÔNG NHẬN TỐT NGHIỆP\nĐiều 46. Điều kiện tốt nghiệp\n1.\n\n[quiche_daotao_2022_p49_para1 | data/quiche_daotao_2022.pdf | page 49]\nHạng tốt nghiệp được xác định theo điểm trung bình chung tích lũy của toàn khóa học, cụ thể\nnhư sau:\na) Xuất sắc: Điểm trung bình chung tích lũy từ 3,60 đến 4,00\nb) Giỏi: Điểm trung bình chung tích lũy từ 3,20 đến 3,59\nc) Khá: Điểm trung bình chung tích lũy từ 2,50 đến 3,19\nd) Trung bình: Điểm trung bình chung tích lũy từ 2,00 đến 2,49. 6.",
+        "context_ids": [
+          "quiche_daotao_2022_p49_para3",
+          "quiche_daotao_2022_p47_para2",
+          "quiche_daotao_2022_p49_para1"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q21",
+    "question": "Sinh viên có kết quả toàn khóa đạt hạng xuất sắc hoặc giỏi sẽ bị hạ một hạng tốt nghiệp nếu khối lượng học phần phải học lại vượt quá bao nhiêu phần trăm tổng số tín chỉ?",
+    "latency_ms": 4414.0175999996245
+  },
+  {
+    "status": "answered",
+    "answer": "Theo Quy chế Công tác sinh viên năm 2014, để được tặng danh hiệu “Sinh viên Xuất sắc”, cá nhân cần đáp ứng các điều kiện: đạt kết quả học tập loại Xuất sắc, không có điểm từ F trở xuống và có điểm rèn luyện loại Xuất sắc [quiche_ctsv_2014_p16_para2].",
+    "citations": [
+      "quiche_ctsv_2014_p16_para2"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "danh hiệu Sinh viên Xuất sắc điều kiện học tập rèn luyện",
+        "filter": {
+          "year": 2014,
+          "scope": "cong_tac_sinh_vien"
+        },
+        "results": [
+          {
+            "id": "quiche_ctsv_2014_p17_para0",
+            "text": "Được tặng danh hiệu “Tập thể Xuất sắc” nếu đạt các tiêu chuẩn của danh hiệu “Tập thể Tiên\ntiến” và có từ 10% sinh viên trở lên đạt danh hiệu “Sinh viên Giỏi” và có sinh viên đạt danh\nhiệu “Sinh viên Xuất sắc”. 2. Tổ chức thực hiện khen thưởng\na) Đăng ký thi đua: Vào đầu năm học, đơn vị đào tạo tổ chức cho sinh viên, các lớp sinh viên\nđăng ký các danh hiệu thi đua cá nhân và tập thể.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 17,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 17,
+              "chunk_id": "quiche_ctsv_2014_p17_para0",
+              "chunk_index": 0
+            },
+            "score": 0.7678355131875946
+          },
+          {
+            "id": "quiche_ctsv_2014_p16_para2",
+            "text": "Mức khen thưởng thường xuyên thực hiện theo quy định hiện hành của ĐHQGHN. Thủ trưởng các đơn\nvị quy định mức khen thưởng phù hợp với điều kiện, đặc thù của đơn vị và thông báo công khai\ncho sinh viên toàn đơn vị biết. a) Đối với cá nhân\nTặng danh hiệu “Sinh viên Xuất sắc” cho những cá nhân đạt kết quả học tập loại Xuất sắc và\nkhông có điểm từ F trở xuống; có điểm rèn luyện loại Xuất sắc.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 16,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 16,
+              "chunk_id": "quiche_ctsv_2014_p16_para2",
+              "chunk_index": 2
+            },
+            "score": 0.7669148133823144
+          },
+          {
+            "id": "quiche_ctsv_2014_p16_para3",
+            "text": "Tặng danh hiệu “Sinh viên Giỏi” cho những cá nhân đạt kết quả học tập loại Giỏi và không có\nđiểm từ F trở xuống; có điểm rèn luyện từ loại Tốt trở lên. Tặng danh hiệu “Gương mặt trẻ tiêu biểu cấp cơ sở” và “Gương mặt trẻ tiêu biểu cấp ĐHQGHN”:\nthực hiện theo Quy định hiện hành của ĐHQGHN. Danh hiệu cá nhân của sinh viên được ghi vào Hồ sơ sinh viên.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 16,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 16,
+              "chunk_id": "quiche_ctsv_2014_p16_para3",
+              "chunk_index": 3
+            },
+            "score": 0.7501753162962693
+          },
+          {
+            "id": "quiche_ctsv_2014_p16_para4",
+            "text": "b) Đối với tập thể lớp khóa học\nĐược tặng danh hiệu “Tập thể Tiên tiến” nếu đạt các tiêu chuẩn sau: Có 25% sinh viên đạt kết\nquả học tập và rèn luyện loại Khá trở lên; Không có sinh viên xếp loại học tập Kém hoặc xếp\nloại rèn luyện Kém hoặc bị kỷ luật từ mức cảnh cáo trở lên; Tập thể đoàn kết, giúp đỡ lẫn nhau\ntrong học tập, rèn luyện, tổ chức nhiều hoạt động thi đua và tích cực hưởng ứng phong trào thi\nđua trong nhà trường. Trang 16",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 16,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 16,
+              "chunk_id": "quiche_ctsv_2014_p16_para4",
+              "chunk_index": 4
+            },
+            "score": 0.747573052811049
+          },
+          {
+            "id": "quiche_ctsv_2014_p17_para3",
+            "text": "c) Quy trình xét khen thưởng đối với các đơn vị trực thuộc\nCăn cứ vào thành tích đạt được trong học tập và rèn luyện của sinh viên, các lớp khóa học tiến\nhành lập danh sách kèm theo bản thành tích cá nhân và tập thể, có xác nhận của giáo viên chủ\nnhiệm đề nghị lên phòng/bộ phận Chính trị và Công tác sinh viên;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 17,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 17,
+              "chunk_id": "quiche_ctsv_2014_p17_para3",
+              "chunk_index": 3
+            },
+            "score": 0.732242069779425
+          }
+        ],
+        "context": "[quiche_ctsv_2014_p17_para0 | data/quiche_ctsv_2014.pdf | page 17]\nĐược tặng danh hiệu “Tập thể Xuất sắc” nếu đạt các tiêu chuẩn của danh hiệu “Tập thể Tiên\ntiến” và có từ 10% sinh viên trở lên đạt danh hiệu “Sinh viên Giỏi” và có sinh viên đạt danh\nhiệu “Sinh viên Xuất sắc”. 2. Tổ chức thực hiện khen thưởng\na) Đăng ký thi đua: Vào đầu năm học, đơn vị đào tạo tổ chức cho sinh viên, các lớp sinh viên\nđăng ký các danh hiệu thi đua cá nhân và tập thể.\n\n[quiche_ctsv_2014_p16_para2 | data/quiche_ctsv_2014.pdf | page 16]\nMức khen thưởng thường xuyên thực hiện theo quy định hiện hành của ĐHQGHN. Thủ trưởng các đơn\nvị quy định mức khen thưởng phù hợp với điều kiện, đặc thù của đơn vị và thông báo công khai\ncho sinh viên toàn đơn vị biết. a) Đối với cá nhân\nTặng danh hiệu “Sinh viên Xuất sắc” cho những cá nhân đạt kết quả học tập loại Xuất sắc và\nkhông có điểm từ F trở xuống; có điểm rèn luyện loại Xuất sắc.\n\n[quiche_ctsv_2014_p16_para3 | data/quiche_ctsv_2014.pdf | page 16]\nTặng danh hiệu “Sinh viên Giỏi” cho những cá nhân đạt kết quả học tập loại Giỏi và không có\nđiểm từ F trở xuống; có điểm rèn luyện từ loại Tốt trở lên. Tặng danh hiệu “Gương mặt trẻ tiêu biểu cấp cơ sở” và “Gương mặt trẻ tiêu biểu cấp ĐHQGHN”:\nthực hiện theo Quy định hiện hành của ĐHQGHN. Danh hiệu cá nhân của sinh viên được ghi vào Hồ sơ sinh viên.",
+        "context_ids": [
+          "quiche_ctsv_2014_p17_para0",
+          "quiche_ctsv_2014_p16_para2",
+          "quiche_ctsv_2014_p16_para3"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "q22",
+    "question": "Theo quy chế công tác sinh viên năm 2014, cá nhân cần đáp ứng các điều kiện gì về học tập và rèn luyện để được tặng danh hiệu Sinh viên Xuất sắc?",
+    "latency_ms": 4769.107900000108
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "quy định mang thú cưng vào ký túc xá ĐHQGHN",
+        "filter": null,
+        "results": [
+          {
+            "id": "quiche_ctsv_2014_p5_para0",
+            "text": "5. Cuộc sống\na) Được hưởng đầy đủ các chế độ, chính sách theo quy định hiện hành của Nhà nước và của ĐHQGHN; b) Được đăng ký ở ký túc xá (nếu đáp ứng các điều kiện và có nguyện vọng) hoặc hỗ trợ tìm kiếm\nchỗ ở, được chăm lo, bảo vệ sức khỏe theo chế độ hiện hành của Nhà nước và của ĐHQGHN. Điều 5. Nghĩa vụ của sinh viên\n1. Đào tạo\na) Thực hiện nghiêm túc, đầy đủ trách nhiệm, nghĩa vụ về học tập theo Quy chế đào tạo tại\nĐHQGHN;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 5,
+              "chunk_id": "quiche_ctsv_2014_p5_para0",
+              "chunk_index": 0
+            },
+            "score": 0.730845704666981
+          },
+          {
+            "id": "quiche_ctsv_2014_p6_para0",
+            "text": "5. Cuộc sống\na) Giữ gìn, bảo vệ tài sản công và của cá nhân; b) Thực hiện đầy đủ việc khám sức khoẻ theo quy định của ĐHQGHN; c) Đoàn kết, giúp đỡ, tương trợ lẫn nhau trong học tập và rèn luyện, thực hiện tốt nếp sống\nvăn minh; tham gia các hoạt động xã hội theo yêu cầu của ĐHQGHN và các cơ quan, đơn vị liên\nquan; d) Thực hiện nghiêm túc trách nhiệm công dân khi ở ngoại trú. Điều 6. Các hành vi sinh viên không được làm\n1. Xúc phạm nhân phẩm, danh dự, xâm phạm thân thể người khác. 2.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 6,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 6,
+              "chunk_id": "quiche_ctsv_2014_p6_para0",
+              "chunk_index": 0
+            },
+            "score": 0.7170803959345701
+          },
+          {
+            "id": "quiche_ctsv_2014_p8_para3",
+            "text": "tiếp nhận và quản lý sinh viên Việt\nNam, nước ngoài đến ở ký túc xá theo quy định của ĐHQGHN; b) Tổ chức các khóa đào tạo và bồi dưỡng các kỹ năng mềm cần thiết; cung cấp các dịch vụ nâng\ncao đời sống, chăm sóc sức khỏe, hỗ trợ học tập và nghiên cứu khoa học cho sinh viên: Phối hợp\nvới các đơn vị thành viên, trực thuộc có liên quan đánh giá điểm rèn luyện cho sinh viên; c) Tổ chức hoặc phối hợp tổ chức các hoạt động hướng nghiệp, tư vấn việc làm cho sinh viên;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 8,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 8,
+              "chunk_id": "quiche_ctsv_2014_p8_para3",
+              "chunk_index": 3
+            },
+            "score": 0.7109150828836122
+          },
+          {
+            "id": "quiche_ctsv_2014_p6_para1",
+            "text": "Gian lận trong học tập và trong các kỳ thi. 3. Hút thuốc, uống rượu, bia trong giờ học; say rượu, bia khi đến trường. 4. Làm mất an ninh chính trị, trật tự và an toàn xã hội trong trường hoặc nơi công cộng. 5. Tham gia hoặc tổ chức các hoạt động trái với quy định của pháp luật, ĐHQGHN và các đơn vị. Chương III\nHỆ THỐNG TỔ CHỨC QUẢN LÝ\nĐiều 7. Cấp ĐHQGHN\n1. Giám đốc ĐHQGHN chịu trách nhiệm chỉ đạo thực hiện các nội dung công tác sinh viên trong\ntoàn ĐHQGHN. 2.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 6,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 6,
+              "chunk_id": "quiche_ctsv_2014_p6_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7061445993970505
+          },
+          {
+            "id": "quiche_ctsv_2014_p5_para3",
+            "text": "c) Tôn trọng giảng viên, cán bộ, nhân viên trong và ngoài ĐHQGHN. Tích cực tham gia các phong\ntrào, các cuộc vận động về chính trị, tư tưởng, đạo đức của ngành giáo dục và của ĐHQGHN; d) Thực hiện nghĩa vụ quân sự theo quy định của pháp luật. 4. Tư vấn, hỗ trợ việc làm\na) Chấp hành nghĩa vụ làm việc có thời hạn theo cam kết đối với sinh viên được nhận học bổng,\nchi phí đào tạo do Nhà nước hoặc ĐHQGHN cấp;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 5,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 5,
+              "chunk_id": "quiche_ctsv_2014_p5_para3",
+              "chunk_index": 3
+            },
+            "score": 0.6989731213856507
+          }
+        ],
+        "context": "[quiche_ctsv_2014_p5_para0 | data/quiche_ctsv_2014.pdf | page 5]\n5. Cuộc sống\na) Được hưởng đầy đủ các chế độ, chính sách theo quy định hiện hành của Nhà nước và của ĐHQGHN; b) Được đăng ký ở ký túc xá (nếu đáp ứng các điều kiện và có nguyện vọng) hoặc hỗ trợ tìm kiếm\nchỗ ở, được chăm lo, bảo vệ sức khỏe theo chế độ hiện hành của Nhà nước và của ĐHQGHN. Điều 5. Nghĩa vụ của sinh viên\n1. Đào tạo\na) Thực hiện nghiêm túc, đầy đủ trách nhiệm, nghĩa vụ về học tập theo Quy chế đào tạo tại\nĐHQGHN;\n\n[quiche_ctsv_2014_p6_para0 | data/quiche_ctsv_2014.pdf | page 6]\n5. Cuộc sống\na) Giữ gìn, bảo vệ tài sản công và của cá nhân; b) Thực hiện đầy đủ việc khám sức khoẻ theo quy định của ĐHQGHN; c) Đoàn kết, giúp đỡ, tương trợ lẫn nhau trong học tập và rèn luyện, thực hiện tốt nếp sống\nvăn minh; tham gia các hoạt động xã hội theo yêu cầu của ĐHQGHN và các cơ quan, đơn vị liên\nquan; d) Thực hiện nghiêm túc trách nhiệm công dân khi ở ngoại trú. Điều 6. Các hành vi sinh viên không được làm\n1. Xúc phạm nhân phẩm, danh dự, xâm phạm thân thể người khác. 2.",
+        "context_ids": [
+          "quiche_ctsv_2014_p5_para0",
+          "quiche_ctsv_2014_p6_para0"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "q_test_unans_01",
+    "question": "ĐHQGHN có cho phép sinh viên mang thú cưng vào ký túc xá nếu có giấy tiêm phòng không?",
+    "latency_ms": 1811.356700000033
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "thủ tục chuyển trường vào ĐHQGHN thời hạn nộp hồ sơ",
+        "filter": null,
+        "results": [
+          {
+            "id": "quiche_ctsv_2014_p4_para0",
+            "text": "d) Được chuyển trường, chuyển ngành học giữa các đơn vị đào tạo trong ĐHQGHN hoặc giữa ĐHQGHN\nvới các cơ sở đào tạo khác nếu đáp ứng đủ các điều kiện trong Quy chế đào tạo Đại học và Sau\nđại học của ĐHQGHN; e) Được đăng ký học chương trình đào tạo thứ hai và các chương trình khác nếu đáp ứng đầy đủ\ntiêu chuẩn theo quy định của từng chương trình;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 4,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 4,
+              "chunk_id": "quiche_ctsv_2014_p4_para0",
+              "chunk_index": 0
+            },
+            "score": 0.7568010133029043
+          },
+          {
+            "id": "quiche_ctsv_2014_p22_para0",
+            "text": "a) Hồ sơ của sinh viên quy định tại Điều 34 và Điều 35 của Quy chế này được lập chậm nhất 02\ntuần cho mỗi sinh viên sau khi làm thủ tục nhập trường và phải được cập nhật lên cổng thông\ntin đào tạo đại học hoặc sau đại học của ĐHQGHN chậm nhất 01 tháng sau khi sinh viên nhập học;",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 22,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 22,
+              "chunk_id": "quiche_ctsv_2014_p22_para0",
+              "chunk_index": 0
+            },
+            "score": 0.7310967741979717
+          },
+          {
+            "id": "quiche_ctsv_2014_p4_para1",
+            "text": "được tự học hoặc học ở cơ sở đào tạo đại học\nkhác để tích lũy một số môn học, được công nhận kết quả những môn học đã tích lũy ở cơ sở đào\ntạo đại học khác nếu đáp ứng đủ các điều kiện trong Quy chế đào tạo tại ĐHQGHN; f) Được xét học chuyển tiếp vào các bậc học cao hơn nếu có nguyện vọng và đáp ứng đủ các điều\nkiện theo Quy chế đào tạo tại ĐHQGHN; g) Được cấp Bằng tốt nghiệp khi được công nhận tốt nghiệp. 2.",
+            "source_id": "quiche_ctsv_2014",
+            "source": "data/quiche_ctsv_2014.pdf",
+            "page": 4,
+            "metadata": {
+              "year": 2014,
+              "scope": "cong_tac_sinh_vien",
+              "institution": "DHQGHN",
+              "document_id": "quiche_ctsv_2014",
+              "source": "data/quiche_ctsv_2014.pdf",
+              "page": 4,
+              "chunk_id": "quiche_ctsv_2014_p4_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7305284684015905
+          },
+          {
+            "id": "quiche_daotao_2022_p29_para1",
+            "text": "Sinh viên là người nước ngoài hoặc sinh viên Việt Nam đang học tại một cơ sở giáo dục đại\nhọc ở nước ngoài có thể được xét để chuyển về học tại Đại học Quốc gia Hà Nội khi có đủ các\nđiều kiện quy định tại khoản 2 Điều này và phải có đầy đủ hồ sơ sinh viên (bản chính) khi làm\nthủ tục chuyển trường.",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 29,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 29,
+              "chunk_id": "quiche_daotao_2022_p29_para1",
+              "chunk_index": 1
+            },
+            "score": 0.7278039511958081
+          },
+          {
+            "id": "quiche_daotao_2022_p28_para3",
+            "text": "Sinh viên là người Việt Nam hoặc sinh viên người nước ngoài đang học tại các cơ sở giáo dục\nđại học ngoài Đại học Quốc gia Hà Nội được chuyển về học tại Đại học Quốc gia Hà Nội nếu có đủ\ncác điều kiện sau:\na) Có nguyện vọng chuyển về học tại Đại học Quốc gia Hà Nội; b) Không là sinh viên năm thứ nhất hoặc năm cuối, có điểm trung bình chung các học phần tính\nđến thời điểm xét đạt từ 2,50 trở lên;",
+            "source_id": "quiche_daotao_2022",
+            "source": "data/quiche_daotao_2022.pdf",
+            "page": 28,
+            "metadata": {
+              "year": 2022,
+              "scope": "dao_tao_dai_hoc",
+              "institution": "DHQGHN",
+              "document_id": "quiche_daotao_2022",
+              "source": "data/quiche_daotao_2022.pdf",
+              "page": 28,
+              "chunk_id": "quiche_daotao_2022_p28_para3",
+              "chunk_index": 3
+            },
+            "score": 0.7225437796207047
+          }
+        ],
+        "context": "[quiche_ctsv_2014_p4_para0 | data/quiche_ctsv_2014.pdf | page 4]\nd) Được chuyển trường, chuyển ngành học giữa các đơn vị đào tạo trong ĐHQGHN hoặc giữa ĐHQGHN\nvới các cơ sở đào tạo khác nếu đáp ứng đủ các điều kiện trong Quy chế đào tạo Đại học và Sau\nđại học của ĐHQGHN; e) Được đăng ký học chương trình đào tạo thứ hai và các chương trình khác nếu đáp ứng đầy đủ\ntiêu chuẩn theo quy định của từng chương trình;\n\n[quiche_ctsv_2014_p22_para0 | data/quiche_ctsv_2014.pdf | page 22]\na) Hồ sơ của sinh viên quy định tại Điều 34 và Điều 35 của Quy chế này được lập chậm nhất 02\ntuần cho mỗi sinh viên sau khi làm thủ tục nhập trường và phải được cập nhật lên cổng thông\ntin đào tạo đại học hoặc sau đại học của ĐHQGHN chậm nhất 01 tháng sau khi sinh viên nhập học;\n\n[quiche_ctsv_2014_p4_para1 | data/quiche_ctsv_2014.pdf | page 4]\nđược tự học hoặc học ở cơ sở đào tạo đại học\nkhác để tích lũy một số môn học, được công nhận kết quả những môn học đã tích lũy ở cơ sở đào\ntạo đại học khác nếu đáp ứng đủ các điều kiện trong Quy chế đào tạo tại ĐHQGHN; f) Được xét học chuyển tiếp vào các bậc học cao hơn nếu có nguyện vọng và đáp ứng đủ các điều\nkiện theo Quy chế đào tạo tại ĐHQGHN; g) Được cấp Bằng tốt nghiệp khi được công nhận tốt nghiệp. 2.",
+        "context_ids": [
+          "quiche_ctsv_2014_p4_para0",
+          "quiche_ctsv_2014_p22_para0",
+          "quiche_ctsv_2014_p4_para1"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "q_test_unans_02",
+    "question": "Hạn chót nộp hồ sơ xin chuyển trường từ đại học ngoài vào ĐHQGHN trong học kỳ 1 năm học 2025-2026 là ngày nào?",
+    "latency_ms": 1980.0304999998843
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "method": "BM25 (Lexical)",
+    "split": "dev",
+    "total_queries": 16,
+    "hit_at_1": 10,
+    "hit_at_1_rate": 0.625,
+    "evidence_hit_at_3": 13,
+    "evidence_hit_at_3_rate": 0.8125,
+    "context_evidence_rate": 0.625,
+    "context_evidence_count": 10,
+    "avg_context_chars": 522.625,
+    "median_latency_ms": 5.763849999993909,
+    "mean_latency_ms": 5.466593749986259,
+    "cost_usd": 0.0
+  },
+  {
+    "method": "Dense (Gemini 768d)",
+    "split": "dev",
+    "total_queries": 16,
+    "hit_at_1": 14,
+    "hit_at_1_rate": 0.875,
+    "evidence_hit_at_3": 16,
+    "evidence_hit_at_3_rate": 1.0,
+    "context_evidence_rate": 0.875,
+    "context_evidence_count": 14,
+    "avg_context_chars": 499.75,
+    "median_latency_ms": 100.19899999997506,
+    "mean_latency_ms": 97.25044999996157,
+    "cost_usd": 0.0
+  },
+  {
+    "method": "Hybrid (RRF Dense+BM25)",
+    "split": "dev",
+    "total_queries": 16,
+    "hit_at_1": 12,
+    "hit_at_1_rate": 0.75,
+    "evidence_hit_at_3": 14,
+    "evidence_hit_at_3_rate": 0.875,
+    "context_evidence_rate": 0.75,
+    "context_evidence_count": 12,
+    "avg_context_chars": 512.5,
+    "median_latency_ms": 110.06309999993391,
+    "mean_latency_ms": 108.20656874994938,
+    "cost_usd": 0.0
+  }
+]

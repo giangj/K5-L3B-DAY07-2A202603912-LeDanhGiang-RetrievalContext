@@ -1,0 +1,406 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Một tín chỉ trong chương trình đào tạo đại học được xác định bằng bao nhiêu giờ tín chỉ?",
+    "expected_answer": "15 giờ tín chỉ",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 3,
+        "evidence": "Tín chỉ là đại lượng xác định khối lượng kiến thức, kỹ năng mà sinh viên tích lũy được từ\nhọc phần trong 15 giờ tín chỉ."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Một giờ tín chỉ tự học bắt buộc quy đổi bằng bao nhiêu tiết tự học bắt buộc?",
+    "expected_answer": "3 tiết tự học bắt buộc",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 3,
+        "evidence": "Một giờ tín chỉ tự học bắt buộc bằng 3 tiết tự học bắt buộc và được kiểm tra đánh giá."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Chương trình đào tạo đại học chuẩn đối với kỹ sư được thiết kế tối thiểu bao nhiêu tín chỉ?",
+    "expected_answer": "150 tín chỉ",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 12,
+        "evidence": "Chương trình đào tạo chuẩn được thiết kế tối thiểu 120 tín chỉ đối với đào tạo cử nhân, 150\ntín chỉ đối với đào tạo kĩ sư, 155 tín chỉ đối với đào tạo dược sĩ và tối thiểu 205 tín chỉ\nđối với đào tạo bác sĩ;"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "So với chương trình đào tạo chuẩn, chương trình chất lượng cao yêu cầu số lượng tín chỉ nhiều hơn tối thiểu là bao nhiêu?",
+    "expected_answer": "Ít nhất 15 tín chỉ",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 12,
+        "evidence": "Chương trình đào tạo chất lượng cao được thiết kế nhiều hơn chương trình đào tạo chuẩn\ntương ứng ít nhất là 15 tín chỉ, trên cơ sở nâng cao, bổ sung một số học phần"
+      }
+    ]
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo kế hoạch đào tạo, mỗi học kỳ chính gồm bao nhiêu tuần học và bao nhiêu tuần thi?",
+    "expected_answer": "15 tuần học, từ 3 đến 4 tuần thi (và 1 tuần dự phòng)",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 14,
+        "evidence": "Mỗi năm học có hai học kỳ chính và một học kỳ phụ. Mỗi học kỳ chính có 15 tuần học, từ 3 đến 4\ntuần thi và 1 tuần dự phòng."
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Thời hạn tối đa để sinh viên được rút bớt học phần đã đăng ký trong học kỳ chính mà vẫn được hoàn trả học phí là bao lâu?",
+    "expected_answer": "Trong 2 tuần kể từ đầu học kỳ chính",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 21,
+        "evidence": "Việc rút bớt học phần chỉ được chấp nhận trong 2 tuần kể từ đầu học kỳ chính, 1 tuần kể từ\nđầu học kỳ phụ và được trả lại học phí."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Sinh viên muốn đăng ký học cùng lúc chương trình đào tạo thứ hai cần hoàn thành tối thiểu bao nhiêu học kỳ của chương trình thứ nhất?",
+    "expected_answer": "Đã học ít nhất hai học kỳ của chương trình đào tạo thứ nhất",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 23,
+        "evidence": "Đã học ít nhất hai học kỳ của chương trình đào tạo thứ nhất;"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Sinh viên đạt giải nhất nghiên cứu khoa học cấp Đại học Quốc gia Hà Nội được cộng bao nhiêu điểm thưởng vào điểm trung bình chung?",
+    "expected_answer": "0,20 điểm",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 31,
+        "evidence": "Đạt giải thưởng cấp Đại học Quốc gia Hà Nội, cấp Bộ Giáo dục và Đào tạo:\nGiải nhất: 0,20 điểm"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Sinh viên bị kỷ luật khiển trách trong phòng thi sẽ bị trừ bao nhiêu phần trăm số điểm bài thi?",
+    "expected_answer": "Bị trừ 25% số điểm đạt được của bài thi học phần đó",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 35,
+        "evidence": "Khiển trách: Áp dụng đối với sinh viên phạm lỗi 1 lần nhìn bài của người khác, trao đổi\nbài, thảo luận bài trong giờ thi. Sinh viên bị khiển trách khi thi học phần nào sẽ bị trừ 25%\nsố điểm đạt được của bài thi học phần đó;"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Hình thức kỷ luật cảnh cáo trong phòng thi sẽ trừ bao nhiêu phần trăm điểm bài thi của sinh viên?",
+    "expected_answer": "Bị trừ 50% số điểm đạt được của bài thi học phần đó",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 35,
+        "evidence": "Sinh viên bị cảnh cáo khi thi học phần nào sẽ bị trừ 50% số điểm đạt được"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Mức điểm chữ B+ trong quy chế đào tạo được quy đổi tương ứng với bao nhiêu điểm trên thang điểm 4?",
+    "expected_answer": "3,5",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 45,
+        "evidence": "B+ tương ứng với 3,5"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Sinh viên năm thứ nhất bị cảnh báo học vụ khi điểm trung bình chung tích lũy đạt dưới mức bao nhiêu?",
+    "expected_answer": "Dưới 1,20",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 46,
+        "evidence": "Điểm trung bình chung tích luỹ đạt dưới 1,20 đối với sinh viên năm thứ nhất, dưới 1,40 đối\nvới sinh viên năm thứ hai, dưới 1,60 đối với sinh viên năm thứ ba hoặc dưới 1,80 đối với sinh\nviên các năm tiếp theo và cuối khoá;"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Theo quy chế đào tạo đại học năm 2022, sinh viên cần đạt điểm trung bình chung tích lũy toàn khóa tối thiểu bao nhiêu để được xếp hạng tốt nghiệp loại Giỏi?",
+    "expected_answer": "Từ 3,20 đến 3,59 (tối thiểu 3,20)",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 49,
+        "evidence": "Giỏi: Điểm trung bình chung tích lũy từ 3,20 đến 3,59"
+      }
+    ],
+    "filter": {
+      "year": 2022,
+      "scope": "dao_tao_dai_hoc"
+    }
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Theo khung điểm đánh giá kết quả rèn luyện, tiêu chí ý thức và kết quả học tập, nghiên cứu khoa học có khung điểm tối đa là bao nhiêu?",
+    "expected_answer": "25 điểm (khung 0 ÷ 25 điểm)",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_ctsv_2014",
+        "page": 13,
+        "evidence": "1. Ý thức và kết quả học tập, nghiên cứu khoa học: 0 ÷ 25 điểm"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "dieu_kien",
+    "question": "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện trong học kỳ bị khống chế tối đa ở mức nào?",
+    "expected_answer": "Không được vượt quá loại trung bình",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_ctsv_2014",
+        "page": 14,
+        "evidence": "Sinh viên bị kỷ luật từ mức cảnh cáo trở lên thì kết quả rèn luyện không được vượt quá loại\ntrung bình."
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trong quy định công tác sinh viên năm 2014, thời hạn để sinh viên khiếu nại kết quả đánh giá rèn luyện lên thủ trưởng đơn vị là bao nhiêu ngày kể từ khi công bố?",
+    "expected_answer": "Sau 7 ngày công bố kết quả",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_ctsv_2014",
+        "page": 16,
+        "evidence": "Sau 7 ngày công bố kết quả đánh giá rèn luyện, sinh viên có quyền khiếu nại lên thủ trưởng đơn\nvị nếu thấy việc đánh giá kết quả rèn luyện chưa chính xác."
+      }
+    ],
+    "filter": {
+      "year": 2014,
+      "scope": "cong_tac_sinh_vien"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Hiệu lực của quyết định kỷ luật khiển trách đối với sinh viên chấm dứt sau bao lâu nếu sinh viên không tái phạm?",
+    "expected_answer": "Sau 3 tháng kể từ ngày có quyết định kỷ luật",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_ctsv_2014",
+        "page": 19,
+        "evidence": "Sau 3 tháng đối với trường hợp bị khiển trách, 6 tháng đối với trường hợp bị cảnh cáo kể từ\nngày có quyết định kỷ luật, nếu sinh viên không tái phạm hoặc không có những vi phạm đến mức\nphải xử lý kỷ luật thì hiệu lực của quyết định kỷ luật được chấm dứt."
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Trong trường hợp bất khả kháng khi nhập trường, sinh viên được phép nộp bổ sung hồ sơ trong thời gian tối đa bao nhiêu ngày?",
+    "expected_answer": "Không vượt quá 15 ngày kể từ ngày nhập học",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_ctsv_2014",
+        "page": 20,
+        "evidence": "Nếu trường hợp bất khả kháng không thể nộp\nđầy đủ, sinh viên được phép nộp bổ sung nhưng không vượt quá 15 ngày kể từ ngày nhập học."
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Chuẩn đầu ra về trình độ ngoại ngữ đối với sinh viên chương trình đào tạo chuẩn theo khung năng lực 6 bậc Việt Nam là bậc mấy?",
+    "expected_answer": "Bậc 3",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 11,
+        "evidence": "Tương đương trình độ bậc 3 (theo Khung năng lực ngoại ngữ 6 bậc dùng cho Việt Nam) theo quy\nđịnh của Bộ Giáo dục và Đào tạo và của Đại học Quốc gia Hà Nội đối với các chương trình đào\ntạo chuẩn, ngành chính - ngành phụ, song ngành);"
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Thời hạn tối đa cho phép để người học hoàn thành khóa học chính quy được quy định gấp mấy lần kế hoạch học tập chuẩn toàn khóa?",
+    "expected_answer": "Không vượt quá 2 lần thời gian theo kế hoạch học tập chuẩn toàn khoá",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 14,
+        "evidence": "Thời gian tối đa để sinh viên hoàn thành khoá học không vượt quá 2 lần thời gian theo kế\nhoạch học tập chuẩn toàn khoá đối với mỗi hình thức đào tạo."
+      }
+    ]
+  },
+  {
+    "id": "q21",
+    "split": "test",
+    "type": "dieu_kien",
+    "question": "Sinh viên có kết quả toàn khóa đạt hạng xuất sắc hoặc giỏi sẽ bị hạ một hạng tốt nghiệp nếu khối lượng học phần phải học lại vượt quá bao nhiêu phần trăm tổng số tín chỉ?",
+    "expected_answer": "Vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương trình",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_daotao_2022",
+        "page": 49,
+        "evidence": "Những sinh viên có kết quả học tập toàn khóa đạt hạng xuất sắc hoặc giỏi, hạng tốt nghiệp\nsẽ bị hạ một hạng nếu bị kỷ luật từ mức cảnh cáo trở lên trong thời gian học hoặc khối lượng\ncủa các học phần phải học lại vượt quá 5% so với tổng số tín chỉ quy định cho toàn chương\ntrình."
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Theo quy chế công tác sinh viên năm 2014, cá nhân cần đáp ứng các điều kiện gì về học tập và rèn luyện để được tặng danh hiệu Sinh viên Xuất sắc?",
+    "expected_answer": "Kết quả học tập loại Xuất sắc, không có điểm từ F trở xuống, và điểm rèn luyện loại Xuất sắc",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "gold": [
+      {
+        "source_id": "quiche_ctsv_2014",
+        "page": 16,
+        "evidence": "Tặng danh hiệu “Sinh viên Xuất sắc” cho những cá nhân đạt kết quả học tập loại Xuất sắc và\nkhông có điểm từ F trở xuống; có điểm rèn luyện loại Xuất sắc."
+      }
+    ],
+    "filter": {
+      "year": 2014,
+      "scope": "cong_tac_sinh_vien"
+    }
+  },
+  {
+    "id": "q_dev_unans_01",
+    "split": "dev",
+    "question": "Mức học bổng khuyến khích học tập bằng tiền mặt cụ thể của năm học 2024-2025 tại ĐHQGHN là bao nhiêu triệu đồng mỗi tháng?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế chỉ quy định nguyên tắc xét cấp học bổng theo quỹ và kết quả rèn luyện/học tập, không quy định định mức tiền mặt cụ thể theo từng năm học.",
+    "gold": []
+  },
+  {
+    "id": "q_dev_unans_02",
+    "split": "dev",
+    "question": "Sinh viên ĐHQGHN có chứng chỉ HSK 6 tiếng Trung thì được miễn nộp toàn bộ học phí toàn khóa đúng không?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế chỉ có điều khoản công nhận chuẩn đầu ra/miễn học phần ngoại ngữ, hoàn toàn không có chính sách miễn 100% học phí toàn khóa cho chứng chỉ HSK 6.",
+    "gold": []
+  },
+  {
+    "id": "q_test_unans_01",
+    "split": "test",
+    "question": "ĐHQGHN có cho phép sinh viên mang thú cưng vào ký túc xá nếu có giấy tiêm phòng không?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế công tác sinh viên chỉ quy định nội trú an ninh trật tự và vệ sinh, không có điều khoản cho phép mang thú cưng vào khu nội trú.",
+    "gold": []
+  },
+  {
+    "id": "q_test_unans_02",
+    "split": "test",
+    "question": "Hạn chót nộp hồ sơ xin chuyển trường từ đại học ngoài vào ĐHQGHN trong học kỳ 1 năm học 2025-2026 là ngày nào?",
+    "expected_answer": "Không đủ bằng chứng để trả lời.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Quy chế đào tạo chỉ quy định thủ tục và điều kiện chuyển trường chung, không công bố ngày cụ thể hạn chót nộp hồ sơ của năm học 2025-2026.",
+    "gold": []
+  }
+]
