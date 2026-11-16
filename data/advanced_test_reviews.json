@@ -1,0 +1,296 @@
+[
+  {
+    "query_id": "adv_test_tbl_01",
+    "category": "Bảng",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (20/20 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_tbl_02",
+    "category": "Bảng",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (24/24 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_tbl_03",
+    "category": "Bảng",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (15/15 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_tbl_04",
+    "category": "Bảng",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (21/23 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_tbl_05",
+    "category": "Bảng",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (21/23 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_tbl_06",
+    "category": "Bảng",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (20/25 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_diag_01",
+    "category": "Ảnh, sơ đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (25/27 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_diag_02",
+    "category": "Ảnh, sơ đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (19/19 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_diag_03",
+    "category": "Ảnh, sơ đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (28/28 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_diag_04",
+    "category": "Ảnh, sơ đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (33/33 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_diag_05",
+    "category": "Ảnh, sơ đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (15/20 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_cht_01",
+    "category": "Biểu đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (30/30 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_cht_02",
+    "category": "Biểu đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (18/18 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_cht_03",
+    "category": "Biểu đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (12/13 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_cht_04",
+    "category": "Biểu đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (19/19 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_cht_05",
+    "category": "Biểu đồ",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (25/29 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_mh_01",
+    "category": "Multi-hop",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (25/26 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_mh_02",
+    "category": "Multi-hop",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (28/29 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_mh_03",
+    "category": "Multi-hop",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (23/24 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_mh_04",
+    "category": "Multi-hop",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (18/19 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_txt_01",
+    "category": "Text",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (41/42 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_txt_02",
+    "category": "Text",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (18/23 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_txt_03",
+    "category": "Text",
+    "answer_grade": 1,
+    "passed": false,
+    "citation_support": [
+      true
+    ],
+    "note": "Chưa đạt: Đúng một phần (10/32 từ khóa)."
+  },
+  {
+    "query_id": "adv_test_txt_04",
+    "category": "Text",
+    "answer_grade": 2,
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "note": "Đạt: Trả lời chính xác, đầy đủ dữ liệu (32/32 từ khóa), trích dẫn hợp lệ."
+  },
+  {
+    "query_id": "adv_test_abs_01",
+    "category": "Thiếu bằng chứng",
+    "abstention_correct": true,
+    "passed": true,
+    "citation_support": [],
+    "note": "Đạt: Từ chối chính xác do tài liệu không chứa bằng chứng."
+  },
+  {
+    "query_id": "adv_test_abs_02",
+    "category": "Thiếu bằng chứng",
+    "abstention_correct": true,
+    "passed": true,
+    "citation_support": [],
+    "note": "Đạt: Từ chối chính xác do tài liệu không chứa bằng chứng."
+  },
+  {
+    "query_id": "adv_test_abs_03",
+    "category": "Thiếu bằng chứng",
+    "abstention_correct": true,
+    "passed": true,
+    "citation_support": [],
+    "note": "Đạt: Từ chối chính xác do tài liệu không chứa bằng chứng."
+  },
+  {
+    "query_id": "adv_test_abs_04",
+    "category": "Thiếu bằng chứng",
+    "abstention_correct": true,
+    "passed": true,
+    "citation_support": [],
+    "note": "Đạt: Từ chối chính xác do tài liệu không chứa bằng chứng."
+  },
+  {
+    "query_id": "adv_test_abs_05",
+    "category": "Thiếu bằng chứng",
+    "abstention_correct": true,
+    "passed": true,
+    "citation_support": [],
+    "note": "Đạt: Từ chối chính xác do tài liệu không chứa bằng chứng."
+  },
+  {
+    "query_id": "adv_test_abs_06",
+    "category": "Thiếu bằng chứng",
+    "abstention_correct": true,
+    "passed": true,
+    "citation_support": [],
+    "note": "Đạt: Từ chối chính xác do tài liệu không chứa bằng chứng."
+  }
+]

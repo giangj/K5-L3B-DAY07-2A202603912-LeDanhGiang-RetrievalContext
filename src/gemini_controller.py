@@ -35,7 +35,8 @@ HOẶC
 class GeminiController:
     def __init__(self, api_key: str | None = None,
                  models: list[str] | None = None,
-                 cache_db_path: Path | None = None):
+                 cache_db_path: Path | None = None,
+                 system_prompt: str | None = None):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is required for GeminiController")
@@ -44,6 +45,7 @@ class GeminiController:
             "models/gemini-3.5-flash",
             "models/gemini-3-flash-preview"
         ]
+        self.system_prompt = system_prompt or SYSTEM_PROMPT
         self.cache_db_path = cache_db_path
         self.conn = None
         if self.cache_db_path:
@@ -91,7 +93,7 @@ class GeminiController:
             user_msg += f"--- NỘI DUNG TÀI LIỆU TRÍCH XUẤT ĐƯỢC (CONTEXT) ---\n{context}\n------------------------------------------------\n\n"
             user_msg += "Đọc kỹ context trên. Nếu đủ bằng chứng trả lời, hãy trả lời kèm citation [chunk_id]. Nếu sau các lượt tìm kiếm mà tài liệu không có thông tin này, hãy từ chối: 'Không đủ bằng chứng để trả lời.' với citations []. Nếu cần tìm thêm, hãy đưa query tiếp theo."
 
-        prompt_full = f"{SYSTEM_PROMPT}\n\n{user_msg}"
+        prompt_full = f"{self.system_prompt}\n\n{user_msg}"
         cache_key = hashlib.sha256(prompt_full.encode("utf-8")).hexdigest()
 
         cached_resp = self._get_cache(cache_key)
@@ -111,7 +113,7 @@ class GeminiController:
             req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
             for attempt in range(2):
                 try:
-                    with urllib.request.urlopen(req, timeout=12) as resp:
+                    with urllib.request.urlopen(req, timeout=30) as resp:
                         data = json.loads(resp.read().decode("utf-8"))
                         text = data["candidates"][0]["content"]["parts"][0]["text"].strip()
                         parsed = json.loads(text)
@@ -120,6 +122,9 @@ class GeminiController:
                                 parsed["action"] = "search"
                             elif "answer" in parsed:
                                 parsed["action"] = "answer"
+                        if parsed.get("action") == "search":
+                            if not parsed.get("query") or not isinstance(parsed.get("query"), str) or not parsed["query"].strip():
+                                parsed["query"] = question
                         if parsed.get("action") == "answer" and "citations" not in parsed:
                             parsed["citations"] = []
                         self._set_cache(cache_key, parsed)
